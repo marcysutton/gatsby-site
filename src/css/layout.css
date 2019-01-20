@@ -615,26 +615,7 @@ a, a:link, a:visited {
   opacity: 1;
   z-index: 1;
 }
-.footer-copyright-top {
-  position: relative;
-}
-.site-footer .back-to-top {
-  position: absolute;
-  top: -40px;
-  left: 50%;
-}
-.generic .site-footer .back-to-top {
-  right: 30%;
-}
-.site-footer .back-to-top a {
-  text-decoration: none;
-}
-.generic .site-footer .back-to-top a {
-  color: #000;
-}
-.site-footer .back-to-top a span.text {
-  text-decoration: underline;
-}
+
 .site-header {
   background-image: url(../images/blurryWall.jpg);
   position: relative;
@@ -828,6 +809,9 @@ h1.site-logo {
   height: 0;
   overflow: hidden; 
 }
+.talks .post h2.larger {
+  margin-top: 0.75em;
+}
 .talks .post .mobile {
   display: none;
 }
@@ -877,14 +861,29 @@ h1.site-logo {
 .site-footer {
   background-color: #484949;
   border-top: 1px dotted #a8a8a8;
-  display: flex;
   color: #efefef;
   position: relative;
+  text-align: center;
+}
+.site-footer .back-to-top {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -12px;
+}
+.site-footer .back-to-top a {
+  text-decoration: none;
+}
+.site-footer .back-to-top a span.text {
+  text-decoration: underline;
+}
+.generic .site-footer .back-to-top a {
+  color: #000;
 }
 .site-footer .copyright {
-  border-right: 1px dotted #a8a8a8;
-  padding: 2em;
+  border-top: 1px dotted #a8a8a8;
   margin: 0;
+  padding: 2em 2.5em 2em 2em;
 }
 .site-footer ul {
   margin: 0;
@@ -900,23 +899,10 @@ h1.site-logo {
 }
 .site-footer li a {
   display: block;
-  padding: 0em 2em;
+  padding: 0em 2.5em;
 }
-@media screen and (max-width: 977px) {
-  .site-footer ul {
-    padding: 1em;
-  }
+@media screen and (max-width: 687px) {
   .site-footer li a {
-    padding: 1em;
-  }
-}
-@media screen and (max-width: 795px) {
-  .site-footer {
-    display: block;
-    text-align: center;
-  }
-  .site-footer .copyright {
-    border-right-width: 0;
-    border-bottom: 1px dotted #a8a8a8;
+    padding: 0em 2em;
   }
 }
