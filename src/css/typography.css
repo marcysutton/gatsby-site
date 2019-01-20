@@ -1,0 +1,29 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * itc-fenice:
+ *   - http://typekit.com/eulas/00000000000000003b9b1fc6
+ *   - http://typekit.com/eulas/00000000000000003b9b1fc7
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-01-07 04:04:45 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=nxn6pny&ht=tk&f=39366.39367&a=3722539&app=typekit&e=css");
+
+@font-face {
+font-family:"itc-fenice";
+src:url("https://use.typekit.net/af/036092/00000000000000003b9b1fc6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/036092/00000000000000003b9b1fc6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/036092/00000000000000003b9b1fc6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"itc-fenice";
+src:url("https://use.typekit.net/af/56062d/00000000000000003b9b1fc7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/56062d/00000000000000003b9b1fc7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/56062d/00000000000000003b9b1fc7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+.tk-itc-fenice { font-family: "itc-fenice",serif; }

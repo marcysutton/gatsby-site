@@ -1,36 +1,37 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
+import BodyClassName from 'react-body-classname'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import List from '../components/list'
 
 const LinksPage = ({ data }) => (
-    <Layout>
-        <SEO title="About" keywords={['Marcy Sutton', 'links', 'web developer']} />
-        <h1>Links</h1>
-        {
-            data.allWordpressPage.edges.map((pages) => {
-                if ( pages.node.slug === 'links' ) {
-                    return <div
-                        key={pages.node.id}
-                        dangerouslySetInnerHTML={{ __html: pages.node.content }}
-                    ></div>
-                }
-                return ''
-            })
-        }
-        <Link to="/">Go home</Link>
-    </Layout>
+    <BodyClassName className="generic">
+        <Layout>
+            <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
+            <section className="generic-wrap">
+                <h1>Links</h1>
+                <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow. All links open in new windows.</p>
+                <List 
+                    className="list-links no-background"
+                    items={ data.allWordpressWpLink.edges }
+                    listName="links"
+                    allItems="true"
+                    linkNewWindow="true" />
+            </section>
+        </Layout>
+    </BodyClassName>
 )
 
-export const query = graphql`
+export const pageQuery = graphql`
   query {
-    allWordpressPage {
+    allWordpressWpLink {
         edges {
           node {
             id
-            slug
-            content
+            link
+            title
           }
         }
       }

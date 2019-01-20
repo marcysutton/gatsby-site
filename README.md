@@ -6,7 +6,7 @@
 <h1 align="center">
   MarcySutton.com v5
 </h1>
-<p>Redesign coming soon!</p>
+<p>Redesign in progress!</p>
 
 ## 🚀 Quick start
 
