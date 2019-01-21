@@ -5,7 +5,7 @@ let date = new Date();
 
 const Footer = ({ className }) => (
     <footer role="contentinfo" className="site-footer">
-        <p className="back-to-top"><a href="#header" title="Skip back to top of page">
+        <p className="back-to-top"><a href="#top" title="Skip back to top of page">
             <span aria-hidden="true">▲ <span className="text">top</span></span>
             <span className="visually-hidden">Back to top</span>
         </a></p>
@@ -17,7 +17,7 @@ const Footer = ({ className }) => (
         </ul>
         <div className="footer-copyright">
             <p className="copyright">
-                Made with ♥ and <a href="https://gatsbyjs.org" target="_blank" rel="noopener">Gatsby.js</a>. 
+                Made with ♥ and <a href="https://gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby.js</a>.
                 &copy; 2003-{date.getFullYear()} Marcy Sutton.
             </p>
         </div>

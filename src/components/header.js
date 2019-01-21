@@ -12,8 +12,7 @@ const Header = ({ siteTitle }) => (
     </ul>
     <div>
       <h1 className="site-logo" style={{ margin: 0 }}>
-        <Link
-          to="/"
+        <Link to="/" id="top" tabIndex="-1"
         >
           <span className="logotype-line1">Marcy</span>
           <span className="logotype-line2">Sutton</span>

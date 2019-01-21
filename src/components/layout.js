@@ -21,8 +21,6 @@ const Layout = ({ children }) => (
     render={data => (
       <div id="site-wrap">
         <Header
-          id="top"
-          tabIndex="-1"
           siteTitle={data.site.siteMetadata.title}
         />
         <main
