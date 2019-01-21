@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import ReactHtmlParser from 'react-html-parser'
@@ -12,8 +11,10 @@ const List = ({ className, listName, subtitle, items, allItems = false, linkNewW
             return <li key={ items.node.id }>
                 <a className="item"
                     target={ linkNewWindow ? '_blank' : null }
-                    rel={ linkNewWindow ? 'noopener' : null }
-                    href={ items.node.slug || items.node.link.split('#new_tab')[0] }>
+                    rel={ linkNewWindow ? 'noopener noreferrer' : null }
+                    href={ items.node.slug ?
+                        `/${ items.node.slug }`
+                        : items.node.link.split('#new_tab')[0] }>
                   { ReactHtmlParser(items.node.title) }
                 </a>
                 { items.node.excerpt ? ReactHtmlParser(items.node.excerpt) : null }

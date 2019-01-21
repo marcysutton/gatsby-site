@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import BodyClassName from 'react-body-classname'
+import ReactHtmlParser from 'react-html-parser'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -14,15 +15,11 @@ const PrivacyPage = ({ data }) => (
                 {
                     data.allWordpressPage.edges.map((pages) => {
                         if ( pages.node.slug === 'privacy-policy' ) {
-                            return <div
-                                key={pages.node.id}
-                                dangerouslySetInnerHTML={{ __html: pages.node.content }}
-                            ></div>
+                            return ReactHtmlParser(pages.node.content)
                         }
                         return ''
                     })
                 }
-                <Link to="/">Go home</Link>
             </section>
         </Layout>
     </BodyClassName>

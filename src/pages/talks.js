@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 import ReactHtmlParser from 'react-html-parser'
 

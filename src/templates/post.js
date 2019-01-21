@@ -21,7 +21,7 @@ class PostTemplate extends Component {
                 <section className="post-detail">
                     <article>
                         <h1>{ post.title }</h1>
-                        <h2>{ post.date }</h2>
+                        <h2 className="subhead">{ post.date }</h2>
                         { ReactHtmlParser(post.content) }
                     </article>
                 </section>
@@ -31,10 +31,6 @@ class PostTemplate extends Component {
                         items={posts}
                         listName="writing"
                         subtitle="Posts" />
-
-                    <ul>
-                        <li></li>
-                    </ul>
                 </aside>
             </div>
         </Layout>
@@ -66,7 +62,6 @@ export const pageQuery = graphql`
           node {
             id
             title
-            excerpt
             slug
             link
           }
