@@ -22,7 +22,6 @@ const AboutPage = ({ data }) => (
                         return ''
                     })
                 }
-                <Link to="/">Go home</Link>
             </section>
         </Layout>
     </BodyClassName>

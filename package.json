@@ -36,11 +36,14 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open"
   },
   "devDependencies": {
+    "cypress": "^3.1.4",
     "gatsby-source-wordpress": "^3.0.19",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.2",
+    "start-server-and-test": "^1.7.11"
   },
   "repository": {
     "type": "git",

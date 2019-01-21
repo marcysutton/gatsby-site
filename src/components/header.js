@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
     role="banner"
   >
     <ul className="skip-links">
-      <li><a href="#main">Skip to main content</a></li>
+      <li><a href="#main" id="skip-link-main">Skip to main content</a></li>
     </ul>
     <div>
       <h1 className="site-logo" style={{ margin: 0 }}>
