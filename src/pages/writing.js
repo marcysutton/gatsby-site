@@ -6,7 +6,11 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import List from '../components/list'
 
-const WritingPage = ({ data }) => (
+const WritingPage = ({
+        data: {
+            allWordpressPost: { edges }
+        }
+}) => (
     <BodyClassName className="generic">
         <Layout>
             <SEO title="Writing" keywords={['Marcy Sutton', 'posts', 'writing', 'blog', 'web developer']} />
@@ -14,7 +18,7 @@ const WritingPage = ({ data }) => (
                 <h1>Writing</h1>
                 <List 
                     className="list-writing no-background"
-                    items={ data.allWordpressPost.edges }
+                    items={ edges }
                     listName="writing"
                     allItems="true" />
             </section>
