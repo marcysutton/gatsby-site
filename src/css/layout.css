@@ -781,9 +781,15 @@ h1.site-logo {
   color: #fff;
   padding: 2em;
 }
+.media-grid.no-background {
+  background-color: transparent;
+  padding: 0;
+}
 .media-grid a {
-  color: #fff;
   font-weight: bold;
+}
+.media-grid:not(.no-background) a {
+  color: #fff;
 }
 .media-grid ul {
   display: grid;

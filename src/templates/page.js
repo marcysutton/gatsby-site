@@ -9,14 +9,18 @@ import Layout from '../components/layout'
 class PageTemplate extends Component {
   render() {
     const page = this.props.data.wordpressPage
+    const talk = this.props.data.wordpressWpTalk
+
+    const title = page ? page.title : talk.title
+    const content = page ? page.content : talk.content
 
     return (
       <Layout>
-        <SEO title={ page.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
+        <SEO title={ title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
         <section className="generic-wrap">
           <article>
-              <h1>{ page.title }</h1>
-              { ReactHtmlParser(page.content) }
+              <h1>{ ReactHtmlParser(title) }</h1>
+              { ReactHtmlParser(content) }
           </article>
         </section>
       </Layout>
@@ -33,6 +37,10 @@ export default PageTemplate
 
 export const pageQuery = graphql`
   query($id: String!) {
+    wordpressWpTalk(id: { eq: $id }) {
+      title
+      content
+    }
     wordpressPage(id: { eq: $id }) {
       title
       content
