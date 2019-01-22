@@ -580,6 +580,7 @@ pre tt:after {
 }
 a, a:link, a:visited {
   color: #333;
+  font-weight: 500;
 }
 @media only screen and (max-width: 480px) {
   html {
@@ -706,7 +707,7 @@ h1.site-logo {
 }
 
 .more-link  {
-  font-weight: bold;
+  font-weight: 500;
   margin: 2em 0;
 }
 .more-link a {
@@ -741,6 +742,9 @@ h1.site-logo {
 }
 .feature a, .list a {
   color: #000;
+}
+.feature h3 a {
+  font-weight: bold;
 }
 .feature > div {
   padding: 2em;
@@ -786,7 +790,7 @@ h1.site-logo {
   padding: 0;
 }
 .media-grid a {
-  font-weight: bold;
+  font-weight: 500;
 }
 .media-grid:not(.no-background) a {
   color: #fff;

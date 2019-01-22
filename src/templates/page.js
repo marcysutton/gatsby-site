@@ -17,7 +17,7 @@ class PageTemplate extends Component {
     return (
       <Layout>
         <SEO title={ title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
-        <section className="generic-wrap">
+        <section className="generic-wrap page-wrap">
           <article>
               <h1>{ ReactHtmlParser(title) }</h1>
               { ReactHtmlParser(content) }
