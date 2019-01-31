@@ -11,7 +11,7 @@ import ImageGrid from '../components/image-grid'
 
 require("typeface-roboto")
 
-const imagePath = '../images/gallery'
+const imagePath = './gallery'
 const images = [
   { 'name': 'gallery__0091.jpg', 'alt': 'Presenting at ReactRally' },
   { 'name': 'gallery__0078.jpg', 'alt': 'Gravel cycling in the Chuckanuts' },

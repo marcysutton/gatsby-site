@@ -730,11 +730,11 @@ h1.site-logo {
   display: grid;
   grid-template-columns: 63% 37%;
 }
-@media (max-width: 1330px) {
+/* @media (max-width: 1330px) {
   .feature-list-wrap {
     grid-template-columns: 52% 48%;
   }
-}
+} */
 @media (max-width: 1015px) {
   .feature-list-wrap {
     display: block;
