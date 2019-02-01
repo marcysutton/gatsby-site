@@ -1,4 +1,3 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import ReactHtmlParser from 'react-html-parser'
@@ -13,9 +12,9 @@ const MediaGrid = ({ className, subtitle, items, itemLabel, directory, minItems 
       <ul>{ items.map((items) => {
         return <li key={ items.node.id }>
           { ReactHtmlParser(items.node.excerpt) }
-          <Link to={`${ directory }/${ items.node.slug }`}>{
+          <a href={`${ directory }/${ items.node.slug }`}>{
               ReactHtmlParser(items.node.title)
-            }</Link>
+            }</a>
         </li>
       }) 
     }</ul>
