@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
@@ -23,59 +23,56 @@ const images = [
   { 'name': 'gallery__0188.jpg', 'alt': 'Yes, I do own a pair of overalls for doing yard work...' }
 ]
 
-const IndexPage = ({ data }) => (
-  <Layout>
-    <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'homepage', 'Developer Advocate', 'web developer', 'accessibility']} />
-      <div className="feature-list-wrap">
-        <Feature
-          subtitle="Latest:Professional"
-          image={data.featureImage.childImageSharp.fluid}
-        />
-        <List
-          className="list-writing-home"
-          subtitle="Latest:Writing"
-          items={data.allWordpressPost.edges}
-          listName="writing"
-        />
-      </div>
+class IndexPage extends Component {
+  render() {
+    const data = this.props.data
 
-      <section aria-label="talks">
-        <MediaGrid
-          className="media-talks-home"
-          subtitle="I've spoken at some conferences:"
-          items={data.allWordpressWpTalk.edges}
-          itemLabel="talks"
-          directory="talk"
-        />
-      </section>
+    return (
+      <Layout>
+        <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'homepage', 'Developer Advocate', 'web developer', 'accessibility']} />
+          <div className="feature-list-wrap">
+            <Feature
+              subtitle="Latest:Professional"
+              image={data.featureImage.childImageSharp.fluid}
+            />
+            <List
+              className="list-writing-home"
+              subtitle="Latest:Writing"
+              items={data.allWordpressPost.edges}
+              listName="writing"
+            />
+          </div>
 
-      <section className="list-image-wrap" aria-label="links">
-        <List
-          className="list-links-home"
-          subtitle="Latest:Professional"
-          items={data.allWordpressWpLink.edges}
-          listName="links"
-          linkNewWindow="true"
-        />
-        <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
-      </section>
+          <section aria-label="talks">
+            <MediaGrid
+              className="media-talks-home"
+              subtitle="I've spoken at some conferences:"
+              items={data.allWordpressWpTalk.edges}
+              itemLabel="talks"
+              directory="talk"
+            />
+          </section>
 
-      <section aria-label="Photos">
-        <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={images} imagePath={imagePath} />
-      </section>
-  </Layout>
-)
+          <section className="list-image-wrap" aria-label="links">
+            <List
+              className="list-links-home"
+              subtitle="Latest:Professional"
+              items={data.allWordpressWpLink.edges}
+              listName="links"
+              linkNewWindow="true"
+            />
+            <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
+          </section>
 
-export const imageFragment = graphql`
-  fragment imageFragment on File {
-    childImageSharp {
-      sizes(maxWidth: 600) {
-        ...GatsbyImageSharpSizes
-      }
-    }
-}`
+          <section aria-label="Photos">
+            <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={images} imagePath={imagePath} />
+          </section>
+      </Layout>
+    )
+  }
+}
 
-export const query = graphql`
+export const pageQuery = graphql`
   query {
     homepageImage: file(relativePath: { eq: "react-rally-marcy-lg.jpg" }) {
       childImageSharp {
