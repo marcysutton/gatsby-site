@@ -34,6 +34,8 @@ A quick look at the top-level files and directories you'll see in this project.
     .
     ├── node_modules
     ├── src
+    ├── posts
+    ├── cypress
     ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
@@ -45,6 +47,7 @@ A quick look at the top-level files and directories you'll see in this project.
     ├── package.json
     ├── README.md
     └── yarn.lock
+
 
   1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  
   
