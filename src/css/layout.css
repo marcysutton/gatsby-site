@@ -96,6 +96,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
+  font-weight: bold;
 }
 figure {
   margin: 1em 40px;
@@ -687,7 +688,7 @@ h1.site-logo {
     padding: 0.4em;
   }
 }
-@media (max-width: 619px) {
+@media (max-width: 671px) {
   .site-header > div {
     display: block;
   }
@@ -697,7 +698,7 @@ h1.site-logo {
     border-width: 0px 0 4px 0;
   }
   .site-header nav li a {
-    padding: 0.5em;
+    padding: 0.15em 0.5em;
   }
 }
 @media (max-width: 424px) {
@@ -730,11 +731,11 @@ h1.site-logo {
   display: grid;
   grid-template-columns: 63% 37%;
 }
-/* @media (max-width: 1330px) {
-  .feature-list-wrap {
-    grid-template-columns: 52% 48%;
+@media (max-width: 671px) {
+  .generic-wrap {
+    padding: 1em 0.5em 2em;
   }
-} */
+}
 @media (max-width: 1015px) {
   .feature-list-wrap {
     display: block;
@@ -751,7 +752,7 @@ h1.site-logo {
 }
 .feature h2,
 .feature h3 {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   margin-top: 0;
 }
 .feature p {
@@ -809,6 +810,11 @@ h1.site-logo {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (max-width: 619px) {
+  .media-grid ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .talks-wrap .talks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -859,6 +865,9 @@ h1.site-logo {
   height: auto;
   width: 100%;
 }
+.media-grid ul li > div {
+  margin-bottom: 0.5em;
+}
 .list-image-wrap {
   display: grid;
   grid-template-columns: 61% 39%;
@@ -874,7 +883,7 @@ h1.site-logo {
   padding: 0;
 }
 .post-detail {
-  padding: 3em;
+  padding: 2em;
 }
 .post-detail h1 {
   margin-bottom: 0.25em;
@@ -891,6 +900,29 @@ h1.site-logo {
 }
 .post-detail a {
   font-weight: 500;
+}
+.post-detail blockquote {
+  border-left: 2px solid #cfcfcf;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1em;
+}
+.post-detail figure > img {
+  margin-bottom: 0;
+}
+.post-detail figure figcaption {
+  font-style: italic;
+}
+
+@media screen and (max-width: 900px) {
+  .post-detail {
+    padding: 2em 1em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .post-wrap {
+    display: block;
+  }
 }
 
 .site-footer {
@@ -936,8 +968,17 @@ h1.site-logo {
   display: block;
   padding: 0em 2.5em;
 }
-@media screen and (max-width: 687px) {
+@media screen and (max-width: 758px) {
+  .site-footer ul {
+    padding: 1em;
+  }
   .site-footer li a {
-    padding: 0em 2em;
+    padding: 0 1.5em;
+  }
+}
+
+@media screen and (max-width: 687px) {
+  .site-footer li {
+    display: block;
   }
 }

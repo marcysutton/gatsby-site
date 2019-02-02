@@ -2,7 +2,7 @@ import Typography from "typography"
 
 const typography = new Typography({
   baseFontSize: "18px",
-  baseLineHeight: 1.666,
+  baseLineHeight: 1.25,
   headerFontFamily: [
     "itc-fenice",
     "Times New Roman",
