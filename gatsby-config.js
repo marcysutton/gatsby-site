@@ -40,6 +40,13 @@ module.exports = {
         name: "markdown-pages",
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/gallery`,
+        name: 'gallery',
+      }
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-wordpress`,

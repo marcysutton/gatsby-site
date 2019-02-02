@@ -11,18 +11,6 @@ import ImageGrid from '../components/image-grid'
 
 require("typeface-roboto")
 
-const imagePath = './gallery'
-const images = [
-  { 'name': 'gallery__0091.jpg', 'alt': 'Presenting at ReactRally' },
-  { 'name': 'gallery__0078.jpg', 'alt': 'Gravel cycling in the Chuckanuts' },
-  { 'name': 'gallery__0193.jpg', 'alt': 'Homemade Berry pie with a lattice top' },
-  { 'name': 'gallery__0271.jpg', 'alt': 'Reflective lake in Glacier National Park' },
-  { 'name': 'gallery__0252.jpg', 'alt': 'Rainier the labradoodle in the Oregon wilderness' },
-  { 'name': 'gallery__0228.jpg', 'alt': 'Me transitioning my splitboard after a large snowy climb in Austria' },
-  { 'name': 'gallery__0123.jpg', 'alt': 'The day I won an O\'Reilly Web Platform Award' },
-  { 'name': 'gallery__0188.jpg', 'alt': 'Yes, I do own a pair of overalls for doing yard work...' }
-]
-
 class IndexPage extends Component {
   render() {
     const data = this.props.data
@@ -65,7 +53,7 @@ class IndexPage extends Component {
           </section>
 
           <section aria-label="Photos">
-            <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={images} imagePath={imagePath} />
+            <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={data.gallery.edges} />
           </section>
       </Layout>
     )
@@ -115,6 +103,18 @@ export const pageQuery = graphql`
           link
           title
           id
+        }
+      }
+    }
+    gallery: allFile(filter: { sourceInstanceName: { eq: "gallery" } }) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     }
