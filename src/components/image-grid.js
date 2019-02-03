@@ -15,13 +15,12 @@ const imageMap = {
 
 const ImageGrid = ({ className, subtitle, images }) => (
 
-    <div className={`media-grid image-grid ${className}`}>
+    <div className={`media-grid image-grid breathing-room ${className}`}>
       <h2 className="visually-hidden">
         {subtitle}
       </h2>
       <ul>{ images.map((image, index) => {
         return <li key={`image-${index}`}>
-          { console.log( imageMap[image.node.name] )}
           <Img fluid={image.node.childImageSharp.fluid} alt={imageMap[image.node.name]} />
         </li>
       })}</ul>

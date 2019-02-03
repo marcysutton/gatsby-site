@@ -14,7 +14,7 @@ const TalksPage = ({
     <BodyClassName className="page">
         <Layout>
             <SEO title="Talks" keywords={['Marcy Sutton', 'talks', 'videos', 'web developer']} />
-            <section className="generic-wrap talks-wrap">
+            <section className="generic-wrap talks-wrap breathing-room">
                 <h1>Talks</h1>
                 <p>I love public speaking! Here are the recorded talks I’ve done so far.</p>
                 <MediaGrid 

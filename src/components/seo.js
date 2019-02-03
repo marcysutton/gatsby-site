@@ -3,11 +3,16 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, meta, keywords, image, socialDescription, title }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
+        const seo = {
+          title: title || data.site.siteMetadata.title,
+          description: description,
+          image: `${image || data.site.siteMetadata.defaultImage}`,
+        }
         const metaDescription =
           description || data.site.siteMetadata.description
         return (
@@ -15,7 +20,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
-            title={title}
+            title={seo.title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
@@ -24,11 +29,15 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: 'og:title',
-                content: title,
+                content: seo.title,
               },
               {
                 property: 'og:description',
-                content: metaDescription,
+                content: socialDescription,
+              },
+              {
+                property: 'og:image',
+                content: seo.image,
               },
               {
                 property: 'og:type',
@@ -44,11 +53,15 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: 'twitter:title',
-                content: title,
+                content: seo.title,
+              },
+              {
+                name: 'twitter:image',
+                content: seo.image,
               },
               {
                 name: 'twitter:description',
-                content: metaDescription,
+                content: socialDescription,
               },
             ]
               .concat(
@@ -90,6 +103,9 @@ const detailsQuery = graphql`
         title
         description
         author
+        defaultImage
+        twitterUsername
+        socialDescription
       }
     }
   }

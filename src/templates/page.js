@@ -16,7 +16,7 @@ class PageTemplate extends Component {
         <Layout pathname={this.props.location.pathname}>
           <SEO title={ page.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
           <section className="generic-wrap page-wrap">
-            <article>
+            <article className="breathing-room">
                 <h1>{ ReactHtmlParser(page.title) }</h1>
                 { ReactHtmlParser(page.content) }
             </article>
@@ -43,11 +43,6 @@ export const pageQuery = graphql`
     wordpressPage(id: { eq: $id }) {
       title
       content
-    }
-    site {
-      siteMetadata {
-        title
-      }
     }
   }
 `

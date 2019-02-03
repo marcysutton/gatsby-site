@@ -10,28 +10,15 @@ const SmashingBook6Page = ({ data }) => (
   <BodyClassName className="page">
     <Layout>
         <SEO title="Smashing Book 6" keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
-        <section className="generic-wrap">
+        <section className="generic-wrap breathing-room">
             <h1>Smashing Book 6: New Frontiers in Web Design</h1>
             <Img
-                style={{
-                    border: `1px solid #ccc`,
-                    marginBottom: `2em`,
-                    marginLeft: `2em`,
-                    float: `right`,
-                    width: `30%`
-                }}
+                className="floating-image"
                 fluid={data.smashingCoverImage.childImageSharp.fluid}
                 alt="Gorgeous embossed hardcover of Smashing Book 6 on top of an illustrated map"
             />
             <Img
-                style={{
-                    border: `1px solid #ccc`,
-                    clear: `both`,
-                    marginBottom: `2em`,
-                    marginLeft: `2em`,
-                    float: `right`,
-                    width: `30%`
-                }}
+                className="floating-image"
                 fluid={data.smashingChapterImage.childImageSharp.fluid}
                 alt="My book chapter on Accessibility in the Time of Single Page Apps"
             />

@@ -10,7 +10,7 @@ const PrivacyPage = ({ data }) => (
     <BodyClassName className="page">
         <Layout>
             <SEO title="Privacy Policy" keywords={['Marcy Sutton', 'privacy policy', 'web developer']} />
-            <section className="generic-wrap">
+            <section className="generic-wrap breathing-room">
                 <h1>Privacy Policy</h1>
                 {
                     data.allWordpressPage.edges.map((pages) => {

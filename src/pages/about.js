@@ -22,7 +22,7 @@ const AboutPage = ({ data }) => (
                     <h2 id="bio-short-version">Bio: Short Version</h2>
                     <p>Marcy Sutton is the Head of Learning at Gatsby.js, a startup creating fast, accessible websites and apps while building a strong community. Previously, she was a Developer Advocate and frontend engineer at Deque Systems, a company focused on digital equality. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. Her blog, <em>Accessibility Wins</em>, highlights accessible user interfaces and tools, contributing a positive voice to the web development space. She co-leads the Accessibility Seattle meetup and recently founded a group called NW Tech Women. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.</p>
                 </section>
-                <aside className="page-post-aside">
+                <aside className="page-post-aside breathing-room">
                     <p><img src="https://marcysutton.com./wp-content/themes/v4/img/winchester-mtn-crop.jpg" alt="Hiking with my dog Rainier at Winchester Mountain" title="Hiking with my dog Rainier at Winchester Mountain" /></p>
                     <h2 style={{marginTop: `1em`}}>where to find me</h2>
                     <ul style={{marginBottom: `2em`}}>

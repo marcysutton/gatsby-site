@@ -16,7 +16,7 @@ class TalkPageTemplate extends Component {
       <BodyClassName className="page">
         <Layout pathname={this.props.location.pathname}>
           <SEO title={ talk.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
-          <section className="generic-wrap page-wrap">
+          <section className="generic-wrap page-wrap breathing-room">
             <article>
               <h1>{ ReactHtmlParser(talk.title) }</h1>
               { ReactHtmlParser(talk.content) }
@@ -44,11 +44,6 @@ export const pageQuery = graphql`
     wordpressWpTalk(id: { eq: $id }) {
       title
       content
-    }
-    site {
-      siteMetadata {
-        title
-      }
     }
   }
 `

@@ -25,7 +25,7 @@ const ContactPage = ({ data }) => (
                         })
                     }
                 </section>
-                <aside className="contact-aside">
+                <aside className="contact-aside breathing-room">
                     <h2>The latest</h2>
                     <Timeline
                         dataSource={{

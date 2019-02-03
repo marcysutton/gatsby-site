@@ -11,16 +11,10 @@ const LinksPage = ({ data }) => (
     <BodyClassName className="page">
         <Layout>
             <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
-            <section className="generic-wrap">
+            <section className="generic-wrap breathing-room">
                 <h1>Links</h1>
                 <Img
-                    style={{
-                        border: `1px solid #ccc`,
-                        marginBottom: `1em`,
-                        marginLeft: `2em`,
-                        float: `right`,
-                        width: `50%`
-                    }}
+                    className="floating-image width50"
                     fluid={data.linkPageImage.childImageSharp.fluid}
                     alt="Netmag layout: Marcy emceeing CascadiaFest in a Canadian Mounty costume with Matthew Claypotch on stage in a horse head"
                 />

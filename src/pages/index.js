@@ -24,7 +24,7 @@ class IndexPage extends Component {
               image={data.featureImage.childImageSharp.fluid}
             />
             <List
-              className="list-writing-home"
+              className="list-writing-home breathing-room"
               subtitle="Latest:Writing"
               items={data.allWordpressPost.edges}
               listName="writing"
@@ -43,7 +43,7 @@ class IndexPage extends Component {
 
           <section className="list-image-wrap" aria-label="links">
             <List
-              className="list-links-home"
+              className="list-links-home breathing-room"
               subtitle="Latest:Professional"
               items={data.allWordpressWpLink.edges}
               listName="links"

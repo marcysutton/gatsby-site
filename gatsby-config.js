@@ -3,6 +3,10 @@ module.exports = {
     title: 'MarcySutton.com',
     description: 'Web Developer and Accessibility Advocate',
     author: '@marcysutton',
+    twitterUsername: "@marcysutton",
+    socialDescription: "Musings about code, accessibility, music, cycling and life.",
+    defaultImage: `/images/ms-social-image-600.jpg`,
+    siteUrl: `https://www.marcysutton.com`,
   },
   plugins: [
     {

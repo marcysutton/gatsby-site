@@ -9,7 +9,7 @@ const AccessibilityPage = ({ data }) => (
     <BodyClassName className="page">
         <Layout>
             <SEO title="Accessibility" keywords={['Marcy Sutton', 'Accessibility', 'web developer']} />
-            <section className="generic-wrap">
+            <section className="generic-wrap breathing-room">
                 <h1>Accessibility Statement</h1>
 
                 <p>I want everyone who visits MarcySutton.com to feel welcome and find the experience rewarding. This site recently underwent a major redesign and build, and is a work-in-progress.</p>
@@ -22,7 +22,7 @@ const AccessibilityPage = ({ data }) => (
 
                 <h2>How am I doing?</h2>
 
-                <p> hard on the accessibility of MarcySutton.com to achieve my goal of Level AA accessibility. I monitor it regularly to maintain access, but if you do find any problems, please <Link to="/contact">get in touch</Link>.</p>
+                <p>I've worked hard on the accessibility of MarcySutton.com to achieve my goal of Level AA accessibility. I monitor it regularly to maintain access, but if you do find any problems, please <Link to="/contact">get in touch</Link>.</p>
 
                 <h2>Learn more</h2>
                 
