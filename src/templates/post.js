@@ -18,7 +18,7 @@ class PostTemplate extends Component {
 
     return (
       <BodyClassName className="post">
-        <Layout pathname={this.props.pathContext.pathname}>
+        <Layout pathname={this.props.pageContext.pathname}>
           <SEO
             title={ post.title }
             description={ striptags(post.excerpt )}
@@ -27,7 +27,7 @@ class PostTemplate extends Component {
             <div className="generic-wrap page-post-wrap">
               <section className="page-post-detail breathing-room">
                   <article>
-                    <h1>{ post.title }</h1>
+                    <h1>{ ReactHtmlParser(post.title) }</h1>
                     <h2 className="subhead">{ post.date }</h2>
                     { ReactHtmlParser(post.content) }
                   </article>
