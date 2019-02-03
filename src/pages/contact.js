@@ -4,6 +4,7 @@ import BodyClassName from 'react-body-classname'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { Timeline } from 'react-twitter-widgets'
 
 const ContactPage = ({ data }) => (
     <BodyClassName className="page">
@@ -26,10 +27,17 @@ const ContactPage = ({ data }) => (
                 </section>
                 <aside className="contact-aside">
                     <h2>The latest</h2>
-                    <a className="twitter-timeline" href="https://twitter.com/marcysutton" data-widget-id="314446056236650496">
-                        Tweets by @marcysutton
-                    </a>
-                    {!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs")}
+                    <Timeline
+                        dataSource={{
+                            sourceType: 'profile',
+                            screenName: 'marcysutton'
+                        }}
+                        options={{
+                            username: 'marcysutton',
+                            height: '800'
+                        }}
+                        onLoad={() => console.log('Timeline is loaded!')}
+                    />
                 </aside>
             </div>
         </Layout>
