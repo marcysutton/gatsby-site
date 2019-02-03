@@ -18,12 +18,13 @@ class TalkPageTemplate extends Component {
           <SEO title={ talk.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
           <section className="generic-wrap page-wrap">
             <article>
-                <h1>{ ReactHtmlParser(talk.title) }</h1>
-                { ReactHtmlParser(talk.content) }
+              <h1>{ ReactHtmlParser(talk.title) }</h1>
+              { ReactHtmlParser(talk.content) }
+
+              <footer aria-label="Breadcrumb">
+                <Breadcrumb url="talks" section="talks" />
+              </footer>
             </article>
-            <footer aria-label="Breadcrumb">
-              <Breadcrumb section="talks" />
-            </footer>
           </section>
         </Layout>
       </BodyClassName>

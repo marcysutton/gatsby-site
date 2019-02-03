@@ -7,6 +7,7 @@ import BodyClassName from 'react-body-classname'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import List from '../components/list'
+import Breadcrumb from '../components/breadcrumb'
 
 class PostTemplate extends Component {
   render() {
@@ -20,9 +21,12 @@ class PostTemplate extends Component {
             <div className="generic-wrap page-post-wrap">
                 <section className="page-post-detail">
                     <article>
-                        <h1>{ post.title }</h1>
-                        <h2 className="subhead">{ post.date }</h2>
-                        { ReactHtmlParser(post.content) }
+                      <h1>{ post.title }</h1>
+                      <h2 className="subhead">{ post.date }</h2>
+                      { ReactHtmlParser(post.content) }
+                      <footer aria-label="Breadcrumb">
+                        <Breadcrumb url="writing" section="posts" />
+                      </footer>
                     </article>
                 </section>
                 <aside className="page-post-list-wrap">
