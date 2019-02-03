@@ -3,37 +3,34 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, image, socialDescription, title }) {
+function SEO({ description, lang, meta, keywords, image, title, player }) {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
         const seo = {
-          title: title || data.site.siteMetadata.title,
-          description: description,
-          image: `${image || data.site.siteMetadata.defaultImage}`,
+          description: description || data.site.siteMetadata.socialDescription,
+          image: `${image || data.site.siteMetadata.defaultImage}`
         }
-        const metaDescription =
-          description || data.site.siteMetadata.description
         return (
           <Helmet
             htmlAttributes={{
               lang,
             }}
-            title={seo.title}
+            title={title}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
                 name: 'description',
-                content: metaDescription,
+                content: seo.description,
               },
               {
                 property: 'og:title',
-                content: seo.title,
+                content: title,
               },
               {
                 property: 'og:description',
-                content: socialDescription,
+                content: seo.description,
               },
               {
                 property: 'og:image',
@@ -53,7 +50,7 @@ function SEO({ description, lang, meta, keywords, image, socialDescription, titl
               },
               {
                 name: 'twitter:title',
-                content: seo.title,
+                content: title,
               },
               {
                 name: 'twitter:image',
@@ -61,7 +58,11 @@ function SEO({ description, lang, meta, keywords, image, socialDescription, titl
               },
               {
                 name: 'twitter:description',
-                content: socialDescription,
+                content: seo.description,
+              },
+              {
+                property: 'twitter:player',
+                content: player,
               },
             ]
               .concat(

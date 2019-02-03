@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import ReactHtmlParser from 'react-html-parser'
 import PropTypes from "prop-types"
 import BodyClassName from 'react-body-classname'
+import striptags from 'striptags'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
@@ -13,10 +14,16 @@ class PostTemplate extends Component {
     const post = this.props.data.wordpressPost
     const posts = this.props.data.allWordpressPost.edges
 
+    const featuredImage = post.featured_media && post.featured_media.source_url ? post.featured_media.source_url : null
+
     return (
       <BodyClassName className="post">
         <Layout pathname={this.props.pathContext.pathname}>
-          <SEO title={ post.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']} />
+          <SEO
+            title={ post.title }
+            description={ striptags(post.excerpt )}
+            keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']}
+            image={ featuredImage } />
             <div className="generic-wrap page-post-wrap">
               <section className="page-post-detail breathing-room">
                   <article>
@@ -53,8 +60,10 @@ export const pageQuery = graphql`
       date(formatString: "MMMM DD, YYYY")
       featured_media {
           post
+          source_url
           alt_text
       }
+      excerpt
       content
     }
     allWordpressPost(limit: 20) {

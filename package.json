@@ -47,7 +47,8 @@
     "cypress": "^3.1.5",
     "gatsby-source-wordpress": "^3.0.30",
     "prettier": "^1.16.3",
-    "start-server-and-test": "^1.7.11"
+    "start-server-and-test": "^1.7.11",
+    "striptags": "^3.1.1"
   },
   "repository": {
     "type": "git",
