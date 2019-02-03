@@ -6,7 +6,7 @@ import Header from './header'
 import Footer from './footer'
 import '../css/layout.css'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, pathname }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -22,6 +22,7 @@ const Layout = ({ children }) => (
       <div id="site-wrap">
         <Header
           siteTitle={data.site.siteMetadata.title}
+          pathname={pathname}
         />
         <main
           id="main"

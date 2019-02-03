@@ -16,7 +16,7 @@ class IndexPage extends Component {
     const data = this.props.data
 
     return (
-      <Layout>
+      <Layout pathname={this.props.location.pathname}>
         <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'homepage', 'Developer Advocate', 'web developer', 'accessibility']} />
           <div className="feature-list-wrap">
             <Feature

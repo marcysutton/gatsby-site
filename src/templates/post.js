@@ -16,8 +16,8 @@ class PostTemplate extends Component {
 
     return (
       <BodyClassName className="post">
-        <Layout>
             <SEO title={ post.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']} />
+        <Layout pathname={this.props.pathContext.pathname}>
             <div className="generic-wrap page-post-wrap">
                 <section className="page-post-detail">
                     <article>

@@ -14,7 +14,7 @@ class TalkPageTemplate extends Component {
 
     return (
       <BodyClassName className="page">
-        <Layout>
+        <Layout pathname={this.props.location.pathname}>
           <SEO title={ talk.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
           <section className="generic-wrap page-wrap">
             <article>

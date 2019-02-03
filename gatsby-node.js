@@ -112,6 +112,7 @@ exports.createPages = ({ graphql, actions }) => {
               path: `/${edge.node.slug}/`,
               component: slash(postTemplate),
               context: {
+                pathname: 'post',
                 id: edge.node.id,
               },
             })

@@ -663,6 +663,9 @@ h1.site-logo {
 .site-header nav li a {
   text-shadow: 1px 1px 3px #000;
 }
+.site-header nav li a.active {
+  color: #99cc00;
+}
 @media (max-width: 1220px) {
   .site-header a {
     padding: 0.75em 1em;

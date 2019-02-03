@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, pathname }) => (
   <header
     className="site-header"
     role="banner"
@@ -21,13 +21,18 @@ const Header = ({ siteTitle }) => (
       </h1>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/writing/">Writing</Link></li>
-          <li><Link to="/talks/">Talks</Link></li>
-          <li><Link to="/links/">Links</Link></li>
-          <li><Link to="/about/">About</Link></li>
-          <li><Link to="/contact/">Contact</Link></li>
-          {/* <li><Link to="/search/">Search</Link></li> */}
+          <li><Link to="/" activeClassName="active">Home</Link></li>
+          <li><Link to="/writing/" activeClassName="active" className={pathname && pathname.indexOf('post') > -1 ? 'active' : null}>
+            Writing</Link>
+          </li>
+          <li>
+            <Link to="/talks/" activeClassName="active" className={pathname && pathname.indexOf('talk') > -1 ? 'active' : null}>
+            Talks</Link>
+          </li>
+          <li><Link to="/links/" activeClassName="active">Links</Link></li>
+          <li><Link to="/about/" activeClassName="active">About</Link></li>
+          <li><Link to="/contact/" activeClassName="active">Contact</Link></li>
+          {/* <li><Link to="/search/" activeClassName="active">Search</Link></li> */}
         </ul>
       </nav>
     </div>

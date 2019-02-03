@@ -13,7 +13,7 @@ class PageTemplate extends Component {
     
     return (
       <BodyClassName className="page">
-        <Layout>
+        <Layout pathname={this.props.location.pathname}>
           <SEO title={ page.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
           <section className="generic-wrap page-wrap">
             <article>
