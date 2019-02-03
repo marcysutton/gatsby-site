@@ -11,7 +11,7 @@ const WritingPage = ({
             allWordpressPost: { edges }
         }
 }) => (
-    <BodyClassName className="generic">
+    <BodyClassName className="page">
         <Layout>
             <SEO title="Writing" keywords={['Marcy Sutton', 'posts', 'writing', 'blog', 'web developer']} />
             <section className="generic-wrap">

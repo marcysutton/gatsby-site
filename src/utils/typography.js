@@ -30,6 +30,9 @@ const typography = new Typography({
     '.skip-links li a': {
       ...adjustFontSizeTo('30px'),
       fontFamily: ['itc-fenice', 'serif'].join(','),
+    },
+    '.generic-wrap, .feature-list-wrap': {
+      ...adjustFontSizeTo('20px')
     }
   })
 })

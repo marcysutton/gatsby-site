@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const PrivacyPage = ({ data }) => (
-    <BodyClassName className="generic">
+    <BodyClassName className="page">
         <Layout>
             <SEO title="Privacy Policy" keywords={['Marcy Sutton', 'privacy policy', 'web developer']} />
             <section className="generic-wrap">

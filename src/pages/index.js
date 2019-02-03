@@ -86,7 +86,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allWordpressWpTalk(limit: 8) {
+    allWordpressWpTalk(limit: 6) {
       edges {
         node {
           excerpt

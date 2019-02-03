@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 import List from '../components/list'
 
 const LinksPage = ({ data }) => (
-    <BodyClassName className="generic">
+    <BodyClassName className="page">
         <Layout>
             <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
             <section className="generic-wrap">

@@ -11,7 +11,7 @@ const TalksPage = ({
         allWordpressWpTalk: { edges }
     }
 }) => (
-    <BodyClassName className="generic">
+    <BodyClassName className="page">
         <Layout>
             <SEO title="Talks" keywords={['Marcy Sutton', 'talks', 'videos', 'web developer']} />
             <section className="generic-wrap talks-wrap">
@@ -20,7 +20,8 @@ const TalksPage = ({
                 <MediaGrid 
                     className="media-grid-talks no-background"
                     items={ edges }
-                    itemLabel="talks" />
+                    itemLabel="talks"
+                    directory="/talk" />
             </section>
         </Layout>
     </BodyClassName>

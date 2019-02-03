@@ -14,23 +14,23 @@ class PostTemplate extends Component {
     const posts = this.props.data.allWordpressPost.edges
 
     return (
-      <BodyClassName className="generic">
+      <BodyClassName className="post">
         <Layout>
             <SEO title={ post.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']} />
-            <div className="generic-wrap post-wrap">
-                <section className="post-detail">
+            <div className="generic-wrap page-post-wrap">
+                <section className="page-post-detail">
                     <article>
                         <h1>{ post.title }</h1>
                         <h2 className="subhead">{ post.date }</h2>
                         { ReactHtmlParser(post.content) }
                     </article>
                 </section>
-                <aside className="post-list-wrap">
+                <aside className="page-post-list-wrap">
                     <List 
                         className="list-writing-post"
                         items={posts}
                         listName="writing"
-                        subtitle="Posts" />
+                        subtitle="More Posts" />
                 </aside>
             </div>
         </Layout>
@@ -57,7 +57,7 @@ export const pageQuery = graphql`
       }
       content
     }
-    allWordpressPost(limit: 6) {
+    allWordpressPost(limit: 20) {
         edges {
           node {
             id

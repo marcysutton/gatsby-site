@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const SmashingBook6Page = ({ data }) => (
-  <BodyClassName className="generic">
+  <BodyClassName className="page">
     <Layout>
         <SEO title="Smashing Book 6" keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
         <section className="generic-wrap">

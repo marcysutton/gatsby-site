@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const NotFoundPage = () => (
-  <BodyClassName className="generic">
+  <BodyClassName className="page">
     <Layout>
       <SEO title="404: Not found" />
       <section className="generic-wrap">

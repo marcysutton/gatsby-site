@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create Page pages.
         const pageTemplate = path.resolve("./src/templates/page.js")
+        const talkTemplate = path.resolve("./src/templates/talk.js")
 
         _.each(result.data.allWordpressPage.edges, edge => {
           createPage({
@@ -66,7 +67,7 @@ exports.createPages = ({ graphql, actions }) => {
         _.each(result.data.allWordpressWpTalk.edges, edge => {
           createPage({
             path: `/talk/${edge.node.slug}/`,
-            component: slash(pageTemplate),
+            component: slash(talkTemplate),
             context: {
               id: edge.node.id,
             },

@@ -759,8 +759,13 @@ h1.site-logo {
   font-style: italic;
   font-weight: 500;
 }
+.page-post-aside,
 .list {
   background-color: #efefef;
+  height: 100%;
+  padding: 2em;
+}
+.contact-aside {
   height: 100%;
   padding: 2em;
 }
@@ -776,7 +781,7 @@ h1.site-logo {
   font-weight: bold;
 }
 .list ul li {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 .list ul li p a {
   font-weight: 500;
@@ -798,12 +803,12 @@ h1.site-logo {
 }
 .media-grid ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(270px, auto);
   grid-gap: 1em;
   list-style: none;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 @media screen and (max-width: 800px) {
   .media-grid ul {
@@ -861,7 +866,7 @@ h1.site-logo {
 .media-grid ul li div,
 .media-grid ul li div iframe {
   box-sizing: border-box;
-  max-width: 340px;
+  /* max-width: 340px; */
   height: auto;
   width: 100%;
 }
@@ -877,50 +882,54 @@ h1.site-logo {
     display: block;
   }
 }
-.post-wrap {
+.page-post-wrap {
   display: grid;
   grid-template-columns: 65% 35%;
   padding: 0;
 }
-.post-detail {
+.page-post-detail{
   padding: 2em;
 }
+.contact-detail {
+  background-color: #efefef;
+}
+.page-detail h1,
 .post-detail h1 {
   margin-bottom: 0.25em;
 }
-.post-detail h2 {
+.page-post-detail h2 {
   margin-top: 1.5em;
 }
-.post-detail h1 + h2 {
+.page-post-detail h1 + h2 {
   margin-top: 0.5em;
 }
-.post-detail ul,
-.post-detail ol {
+.page-post-detail ul,
+.page-post-detail ol {
   margin-left: 1em;
 }
-.post-detail a {
+.page-post-detail a {
   font-weight: 500;
 }
-.post-detail blockquote {
+.page-post-detail blockquote {
   border-left: 2px solid #cfcfcf;
   margin-left: 0;
   margin-right: 0;
   padding-left: 1em;
 }
-.post-detail figure > img {
+.page-post-detail figure > img {
   margin-bottom: 0;
 }
-.post-detail figure figcaption {
+.page-post-detail figure figcaption {
   font-style: italic;
 }
 
 @media screen and (max-width: 900px) {
-  .post-detail {
+  .page-post-detail {
     padding: 2em 1em;
   }
 }
 @media screen and (max-width: 800px) {
-  .post-wrap {
+  .page-post-wrap {
     display: block;
   }
 }
@@ -938,13 +947,16 @@ h1.site-logo {
   left: 50%;
   margin-left: -12px;
 }
+.breadcrumb,
 .site-footer .back-to-top a {
   text-decoration: none;
 }
+.breadcrumb span.text,
 .site-footer .back-to-top a span.text {
   text-decoration: underline;
 }
-.generic .site-footer .back-to-top a {
+.post .site-footer .back-to-top a,
+.page .site-footer .back-to-top a {
   color: #000;
 }
 .site-footer .copyright {

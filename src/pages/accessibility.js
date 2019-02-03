@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const AccessibilityPage = ({ data }) => (
-    <BodyClassName className="generic">
+    <BodyClassName className="page">
         <Layout>
             <SEO title="Accessibility" keywords={['Marcy Sutton', 'Accessibility', 'web developer']} />
             <section className="generic-wrap">
