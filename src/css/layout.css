@@ -820,6 +820,10 @@ h1.site-logo {
   margin: 0;
   text-align: left;
 }
+.image-grid ul {
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+}
 @media screen and (max-width: 800px) {
   .media-grid ul {
     grid-template-columns: repeat(2, 1fr);
