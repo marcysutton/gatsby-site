@@ -38,6 +38,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "prebuild": "rm -rf public/ .cache/",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
