@@ -702,6 +702,7 @@ h1.site-logo {
   }
   .site-header nav li a {
     padding: 0.15em 0.5em;
+    text-shadow: none;
   }
 }
 @media (max-width: 424px) {
