@@ -1,18 +1,8 @@
 import React from 'react'
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-    <div style={{ 
-        padding: `56.25% 0 0 0`,
-        position: `relative`,
-        marginBottom: `1em`
-    }}>
+    <div className="video">
         <iframe src={videoSrcURL}
-            style={{
-                position: `absolute`,
-                top: `0`,
-                left: `0`,
-                width: `100%`,
-                height: `100%`}}
             title={videoTitle}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen>

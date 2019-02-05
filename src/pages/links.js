@@ -13,14 +13,13 @@ const LinksPage = ({ data }) => (
             <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
             <section className="generic-wrap breathing-room">
                 <h1>Links</h1>
-                <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow.<br />
-                All links open in new windows.</p>
                 <Img
                     className="floating-image width50"
                     fluid={data.linkPageImage.childImageSharp.fluid}
                     alt="Netmag layout: Marcy emceeing CascadiaFest in a Canadian Mounty costume with Matthew Claypotch on stage in a horse head"
                 />
-                <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow. All links open in new windows.</p>
+                <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow.</p>
+                <p>All links open in new windows.</p>
                 <LinkList 
                     className="list-links no-background"
                     items={ data.allLinksJson.edges }

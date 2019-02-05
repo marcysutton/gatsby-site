@@ -661,10 +661,10 @@ h1.site-logo {
   margin-left: auto;
 }
 .site-header nav li a {
-  text-shadow: 1px 1px 3px #000;
+  text-shadow: 3px 3px 4px #000;
 }
 .site-header nav li a.active {
-  color: #99cc00;
+  color: #bdfb03;
 }
 @media (max-width: 1220px) {
   .site-header a {
@@ -727,6 +727,10 @@ h1.site-logo {
 .generic-wrap {
   background-color: #fff;
   min-height: 300px;
+}
+.generic-wrap input:not([type=submit]),
+.generic-wrap textarea {
+  width: 100%;
 }
 .feature-list-wrap {
   background-color: #fff;
@@ -856,13 +860,6 @@ h1.site-logo {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.talks-wrap .talks .responsive-video {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden; 
-}
 .talks .post h2.larger {
   margin-top: 0.75em;
 }
@@ -880,15 +877,27 @@ h1.site-logo {
 .image-grid ul {
   align-items: center;
 }
-.media-grid ul li div,
-.media-grid ul li div iframe {
+.inline-image-grid img {
   box-sizing: border-box;
-  /* max-width: 340px; */
-  height: auto;
-  width: 100%;
+  display: inline-block;
+  margin-right: 0.5em;
+  width: 32%;
 }
-.media-grid ul li > div {
+.inline-image-grid img:last-of-type {
+  margin-right: 0;
+}
+.video {
+  position: relative;
+  padding: 56.25% 0 0 0;
   margin-bottom: 0.5em;
+}
+.video iframe {
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .list-image-wrap {
   display: grid;

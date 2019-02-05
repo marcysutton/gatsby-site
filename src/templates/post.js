@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import ReactHtmlParser from 'react-html-parser'
 import PropTypes from "prop-types"
 import BodyClassName from 'react-body-classname'
-import striptags from 'striptags'
 import { AllHtmlEntities } from 'html-entities'
 
 import SEO from '../components/seo'
