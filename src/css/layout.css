@@ -619,10 +619,10 @@ a, a:link, a:visited {
 }
 
 .site-header {
-  background-image: url(../site-images/blurryWall.jpg);
+  /* background-image: url(../site-images/blurryWall.jpg); */
   position: relative;
 }
-.site-header > div {
+.site-header .header-bg > div {
   display: grid;
   grid-template-columns: 225px 1fr;
 }
@@ -672,7 +672,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 900px) {
-  .site-header > div {
+  .site-header .header-bg > div {
     grid-template-columns: 200px 1fr;
   }
   .site-header a {
@@ -680,7 +680,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 753px) {
-  .site-header > div {
+  .site-header .header-bg > div {
     grid-template-columns: 170px 1fr;
   }
   h1.site-logo {
@@ -692,7 +692,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 671px) {
-  .site-header > div {
+  .site-header .header-bg > div {
     display: block;
   }
   .site-header nav ul {
