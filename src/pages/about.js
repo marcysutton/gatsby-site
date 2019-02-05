@@ -1,11 +1,10 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const AboutPage = ({ data }) => (
+const AboutPage = () => (
     <BodyClassName className="page">
         <Layout>
             <SEO title="About" keywords={['Marcy Sutton', 'bio', 'web developer']} />
@@ -23,33 +22,19 @@ const AboutPage = ({ data }) => (
                     <p>Marcy Sutton is the Head of Learning at Gatsby.js, a startup creating fast, accessible websites and apps while building a strong community. Previously, she was a Developer Advocate and frontend engineer at Deque Systems, a company focused on digital equality. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. Her blog, <em>Accessibility Wins</em>, highlights accessible user interfaces and tools, contributing a positive voice to the web development space. She co-leads the Accessibility Seattle meetup and recently founded a group called NW Tech Women. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.</p>
                 </section>
                 <aside className="page-post-aside breathing-room">
-                    <p><img src="https://marcysutton.com./wp-content/themes/v4/img/winchester-mtn-crop.jpg" alt="Hiking with my dog Rainier at Winchester Mountain" title="Hiking with my dog Rainier at Winchester Mountain" /></p>
+                    <p><img src="/wp-content/themes/v4/img/winchester-mtn-crop.jpg" alt="Hiking with my dog Rainier at Winchester Mountain" title="Hiking with my dog Rainier at Winchester Mountain" /></p>
                     <h2 style={{marginTop: `1em`}}>where to find me</h2>
                     <ul style={{marginBottom: `2em`}}>
                         <li><a title="Link opens in a new window." href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer">twitter<span className="visually-hidden"> Opens in a new window</span></a></li>
                         <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                         <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                     </ul>
-                    <p className="about-image"><img src="https://marcysutton.com./wp-content/themes/v4/img/sandiego-bike.jpg" alt="Biking in San Diego during CSUN" title="Biking in San Diego during CSUN" /></p>
-                    <p className="about-image"><img src="https://marcysutton.com./wp-content/themes/v4/img/anthony-lakes-350.jpg" alt="Splitboarding at Anthony Lakes, OR" title="Splitboarding at Anthony Lakes, OR" /></p>
+                    <p className="about-image"><img src="/wp-content/themes/v4/img/sandiego-bike.jpg" alt="Biking in San Diego during CSUN" title="Biking in San Diego during CSUN" /></p>
+                    <p className="about-image"><img src="/wp-content/themes/v4/img/anthony-lakes-350.jpg" alt="Splitboarding at Anthony Lakes, OR" title="Splitboarding at Anthony Lakes, OR" /></p>
                 </aside>
             </div>
         </Layout>
     </BodyClassName>
 )
-
-export const query = graphql`
-  query {
-    allWordpressPage {
-        edges {
-          node {
-            id
-            slug
-            content
-          }
-        }
-      }
-  }
-`
 
 export default AboutPage;

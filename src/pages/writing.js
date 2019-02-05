@@ -9,7 +9,7 @@ import TalkEvents from '../components/talk-events'
 
 const WritingPage = ({
         data: {
-            allWordpressPost: { edges }
+            allMarkdownRemark: { edges }
         }
 }) => (
     <BodyClassName className="page">
@@ -34,14 +34,19 @@ const WritingPage = ({
 
 export const pageQuery = graphql`
   query {
-    allWordpressPost {
+    allMarkdownRemark (
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: {fileAbsolutePath: {regex: "/posts/"}}
+    ) {
         edges {
           node {
             id
-            slug
-            title
-            date(formatString: "MMMM DD, YYYY")
             excerpt
+            frontmatter {
+                date(formatString: "MMMM DD, YYYY")
+                path
+                title
+            }
           }
         }
     }

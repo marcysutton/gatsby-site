@@ -10,15 +10,16 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
       render={data => {
         const seo = {
           description: description || data.site.siteMetadata.socialDescription,
-          image: `${image || data.site.siteMetadata.defaultImage}`
+          image: `${image || data.site.siteMetadata.defaultImage}`,
         }
+        const defaultTitle = data.site.siteMetadata.title
+        const pageTitle = title ? `${title} | ${defaultTitle}` : defaultTitle
         return (
           <Helmet
             htmlAttributes={{
               lang,
             }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            title={ pageTitle }
             meta={[
               {
                 name: 'description',
@@ -26,7 +27,7 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
               },
               {
                 property: 'og:title',
-                content: title,
+                content: pageTitle,
               },
               {
                 property: 'og:description',
@@ -50,7 +51,7 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
               },
               {
                 name: 'twitter:title',
-                content: title,
+                content: pageTitle,
               },
               {
                 name: 'twitter:image',

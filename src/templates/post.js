@@ -4,6 +4,7 @@ import ReactHtmlParser from 'react-html-parser'
 import PropTypes from "prop-types"
 import BodyClassName from 'react-body-classname'
 import striptags from 'striptags'
+import { AllHtmlEntities } from 'html-entities'
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
@@ -11,25 +12,23 @@ import List from '../components/list'
 
 class PostTemplate extends Component {
   render() {
-    const post = this.props.data.wordpressPost
-    const posts = this.props.data.allWordpressPost.edges
-
-    const featuredImage = post.featured_media && post.featured_media.source_url ? post.featured_media.source_url : null
-
+    const post = this.props.data.markdownRemark
+    const posts = this.props.data.allMarkdownRemark.edges
+    
     return (
       <BodyClassName className="post">
         <Layout pathname={this.props.pageContext.pathname}>
           <SEO
-            title={ post.title }
-            description={ striptags(post.excerpt )}
+            title={ AllHtmlEntities.decode(post.title) }
+            description={ AllHtmlEntities.decode(post.excerpt) }
             keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']}
-            image={ featuredImage } />
+            image={ post.frontmatter.coverImage } />
             <div className="generic-wrap page-post-wrap">
               <section className="page-post-detail breathing-room">
                   <article>
-                    <h1>{ ReactHtmlParser(post.title) }</h1>
-                    <h2 className="subhead">{ post.date }</h2>
-                    { ReactHtmlParser(post.content) }
+                    <h1>{ ReactHtmlParser(post.frontmatter.title) }</h1>
+                    { post.frontmatter.date ? <h2 className="subhead">{ post.frontmatter.date }</h2> : null }
+                    { ReactHtmlParser(post.html) }
                   </article>
               </section>
               <aside className="page-post-list-wrap">
@@ -37,7 +36,8 @@ class PostTemplate extends Component {
                       className="list-writing-post breathing-room"
                       items={posts}
                       listName="writing"
-                      subtitle="More Posts" />
+                      subtitle="More Posts"
+                      currentSlug={post.frontmatter.path} />
               </aside>
             </div>
         </Layout>
@@ -55,24 +55,27 @@ export default PostTemplate
 
 export const pageQuery = graphql`
   query($id: String!) {
-    wordpressPost(id: { eq: $id }) {
-      title
-      date(formatString: "MMMM DD, YYYY")
-      featured_media {
-          post
-          source_url
-          alt_text
+    markdownRemark(id: { eq: $id }) {
+      id
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
+        coverImage
       }
-      excerpt
-      content
+      html
     }
-    allWordpressPost(limit: 20) {
+    allMarkdownRemark(
+      limit: 20,
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: {fileAbsolutePath: {regex: "/posts/"}}
+    ) {
         edges {
           node {
             id
-            title
-            slug
-            link
+            frontmatter {
+                title
+                path
+            }
           }
         }
     }

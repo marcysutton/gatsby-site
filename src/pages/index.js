@@ -8,6 +8,7 @@ import List from '../components/list'
 import Feature from '../components/feature'
 import MediaGrid from '../components/media-grid'
 import ImageGrid from '../components/image-grid'
+import LinkList from '../components/link-list'
 
 require("typeface-roboto")
 
@@ -26,7 +27,7 @@ class IndexPage extends Component {
             <List
               className="list-writing-home breathing-room"
               subtitle="Latest:Writing"
-              items={data.allWordpressPost.edges}
+              items={data.posts.edges}
               listName="writing"
             />
           </div>
@@ -35,17 +36,17 @@ class IndexPage extends Component {
             <MediaGrid
               className="media-talks-home"
               subtitle="I've spoken at some conferences:"
-              items={data.allWordpressWpTalk.edges}
+              items={data.talks.edges}
               itemLabel="talks"
-              directory="talk"
             />
           </section>
 
           <section className="list-image-wrap" aria-label="links">
-            <List
+            <LinkList
               className="list-links-home breathing-room"
               subtitle="Latest:Professional"
-              items={data.allWordpressWpLink.edges}
+              subhead="Latest:Professional"
+              items={data.allLinksJson.edges}
               listName="links"
               linkNewWindow="true"
             />
@@ -76,32 +77,35 @@ export const pageQuery = graphql`
         }
       }
     }
-    allWordpressPost(limit: 10) {
+    posts: allMarkdownRemark(
+      limit: 10,
+      sort: { order: DESC, fields: [frontmatter___date] },
+      filter: {fileAbsolutePath: {regex: "/posts/"}}
+    ) {
       edges {
         node {
           id
-          title
-          slug
-          link
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+          }
         }
       }
     }
-    allWordpressWpTalk(limit: 6) {
+    talks: allMarkdownRemark(
+      limit: 6
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: {fileAbsolutePath: {regex: "/talk-videos/"}}
+    ) {
       edges {
         node {
-          excerpt
-          link
-          title
-          id
-          slug
-        }
-      }
-    }
-    allWordpressWpLink(limit: 7) {
-      edges {
-        node {
-          link
-          title
+          frontmatter {
+            title
+            path
+            videoSrcURL
+            videoTitle
+          }
           id
         }
       }
@@ -115,6 +119,17 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+    }
+    allLinksJson (
+      limit: 7
+    ) {
+      edges {
+        node {
+          id
+          link
+          name
         }
       }
     }

@@ -5,18 +5,20 @@ import { Link } from 'gatsby'
 
 import MoreLink from './more-link'
 
-const List = ({ className, listName, subtitle, items, allItems = false, linkNewWindow = false }) => (
+const List = ({ className, listName, subtitle, items, currentSlug = '', allItems = false, linkNewWindow = false }) => (
     <div className={`list ${className}`}>
         { subtitle ? <h2 className="subhead">{subtitle}</h2> : null }
+        { /* .filter((items) => {
+                console.log(items.item, currentSlug)
+                return items
+            }) */ }
         <ul>{ items.map((items) => {
             return <li key={ items.node.id }>
                 <Link className="item"
                     target={ linkNewWindow ? '_blank' : null }
                     rel={ linkNewWindow ? 'noopener noreferrer' : null }
-                    to={ items.node.slug ?
-                        `/${ items.node.slug }`
-                        : items.node.link.split('#new_tab')[0] }>
-                  { ReactHtmlParser(items.node.title) }
+                    to={ items.node.frontmatter.path }>
+                  { ReactHtmlParser(items.node.frontmatter.title) }
                 </Link>
                 { items.node.excerpt ? ReactHtmlParser(items.node.excerpt) : null }
             </li>

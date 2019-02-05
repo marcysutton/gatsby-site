@@ -8,6 +8,7 @@ const typography = new Typography({
     "Times New Roman",
     "serif",
   ],
+  headerFontWeight: 700,
   bodyFontFamily: ["Roboto", "Verdana", "sans-serif"],
   overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
     '.site-logo, .subhead': {

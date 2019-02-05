@@ -9,7 +9,11 @@ import Layout from '../components/layout'
 
 class PageTemplate extends Component {
   render() {
-    const page = this.props.data.wordpressPage
+    // const page = this.props.data.wordpressPage
+    const page = {
+      title: '',
+      content: ''
+    }
     
     return (
       <BodyClassName className="page">
@@ -34,15 +38,11 @@ PageTemplate.propTypes = {
 
 export default PageTemplate
 
-export const pageQuery = graphql`
-  query($id: String!) {
-    wordpressWpTalk(id: { eq: $id }) {
-      title
-      content
-    }
-    wordpressPage(id: { eq: $id }) {
-      title
-      content
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query($id: String!) {
+//     wordpressPage(id: { eq: $id }) {
+//       title
+//       content
+//     }
+//   }
+// `

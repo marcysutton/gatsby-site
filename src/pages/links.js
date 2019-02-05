@@ -5,7 +5,7 @@ import BodyClassName from 'react-body-classname'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import List from '../components/list'
+import LinkList from '../components/link-list'
 
 const LinksPage = ({ data }) => (
     <BodyClassName className="page">
@@ -13,15 +13,17 @@ const LinksPage = ({ data }) => (
             <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
             <section className="generic-wrap breathing-room">
                 <h1>Links</h1>
+                <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow.<br />
+                All links open in new windows.</p>
                 <Img
                     className="floating-image width50"
                     fluid={data.linkPageImage.childImageSharp.fluid}
                     alt="Netmag layout: Marcy emceeing CascadiaFest in a Canadian Mounty costume with Matthew Claypotch on stage in a horse head"
                 />
                 <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow. All links open in new windows.</p>
-                <List 
+                <LinkList 
                     className="list-links no-background"
-                    items={ data.allWordpressWpLink.edges }
+                    items={ data.allLinksJson.edges }
                     listName="links"
                     allItems="true"
                     linkNewWindow="true" />
@@ -29,23 +31,25 @@ const LinksPage = ({ data }) => (
         </Layout>
     </BodyClassName>
 )
-
+/* 
+    
+    }*/
 export const pageQuery = graphql`
   query {
-    allWordpressWpLink {
-        edges {
-          node {
-            id
-            link
-            title
-          }
-        }
-    }
     linkPageImage: file(relativePath: { eq: "cascadiafest-netmag.PNG" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
           }
+        }
+    }
+    allLinksJson {
+        edges {
+            node {
+                id
+                link
+                name
+            }
         }
     }
   }

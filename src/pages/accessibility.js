@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 
 import Layout from '../components/layout'
@@ -26,24 +26,10 @@ const AccessibilityPage = ({ data }) => (
 
                 <h2>Learn more</h2>
                 
-                <p>For accessible design and development resources, visit my resources page: <Link to="/web-accessibility-resources">https://marcysutton.com/web-accessibility-resources</Link></p>
+                <p>For accessible design and development resources, visit my resources page: <Link to="/web-accessibility-resources">/web-accessibility-resources</Link></p>
             </section>
         </Layout>
     </BodyClassName>
 )
-
-export const query = graphql`
-  query {
-    allWordpressPage {
-        edges {
-          node {
-            id
-            slug
-            content
-          }
-        }
-      }
-  }
-`
 
 export default AccessibilityPage

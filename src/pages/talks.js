@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 
 const TalksPage = ({
     data: {
-        allWordpressWpTalk: { edges }
+        allMarkdownRemark: { edges }
     }
 }) => (
     <BodyClassName className="page">
@@ -21,7 +21,8 @@ const TalksPage = ({
                     className="media-grid-talks no-background"
                     items={ edges }
                     itemLabel="talks"
-                    directory="/talk" />
+                    directory="/talk"
+                    allItems />
             </section>
         </Layout>
     </BodyClassName>
@@ -29,14 +30,19 @@ const TalksPage = ({
 
 export const query = graphql`
   query {
-    allWordpressWpTalk {
+    allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: {fileAbsolutePath: {regex: "/talk-videos/"}}
+    ) {
         edges {
           node {
             id
-            slug
-            title
-            excerpt
-            content
+            frontmatter {
+                title
+                path
+                videoSrcURL
+                videoTitle
+            }
           }
         }
       }

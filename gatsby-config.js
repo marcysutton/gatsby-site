@@ -5,7 +5,7 @@ module.exports = {
     author: '@marcysutton',
     twitterUsername: "@marcysutton",
     socialDescription: "Musings about code, accessibility, music, cycling and life.",
-    defaultImage: `/images/ms-social-image-600.jpg`,
+    defaultImage: `/site-images/ms-social-image-600.jpg`,
     siteUrl: `https://www.marcysutton.com`,
   },
   plugins: [
@@ -21,7 +21,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/site-images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/src/gallery`,
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
       },
     },
     'gatsby-transformer-sharp',
@@ -35,36 +49,43 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/site-images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/posts`,
-        name: "markdown-pages",
+        name: "markdown-posts",
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/gallery`,
-        name: 'gallery',
+        path: `${__dirname}/talk-videos`,
+        name: "markdown-talks",
       }
     },
     `gatsby-transformer-remark`,
-    {
-      resolve: `gatsby-source-wordpress`,
-      options: {
-        // your wordpress source
-        baseUrl: `marcysutton.com`,
-        protocol: `https`,
-        // is it hosted on wordpress.com, or self-hosted?
-        hostingWPCOM: false,
-        // does your site use the Advanced Custom Fields Plugin?
-        useACF: false
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //     // your wordpress source
+    //     baseUrl: `104.248.233.194/wp`,
+    //     protocol: `http`,
+    //     // is it hosted on wordpress.com, or self-hosted?
+    //     hostingWPCOM: false,
+    //     // does your site use the Advanced Custom Fields Plugin?
+    //     useACF: false,
+    //     auth: {
+    //       // If auth.user and auth.pass are filled, then the source plugin will be allowed
+    //       // to access endpoints that are protected with .htaccess.
+    //       htaccess_user: "your-htaccess-username",
+    //       htaccess_pass: "your-htaccess-password",
+    //       htaccess_sendImmediately: false,
+    //     }
+    //   }
+    // },
     // {
     //   resolve: `gatsby-plugin-feed`,
     // },
