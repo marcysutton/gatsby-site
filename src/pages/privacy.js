@@ -24,8 +24,7 @@ const PrivacyPage = () => (
                 <p>Occasionally, I will compile aggregate statistics about the number of visitors this site receives and browsers being used. No personally identifying data is included in this type of reporting.</p>
                 <p>All of my activity falls within the bounds of the <a href="http://www.google.com/analytics/tos.html">Google Analytics Terms of Service</a>.</p>
                 <h2>Want to opt out of tracking?</h2>
-                { /* TODO: enable opt-out */ }
-                <p><a className="gaoo-opt-out google-analytics-opt-out" href="#">Opt out of tracking</a> (sets a cookie to disable my tracking).&nbsp;<em>This only works on marcysutton.com</em>.</p>
+                <p><a className="gaoo-opt-out google-analytics-opt-out" href="javascript:gaOptout();">Opt out of tracking</a> (sets a cookie to disable my tracking).&nbsp;<em>This only works on marcysutton.com</em>.</p>
                 <p>You can also <a href="http://www.google.com/privacy_ads.html">opt out of Google’s advertising tracking cookie</a> or <a href="http://tools.google.com/dlpage/gaoptout?hl=en">use a browser plugin to opt out of all Google Analytics tracking software</a>.</p>
             </section>
         </Layout>
