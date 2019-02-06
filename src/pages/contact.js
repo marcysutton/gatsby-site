@@ -18,9 +18,9 @@ const ContactPage = ({ data }) => (
                         <p><strong>All fields are required.</strong></p>
                         <div role="form" lang="en-US" dir="ltr">
                             <div className="screen-reader-response"></div>
-                            <form action="/thanks/" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                            <form key="contact-form" action="/thanks/" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="pooh-field">
                                 <p style={{ display: `none` }}>
-                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                    <label>Don’t fill this out if you're human: <input name="pooh-field" /></label>
                                 </p>
                                 <div className="response-output display-none"></div>
                                 <p>
@@ -40,6 +40,7 @@ const ContactPage = ({ data }) => (
                                     <textarea name="message" cols="40" rows="10" id="message" required="true"></textarea>
                                 </p>
                                 <p><input type="submit" value="Send" /></p>
+                                <input type="hidden" name="form-name" value="contact" />
                             </form>
                         </div>
                     </div>
