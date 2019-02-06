@@ -4,7 +4,7 @@ date: "2019-02-03"
 path: "/great-leadership-gatsby-and-girl-develop-it"
 ---
 
-On January 28, 2019, I started a new role as the Head of Learning at the remote startup, <a href="http://gatsbyjs.com" target="_blank" rel="noopener noreferrer">Gatsby.js</a>. So I’m a leader at my job now. I don’t manage people, but I’m the head of the learning experience and documentation of the Gatsby static website framework, which the founders and investors both consider core to their product mission.
+On January 28, 2019, I started a new role as the Head of Learning at the remote startup, <a href="http://gatsbyjs.com" target="_blank" rel="noopener noreferrer">Gatsby.js</a>. So I’m a leader at my job now. I don’t manage people, but I’m the head of the learning experience and documentation of the Gatsby website and app framework, which the founders and investors both consider core to their product mission.
 
 I joined the Gatsby.js team because it was an amazing opportunity to make an impact, and honestly I was ready for a change. I’ve loved migrating my WordPress website to Gatsby using new technologies like React.js, GraphQL and Cypress. Even in its earliest raw state, I felt it was my best and most fulfilling work in years. To be able to contribute my skills and make a difference with accessibility in the website-building platform I chose made me seriously consider leaving Deque, even though I wasn’t actively looking to leave. In this moment I feel as if I’ve finally paid my dues, moving through a few roles that were good and necessary for me to get here, but ultimately not the best fit for me.
 
