@@ -36,7 +36,7 @@ class PostTemplate extends Component {
                       items={posts}
                       listName="writing"
                       subtitle="More Posts"
-                      currentSlug={post.frontmatter.path} />
+                      pathname={this.props.location.pathname} />
               </aside>
             </div>
         </Layout>

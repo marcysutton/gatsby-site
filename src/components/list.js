@@ -5,14 +5,14 @@ import { Link } from 'gatsby'
 
 import MoreLink from './more-link'
 
-const List = ({ className, listName, subtitle, items, currentSlug = '', allItems = false, linkNewWindow = false }) => (
+const List = ({ className, listName, subtitle, items, pathname = '', allItems = false, linkNewWindow = false }) => (
     <div className={`list ${className}`}>
         { subtitle ? <h2 className="subhead">{subtitle}</h2> : null }
-        { /* .filter((items) => {
-                console.log(items.item, currentSlug)
-                return items
-            }) */ }
-        <ul>{ items.map((items) => {
+        <ul>{ items.filter((items) => {
+                if (pathname.indexOf(items.node.frontmatter.path) === -1) {
+                    return items.node
+                }
+            }).map((items) => {
             return <li key={ items.node.id }>
                 <Link className="item"
                     target={ linkNewWindow ? '_blank' : null }
