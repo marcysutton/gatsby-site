@@ -2,10 +2,10 @@
 title: "Live Coding Accessibility"
 date: "2018-06-28"
 path: "/live-coding-accessibility"
-coverImage: "https://marcysutton.com/wp-content/uploads/2018/06/smashing-talk.jpg"
+coverImage: "./smashing-talk.jpg"
 ---
 
-![Me presenting Empathy Driven Development on stage at Smashing Conf Toronto](https://marcysutton.com/wp-content/uploads/2018/06/smashing-talk-1024x768.jpg)
+![Me presenting Empathy Driven Development on stage at Smashing Conf Toronto](./smashing-talk-1024x768.jpg)
 
 Photo by [Tiho Tadic](https://twitter.com/tihoni/status/1012015009881378817 "Twitter opens in a new window")
 
@@ -40,7 +40,7 @@ For talks that are less technical in nature, half-finished materials that you ca
 
 In [Gemma O'Brien's amazing talk](https://smashingconf.com/speakers/gemma-obrien "Smashing Conf opens in a new window") at Smashing Toronto on lettering and drawing, she had some partially-finished pieces to complete in front of us with ink on paper, which was both soothing and inspiring to watch. She also did a great job of describing how to hold her pens and writing tools, although saying "it's easy" made me chuckle because she was such a natural at it. :)
 
-![](https://marcysutton.com/wp-content/uploads/2018/06/gemma-obrien-1024x768.jpg)
+![](./gemma-obrien-1024x768.jpg)
 Gemma O'Brien doing live calligraphy at Smashing Toronto, photo by Patricia Basuel - [@pbasuel](https://twitter.com/pbasuel/status/1012044502574489601)
 
 ## Describe your actions in detail

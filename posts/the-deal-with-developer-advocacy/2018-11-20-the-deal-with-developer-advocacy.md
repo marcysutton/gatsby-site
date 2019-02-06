@@ -2,10 +2,10 @@
 title: "The Deal with Developer Advocacy"
 path: "/the-deal-with-developer-advocacy"
 date: "2018-11-20"
-coverImage: "https://marcysutton.com/wp-content/uploads/2018/11/mr-rogers-quote.png"
+coverImage: "./mr-rogers-quote.png"
 ---
 
-![When I was a boy and I would see scary things in the news, my mother would say to me, "Look for the helpers. You will always find people who are helping.” ― Fred Rogers](https://marcysutton.com/wp-content/uploads/2018/11/mr-rogers-quote.png)
+![When I was a boy and I would see scary things in the news, my mother would say to me, "Look for the helpers. You will always find people who are helping.” ― Fred Rogers](./mr-rogers-quote.png)
 
 As a Developer Advocate, I often think about what impact I want to have and the best ways to accomplish that goal. My job is to meet developers where they’re at and inspire them to make more accessible websites and applications for people with disabilities; hopefully using [our tools](https://www.deque.com/tools/ "Link opens in a new window"), but success to me does not hinge on that.
 

@@ -2,10 +2,10 @@
 title: "Links vs. Buttons in Modern Web Applications"
 date: "2016-07-09"
 path: "/links-vs-buttons-in-modern-web-applications"
-coverImage: "https://marcysutton.com/wp-content/uploads/2016/07/link-vs-button-featured.png"
+coverImage: "./link-vs-button-featured.png"
 ---
 
-![Github interface buttons](https://marcysutton.com/wp-content/uploads/2016/07/link-or-button-1.jpg)
+![Github interface buttons](./link-or-button-1.jpg)
 
 Github: Links or buttons?
 
@@ -78,7 +78,7 @@ If a screen reader user calls tech support and gets instructions to "click the b
 
 Frameworks admittedly blur this line and make it easy to choose the wrong element, like the above `ng-click` example. We can use JavaScript to trigger asynchronous form submissions on any element we want (without a `form` tag, even, but you still need one). Similarly, we can initiate view changes without routing, even if it's best handled with link. Some elements are better for the job than others: it's all about taking advantage of the most native features of that element as possible.
 
-![Github with developer tools open showing buttons next to identical links](https://marcysutton.com/wp-content/uploads/2016/07/github-1.png "Open image in a new window")
+![Github with developer tools open showing buttons next to identical links](./github-1.png "Open image in a new window")
 Can you spot the difference?
 
 ### What can we do about it?

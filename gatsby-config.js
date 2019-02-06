@@ -66,26 +66,23 @@ module.exports = {
         name: "markdown-talks",
       }
     },
-    `gatsby-transformer-remark`,
-    // {
-    //   resolve: `gatsby-source-wordpress`,
-    //   options: {
-    //     // your wordpress source
-    //     baseUrl: `104.248.233.194/wp`,
-    //     protocol: `http`,
-    //     // is it hosted on wordpress.com, or self-hosted?
-    //     hostingWPCOM: false,
-    //     // does your site use the Advanced Custom Fields Plugin?
-    //     useACF: false,
-    //     auth: {
-    //       // If auth.user and auth.pass are filled, then the source plugin will be allowed
-    //       // to access endpoints that are protected with .htaccess.
-    //       htaccess_user: "your-htaccess-username",
-    //       htaccess_pass: "your-htaccess-password",
-    //       htaccess_sendImmediately: false,
-    //     }
-    //   }
-    // },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 1365,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-feed`,
     // },

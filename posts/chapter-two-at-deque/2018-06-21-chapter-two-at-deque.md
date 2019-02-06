@@ -2,10 +2,10 @@
 title: "Chapter Two at Deque"
 date: "2018-06-21"
 path: "/chapter-two-at-deque"
-coverImage: "https://marcysutton.com/wp-content/uploads/2018/06/woods1-web.jpg"
+coverImage: "./woods1-web.jpg"
 ---
 
-![Crouching down in the woods](https://marcysutton.com/wp-content/uploads/2018/06/woods1-web-crop-1024x468.jpg)
+![Crouching down in the woods](./woods1-web-crop-1024x468.jpg)
 
 After 2½ years at Deque Systems (pronounced D-Q, if you aren't already hip to it), I'm happy to say that they've approved a new role for me. As of Monday, June 25 2018, my job will be 100% Developer Advocate for Deque's accessibility services and products.
 

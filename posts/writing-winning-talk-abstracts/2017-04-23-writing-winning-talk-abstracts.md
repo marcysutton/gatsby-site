@@ -2,10 +2,10 @@
 title: "Writing winning abstracts"
 date: "2017-04-23"
 path: "/writing-winning-talk-abstracts"
-coverImage: "https://marcysutton.com/wp-content/uploads/2017/04/Excited-1.jpg"
+coverImage: "./Excited-1.jpg"
 ---
 
-![I'm so freakin' excited](https://marcysutton.com/wp-content/uploads/2017/04/Excited-1.jpg)
+![I'm so freakin' excited](./Excited-1.jpg)
 
 Do you want to speak at conferences more? Do you submit to CFPs but struggle to have your proposals accepted? Perhaps writing an abstract puts you off from submitting entirely...? Let's change that.
 

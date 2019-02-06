@@ -2,18 +2,18 @@
 title: "2016, a Year of Milestones"
 date: "2016-12-31"
 path: "/2016-a-year-of-milestones"
-coverImage: "https://marcysutton.com/wp-content/uploads/2016/12/trail-magic.jpg"
+coverImage: "./trail-magic.jpg"
 ---
 
 As this year winds to a close, I'm thinking back on a few significant changes I made in life in the past 12 months. I've really come to see the value in writing them down, as they might seem obvious now. But as time passes, inevitably, the details start to fade away. It also feels good to focus on the positive things and hang on to them as we face challenges in our changing world.
 
-![Trail magic in the North Cascades](https://marcysutton.com/wp-content/uploads/2016/12/trail-magic.jpg)
+![Trail magic in the North Cascades](./trail-magic.jpg)
 
 ## What were the biggest changes in your life this year?
 
 In early January 2016 I left my job on the Adobe Accessibility team to work on accessibility developer tools at Deque Systems (pronounced DQ–say it loud!). This was, of course, after taking some glorious winter time off with my partner in which we fell deeply in love…speaking to the importance of following your heart!
 
-![Cheering with beers on the day I left Adobe, at Route 2 Taproom near Stevens Pass.](https://marcysutton.com//wp-content/uploads/2016/12/marcy-beers.jpg)![Backcountry skiing in Eastern Oregon](https://marcysutton.com//wp-content/uploads/2016/12/marcus-backcountry-oregon.jpg)
+![Cheering with beers on the day I left Adobe, at Route 2 Taproom near Stevens Pass.](./marcy-beers.jpg)![Backcountry skiing in Eastern Oregon](./marcus-backcountry-oregon.jpg)
 
 Now, typically I'd prefer to be at a job longer than 6 months–but early into it I found myself unhappy with the projects and admittedly impatient about seeing an impact. I saw "moving the needle" at Adobe with my skills and interests potentially taking years to accomplish, yet I needed positive feedback much sooner to feel like I'd done my best work. When I was offered a position at Deque working on product development and evangelism for accessibility, I jumped at the chance.
 
@@ -47,7 +47,7 @@ I thoroughly enjoyed meeting many of you out there this year, and seeing friends
 
 If I'm ever having a bad day or I feel like I'm incapable of something, I try to think back to April 2016 when O'Reilly was kind enough to give me an award. I still can't quite believe that is a thing that happened. But there is a reminder sitting on my desk, and I [wrote about it](/oreilly-web-platform-award-omg/) to hang onto those memories. Still, wow.
 
-![Back at SFO and my waterproof bike bag is much heavier! Thanks for the recognition, @oreillymedia! #webPlatform #accessibility #fluentConf](https://marcysutton.com/wp-content/themes/v4/img/web-platform-award.jpg)
+![Back at SFO and my waterproof bike bag is much heavier! Thanks for the recognition, @oreillymedia! #webPlatform #accessibility #fluentConf](./web-platform-award.jpg)
 
 ### Publishing an Accessibility Course
 
@@ -57,7 +57,7 @@ I produced a lot less written content overall in 2016, something I'd like to cha
 
 My partner Marcus and I like to go out to dinner sometimes and talk about our big dreams. In 2016 we talked a lot about wanting to take longer trips to go skiing, snowboarding, mountain biking and motorcycling; buying property near one of our favorite ski areas; making progress in our careers. We were living together in a house belonging to my family, which had been a safety net for me for the past 4 years as I built my career and financial independence. We frequently talked about city life not being our favorite thing, and I found myself depressed on Saturdays if I hadn't escaped to the mountains.
 
-![Rainier at sunset in the mountains in Eastern Oregon](https://marcysutton.com/wp-content/uploads/2016/12/rainier-oregon.jpg)
+![Rainier at sunset in the mountains in Eastern Oregon](./rainier-oregon.jpg)
 
 It was on a trip to Revelstoke, BC in March that it happened–we found our dream house online in Bellingham, WA, and the wheels started turning. What if we combined our dream of owning property near a ski area with the practicality of moving to a smaller city with commerce, breweries, nearby airports and a rad mountain bike trail system? It seemed like a no brainer: ditch the traffic and the restaurants and the tech scene and escape to our new home 20 minutes from Canada and adjacent to our beloved North Cascades mountains. I figured I could always go visit Seattle if I needed a tech or Mom fix, and fly through Bellingham or Vancouver to conferences around the world. And I'm so happy we did.
 
@@ -65,7 +65,7 @@ It was on a trip to Revelstoke, BC in March that it happened–we found our drea
 
 One of the biggest highlights for me this year was getting a Bellingham visit from my friends Alice Boxhall, Jesse Beach and Ally Lent: the strong accessibility lady crew that I admire so much. The weather was pretty crappy but we made pie and roasted squash, ran around Lake Padden and chased the waning daylight driving up to Mt. Baker. I was so happy to spend quality time together with friends. Thanks again for visiting, ladies!
 
-![Lady friends](https://marcysutton.com/wp-content/uploads/2016/12/IMG_6615.jpg)
+![Lady friends](./IMG_6615.jpg)
 Jesse, Ally, Alice and Marcy on Highway 542 near Mt. Baker
 
 As I've gotten older I've started to look back at friendships that I let fizzle, and found it much easier to spot new opportunities to kindle relationships. I'm proud that my heart was open enough to make a new lady friend one day on a trail at Galbraith this year (and we went skiing yesterday!), and I also connected with a few amazing ladies here in Bellingham at a women in tech luncheon. Community is so important to remain connected in remote job isolation and to gain perspective from other people. I'll miss Girl Develop It Seattle since I had to resign from chapter leadership to move up here. But I'm cooking up something in 2017 that should provide an opportunity to give back in my new community, too.

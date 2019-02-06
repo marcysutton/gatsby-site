@@ -2,10 +2,10 @@
 title: "Accessibility is a Civil Right"
 date: "2017-01-16"
 path: "/accessibility-is-a-civil-right"
-coverImage: "https://marcysutton.com/wp-content/uploads/2017/01/tolerance-crop.png"
+coverImage: "./tolerance-crop.png"
 ---
 
-![A handshake with words overlaid: Respect, communicate, tolerate, collaborate, serve, connect, unite us](https://marcysutton.com/wp-content/uploads/2017/01/tolerance-crop.png)
+![A handshake with words overlaid: Respect, communicate, tolerate, collaborate, serve, connect, unite us](./tolerance-crop.png)
 
 On Martin Luther King, Jr. Day this year, amidst a giant shift in U.S. politics and societal norms, I want to take a moment to discuss accessibility as a civil right, something I learned from disability rights attorney [Lainey Feingold](http://www.lflegal.com/ "Link opens in a new window"). Starting with inspiration from [The King Center](http://www.thekingcenter.org/meaning-king-holiday "Link opens in a new window"):
 
