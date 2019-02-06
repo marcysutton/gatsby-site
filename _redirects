@@ -1,0 +1,5 @@
+/images/*       http://68.183.137.1/images/:splat
+/slides/*       http://68.183.137.1/slides/:splat
+/wp-content/*   http://68.183.137.1/wp-content/:splat
+/oldiste/       http://68.183.137.1/oldsite/
+/oldsite/*      http://68.183.137.1/oldsite/:splat
