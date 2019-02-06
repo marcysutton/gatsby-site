@@ -13,45 +13,33 @@ const ContactPage = ({ data }) => (
                 <section className="page-post-detail contact-detail">
                     <h1>Holla Back</h1>
                     <div>
-                        <p>This form is temporarily disabled while I migrate my website; please contact me <a href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">on Twitter</a> in the meantime. Thank you for your patience!</p>
-                        {/* <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p> */}
-                        {/* <p><strong>All fields are required.</strong></p> */}
+                        {/* <p>This form is temporarily disabled while I migrate my website; please contact me <a href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">on Twitter</a> in the meantime. Thank you for your patience!</p> */}
+                        <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p>
+                        <p><strong>All fields are required.</strong></p>
                         <div role="form" lang="en-US" dir="ltr">
                             <div className="screen-reader-response"></div>
-                            <form action="" disabled method="post" noValidate="novalidate">
-                            {/* <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" defaultValue="2138" />
-                                <input type="hidden" name="_wpcf7_version" defaultValue="4.7" />
-                                <input type="hidden" name="_wpcf7_locale" defaultValue="en_US" />
-                                <input type="hidden" name="_wpcf7_unit_tag" defaultValue="f2138-o1" />
-                                <input type="hidden" name="_wpnonce" defaultValue="337f01b717" />
-                            </div> */}
-                            <div className="response-output display-none"></div>
-                            <p>
-                                <label htmlFor="your-name">Your Name</label><br />
-                                <span className="form-control-wrap your-name">
-                                    <input disabled type="text" name="your-name" size="40" className="form-control text validates-as-required" id="your-name" aria-required="true" aria-invalid="false" />
-                                </span>
-                            </p>
-                            <p>
-                                <label htmlFor="your-email">Your Email</label><br />
-                                <span className="form-control-wrap your-email">
-                                    <input disabled type="email" name="your-email" size="40" className="form-control text email validates-as-required validates-as-email" id="your-email" aria-required="true" aria-invalid="false" />
-                                </span>
-                            </p>
-                            <p>
-                                <label htmlFor="your-subject">Your Subject</label><br />
-                                <span className="form-control-wrap your-subject">
-                                    <input disabled type="text" name="your-subject" size="40" className="form-control text validates-as-required" id="your-subject" aria-required="true" aria-invalid="false" />
-                                </span>
-                            </p>
-                            <p>
-                                <label htmlFor="your-message">Your Message</label><br />
-                                <span className="form-control-wrap your-message">
-                                    <textarea disabled name="your-message" cols="40" rows="10" className="form-control textarea validates-as-required" id="your-message" aria-required="true" aria-invalid="false"></textarea>
-                                </span>
-                            </p>
-                            <p><input type="submit" disabled value="Send" className="form-control submit" /></p>
+                            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                <p style={{ display: `none` }}>
+                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                </p>
+                                <div className="response-output display-none"></div>
+                                <p>
+                                    <label htmlFor="name">Your Name</label><br />
+                                    <input type="text" name="name" size="40" id="name" aria-required="true" />
+                                </p>
+                                <p>
+                                    <label htmlFor="email">Your Email</label><br />
+                                    <input type="email" name="email" size="40" id="email" aria-required="true" />
+                                </p>
+                                <p>
+                                    <label htmlFor="subject">Your Subject</label><br />
+                                    <input type="text" name="subject" size="40" id="subject" aria-required="true" />
+                                </p>
+                                <p>
+                                    <label htmlFor="message">Your Message</label><br />
+                                    <textarea name="message" cols="40" rows="10" id="message" aria-required="true"></textarea>
+                                </p>
+                                <p><input type="submit" disabled value="Send" className="form-control submit" /></p>
                             </form>
                         </div>
                     </div>
@@ -67,7 +55,6 @@ const ContactPage = ({ data }) => (
                             username: 'marcysutton',
                             height: '800'
                         }}
-                        onLoad={() => console.log('Timeline is loaded!')}
                     />
                 </aside>
             </div>
