@@ -804,6 +804,7 @@ h1.site-logo {
 }
 .list li a.item {
   display: block;
+  margin-bottom: 0.5em;
 }
 .media-grid {
   background-color: #484949;
