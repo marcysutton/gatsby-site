@@ -6,7 +6,7 @@ import MoreLink from './more-link'
 
 const LinkList = ({ className, listName, subtitle, items, allItems = false, linkNewWindow = false }) => (
     <div className={`list ${className}`}>
-        <h2 className="subtitle">{subtitle}</h2>
+        <h2 className="subhead">{subtitle}</h2>
         <ul>{ items.map((items) => {
             return <li key={ items.node.id }>
                 <a className="item"
