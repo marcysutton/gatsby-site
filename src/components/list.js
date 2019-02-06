@@ -12,6 +12,7 @@ const List = ({ className, listName, subtitle, items, pathname = '', allItems = 
                 if (pathname.indexOf(items.node.frontmatter.path) === -1) {
                     return items.node
                 }
+                return null
             }).map((items) => {
             return <li key={ items.node.id }>
                 <Link className="item"

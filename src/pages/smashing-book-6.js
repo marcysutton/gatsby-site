@@ -10,7 +10,7 @@ const SmashingBook6Page = ({ data }) => (
   <BodyClassName className="page">
     <Layout>
         <SEO
-          title="Smashing Book 6: New Frontiers in Web Design"
+          title="Smashing Book 6: New Frontiers in Web"
           description="I wrote a chapter in the latest Smashing Book on Accessibility in Single-Page Applications"
           image={data.featureImage.childImageSharp.fixed.src}
           keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />

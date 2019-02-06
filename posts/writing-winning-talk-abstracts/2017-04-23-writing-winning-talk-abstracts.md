@@ -53,7 +53,7 @@ After getting turned down as a speaker at JSConf US, I finally "broke in" after:
 
 By showing up to the event even though my proposal didn't get accepted, I learned a lot about JavaScript and expanded my network. I met people who were on the speaker committee without realizing it, and I even made a few rad friends! I made an investment in my career that year by taking time off and paying my own way to the conference. When I submitted again the next year, I finally made it into the A track where they paid for speaker travel. I worked hard to get there, so when it finally happened I'd earned it.
 
-[![Welcome to Marklar](https://marcysutton.com/wp-content/uploads/2017/04/marklar-1.jpg)](http://marcysutton.github.io/accessibility-of-web-components/slides.html#/ "Link opens in a new window")
+[![Welcome to Marklar](./marklar-1.jpg)](http://marcysutton.github.io/accessibility-of-web-components/slides.html#/ "Link opens in a new window")
 
 My JSConf B-Track Debut. There was IRL taco delivery involved
 
@@ -89,7 +89,7 @@ I got a lot of "no"s when I was starting out. Someone said I should ask for feed
 
 > #### “Accessibility has been solved. We want more original topics.”
 
-![What?](https://marcysutton.com/wp-content/uploads/2017/04/what.gif)
+![What?](./what.gif)
 
 I changed my approach to accessibility talks after that. I started focusing on the accessibility implications of newer technologies, like Shadow DOM or client-rendered JavaScript frameworks, illustrating how that conference had it wrong. Accessibility hasn't been "solved", because people with disabilities are still presented with barriers on the web all the time. I see that as incentive to keep speaking, keep working, and keep contributing to accessibility. We need all the help we can get.
 
@@ -125,6 +125,6 @@ Hopefully this is helpful to you. I really enjoy public speaking and I hope that
 
 I once attended a conference in New Zealand where I met a speaker who suggested "maybe you can email the organizers and get in, I think they may have room." I did, feeling in the moment like I didn't have much to lose by asking, and their "bless your heart" response was more than kind. But no. After attending and looking back on it years later, I know that particular event is invite-only and highly coveted among established public speakers. I had zero chance and put myself out there for no reason, although my networking drive at that time was extremely pivotal in my career. I still dream about speaking there some day.
 
-![Webstock Speaker Dinner](https://marcysutton.com/wp-content/uploads/2017/04/webstock-dinner.jpg)
+![Webstock Speaker Dinner](./webstock-dinner.jpg)
 
 Crashing a speaker dinner in New Zealand

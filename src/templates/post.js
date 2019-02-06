@@ -21,7 +21,7 @@ class PostTemplate extends Component {
             title={ AllHtmlEntities.decode(post.frontmatter.title) }
             description={ AllHtmlEntities.decode(post.excerpt) }
             keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']}
-            image={ post.frontmatter.coverImage } />
+            image={ (post.frontmatter.coverImage && post.frontmatter.coverImage.childImageSharp.fixed.src) } />
             <div className="generic-wrap page-post-wrap">
               <section className="page-post-detail breathing-room">
                   <article>
@@ -59,7 +59,13 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        coverImage
+        coverImage {
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
       excerpt
       html
