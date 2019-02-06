@@ -18,28 +18,28 @@ const ContactPage = ({ data }) => (
                         <p><strong>All fields are required.</strong></p>
                         <div role="form" lang="en-US" dir="ltr">
                             <div className="screen-reader-response"></div>
-                            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                            <form action="/thanks/" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                                 <p style={{ display: `none` }}>
                                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                 </p>
                                 <div className="response-output display-none"></div>
                                 <p>
                                     <label htmlFor="name">Your Name</label><br />
-                                    <input type="text" name="name" size="40" id="name" aria-required="true" />
+                                    <input type="text" name="name" size="40" id="name" required="true" />
                                 </p>
                                 <p>
                                     <label htmlFor="email">Your Email</label><br />
-                                    <input type="email" name="email" size="40" id="email" aria-required="true" />
+                                    <input type="email" name="email" size="40" id="email" required="true" />
                                 </p>
                                 <p>
                                     <label htmlFor="subject">Your Subject</label><br />
-                                    <input type="text" name="subject" size="40" id="subject" aria-required="true" />
+                                    <input type="text" name="subject" size="40" id="subject" required="true" />
                                 </p>
                                 <p>
                                     <label htmlFor="message">Your Message</label><br />
-                                    <textarea name="message" cols="40" rows="10" id="message" aria-required="true"></textarea>
+                                    <textarea name="message" cols="40" rows="10" id="message" required="true"></textarea>
                                 </p>
-                                <p><input type="submit" disabled value="Send" className="form-control submit" /></p>
+                                <p><input type="submit" value="Send" /></p>
                             </form>
                         </div>
                     </div>
