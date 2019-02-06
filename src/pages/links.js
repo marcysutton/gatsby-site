@@ -35,7 +35,7 @@ const LinksPage = ({ data }) => (
     }*/
 export const pageQuery = graphql`
   query {
-    linkPageImage: file(relativePath: { eq: "cascadiafest-netmag.PNG" }) {
+    linkPageImage: file(relativePath: { eq: "cascadiafest-netmag.jpg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
