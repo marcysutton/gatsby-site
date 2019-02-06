@@ -33,7 +33,7 @@ const Layout = ({ children, pathname }) => (
          aria-hidden="true" focusable="false" role="none">
           <defs>
           <symbol id="icon-triangle-right" width="1024" height="1024" viewBox="0 0 1024 1024">
-            <path fill="#000" d="M1024 512l-921.6 512v-1024l921.6 512z"></path>
+            <path d="M1024 512l-921.6 512v-1024l921.6 512z"></path>
             </symbol>
           </defs>
         </svg>
