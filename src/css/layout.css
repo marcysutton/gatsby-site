@@ -619,7 +619,6 @@ a, a:link, a:visited {
 }
 
 .site-header {
-  /* background-image: url(../site-images/blurryWall.jpg); */
   position: relative;
 }
 .site-header .header-bg > div {

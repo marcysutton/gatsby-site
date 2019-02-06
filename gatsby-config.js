@@ -5,8 +5,7 @@ module.exports = {
     author: '@marcysutton',
     twitterUsername: "@marcysutton",
     socialDescription: "Musings about code, accessibility, music, cycling and life.",
-    defaultImage: `/site-images/ms-social-image-600.jpg`,
-    siteUrl: `https://www.marcysutton.com`,
+    siteUrl: `https://marcysutton.com`,
   },
   plugins: [
     {

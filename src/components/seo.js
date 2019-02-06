@@ -10,7 +10,7 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
       render={data => {
         const seo = {
           description: description || data.site.siteMetadata.socialDescription,
-          image: `${image || data.site.siteMetadata.defaultImage}`,
+          image: `${image || data.defaultImage.childImageSharp.fixed.src}`,
         }
         const defaultTitle = data.site.siteMetadata.title
         const pageTitle = title ? `${title} | ${defaultTitle}` : defaultTitle
@@ -105,9 +105,16 @@ const detailsQuery = graphql`
         title
         description
         author
-        defaultImage
         twitterUsername
         socialDescription
+        siteUrl
+      }
+    }
+    defaultImage: file(relativePath: { eq: "ms-social-image-600.jpg" }) {
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }

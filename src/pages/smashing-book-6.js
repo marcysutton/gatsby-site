@@ -9,7 +9,11 @@ import SEO from '../components/seo'
 const SmashingBook6Page = ({ data }) => (
   <BodyClassName className="page">
     <Layout>
-        <SEO title="Smashing Book 6" keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
+        <SEO
+          title="Smashing Book 6: New Frontiers in Web Design"
+          description="I wrote a chapter in the latest Smashing Book on Accessibility in Single-Page Applications"
+          image={data.featureImage.childImageSharp.fixed.src}
+          keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
         <section className="generic-wrap">
           <div className="breathing-room">
             <h1>Smashing Book 6: New Frontiers in Web Design</h1>
@@ -58,6 +62,13 @@ export const pageQuery = graphql`
             ...GatsbyImageSharpFluid
           }
         }
+    }
+    featureImage: file(relativePath: { eq: "smashing-book-6.jpg" }) {
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+      }
     }
   }
 `
