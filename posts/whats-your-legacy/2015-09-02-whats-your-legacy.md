@@ -2,12 +2,12 @@
 title: "What's Your Legacy?"
 date: "2015-09-02"
 path: "/whats-your-legacy"
-coverImage: "https://marcysutton.com/images/wally-pct2.jpg"
+coverImage: "./wally-pct2.jpg"
 ---
 
 _This post originally appeared on [The Pastry Box Project](https://the-pastry-box-project.net/marcy-sutton/2015-august-26) on August 26, 2015._
 
-![Wally on the Pacific Crest Trail](https://marcysutton.com/images/wally-pct2.jpg)
+![Wally on the Pacific Crest Trail](./wally-pct2.jpg)
 
 Rest-in-peace Wally, my beloved dog, seen here pulling me up a mountain trail in Washington State this summer.
 
@@ -27,7 +27,7 @@ Returning home after the trip to a new job and title, Accessibility Engineer at 
 
 The day after the conference, my travel partner and I sat drinking tiny cups of espresso with our bikes and backpacks on the platform at Amsterdam’s Centraal Station. And who did we happen to see? Mary Shaw and her partner, Roy, with their tandem bike packed in two suitcases, lining up for the fast train to Belgium. Despite feeling starstruck, I felt compelled to tell Mary and Roy about an experience I’d had speaking to an elementary school science class.
 
-![Me and Mary Shaw on the platform at Amsterdam Centraal](https://marcysutton.com/images/marcy-maryshaw.jpg)
+![Me and Mary Shaw on the platform at Amsterdam Centraal](./marcy-maryshaw.jpg)
 
 Me and Mary Shaw on a rail platform at Amsterdam Centraal
 

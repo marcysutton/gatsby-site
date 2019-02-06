@@ -2,12 +2,12 @@
 title: "This is what a developer looks like."
 date: "2016-01-05"
 path: "/this-is-what-a-developer-looks-like"
-coverImage: "https://marcysutton.com/wp-content/uploads/2016/01/smashingconf-whistler.jpg"
+coverImage: "./smashingconf-whistler.jpg"
 ---
 
 _This post was [originally published](https://the-pastry-box-project.net/marcy-sutton/2015-december-26) on The Pastry Box Project on December 26, 2015._
 
-![Me on stage at SmashingConf Whistler](https://marcysutton.com/wp-content/uploads/2016/01/smashingconf-whistler.jpg)
+![Me on stage at SmashingConf Whistler](./smashingconf-whistler.jpg)
 
 Have you ever felt excluded at an event even though you were supposed to be there, like a meetup or a conference after-party? Perhaps you gave a conference talk and one or two negative comments ate away at you, making it difficult to socialize. Or maybe someone assumed you were a developer’s spouse, or in another profession entirely, before you were assumed to be a developer.
 

@@ -713,7 +713,7 @@ h1.site-logo {
 
 .more-link  {
   font-weight: 500;
-  margin: 2em 0;
+  margin: 2em 0 0em;
 }
 .more-link a {
   text-decoration: none;
@@ -752,6 +752,7 @@ h1.site-logo {
 .feature p {
   font-style: italic;
   font-weight: 500;
+  margin-bottom: 0;
 }
 .floating-image {
   border: 1px solid #ccc;
@@ -1031,6 +1032,16 @@ h1.site-logo {
 }
 @media (max-width: 671px) {
   .breathing-room {
-    padding: 1em 0.5em 2em;
+    padding: 1em;
   }
+  .more-link {
+    margin-bottom: 1em;
+  }
+}
+.gatsby-resp-image-wrapper {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.inline-image-grid {
+  margin-bottom: 1em;
 }

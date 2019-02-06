@@ -35,6 +35,7 @@ A quick look at the top-level files and directories you'll see in this project.
     ├── node_modules
     ├── src
     ├── posts
+    ├── talk-videos
     ├── cypress
     ├── .gitignore
     ├── .prettierrc

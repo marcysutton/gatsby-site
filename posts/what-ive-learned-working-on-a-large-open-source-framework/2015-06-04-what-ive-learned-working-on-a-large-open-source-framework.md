@@ -2,12 +2,12 @@
 title: "What I’ve Learned Working on a Large Open-Source Framework"
 date: "2015-06-04"
 path: "/what-ive-learned-working-on-a-large-open-source-framework"
-coverImage: "https://marcysutton.com/wp-content/uploads/2016/01/angular_material.png"
+coverImage: "./angular_material.png"
 ---
 
 _This post was migrated from its original location on the [Substantial](http://substantial.com/) blog._
 
-![Angular Material Design with developer tools visible](https://marcysutton.com/wp-content/uploads/2016/01/angular_material.png)
+![Angular Material Design with developer tools visible](./angular_material.png)
 
 For 10 months, I contributed full-time as a developer and accessibility specialist on [Angular Material](https://material.angularjs.org), an official Google implementation of [Material Design](https://www.google.com/design/spec/material-design/introduction.html) in AngularJS. The goal of Material Design is to create a cohesive design language across mobile and web platforms, focused on _material_ as a metaphor. Angular Material provides a set of UI components and layout attributes in the Material Design style for use in Angular applications. In this post, I’ll detail some of the things I learned working on such a high-profile, open source framework.
 

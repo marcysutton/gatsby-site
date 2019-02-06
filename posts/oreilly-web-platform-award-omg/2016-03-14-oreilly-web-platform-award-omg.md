@@ -2,10 +2,10 @@
 title: "I won an O'Reilly Web Platform Award. OMG."
 date: "2016-03-14"
 path: "/oreilly-web-platform-award-omg"
-coverImage: "https://marcysutton.com/wp-content/uploads/2016/03/fluent-web-platform-award2.jpg"
+coverImage: "./fluent-web-platform-award2.jpg"
 ---
 
-![The Web Platform Awards at Fluent Conf](https://marcysutton.com/wp-content/uploads/2016/03/fluent-web-platform-award2.jpg)
+![The Web Platform Awards at Fluent Conf](./fluent-web-platform-award2.jpg)
 
 This past week, I experienced something quite remarkable: [O'Reilly](http://www.oreilly.com/ "Link opens in a new window"), the organization known (to me) for web development textbooks with animals on the cover, gave me a [Web Platform Award](https://twitter.com/fluentconf/status/707994740000620544) for my work on accessibility. As if that wasn't breathtaking enough on its own, my fellow award-winners were none other than [Molly Holzschlag](https://about.me/mollydotcom "Link opens in a new window") and [Alex Russell](http://infrequently.org/ "Link opens in a new window"), two web champions I still can't believe are my colleagues.
 

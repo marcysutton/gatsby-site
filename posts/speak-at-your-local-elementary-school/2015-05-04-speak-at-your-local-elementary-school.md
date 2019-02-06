@@ -2,18 +2,18 @@
 title: "Speak at your local elementary school."
 date: "2015-05-04"
 path: "/speak-at-your-local-elementary-school"
-coverImage: "https://marcysutton.com/wp-content/uploads/2015/05/school-talk-standup-desk.jpg"
+coverImage: "./school-talk-standup-desk.jpg"
 ---
 
 Last summer, a 4th and 5th grade science teacher from rural Oregon emailed me to ask if I would speak to his class over a Google Hangout. The goal was to increase awareness about STEM opportunities for all of his students, but particularly the girls. By introducing them to a female role model, perhaps they would be inspired to pursue careers as computer programmers. (When I was in 7th grade, a photojournalist came to one of my classes. I was so intrigued I got my first college degree in photojournalism.)
 
-![Standing at my desk](https://marcysutton.com/wp-content/uploads/2015/05/school-talk-standup-desk.jpg)
+![Standing at my desk](./school-talk-standup-desk.jpg)
 
 At my desk on a Google Hangout (Thanks Jennifer Hayes for the photo)
 
 I spoke with Dylan McCann's class for 30 minutes from my stand-up desk at Substantial. I'd put together a short [slide deck](http://marcysutton.github.io/how-did-i-get-here/#/) to provide visuals with some information about my background, starting with my earliest creative spark: a family newsletter I made with Microsoft Publisher called _Marci's Monthly_ (back when I spelled my name with an _i_). The students came very prepared with questions and we had a great time exchanging ideas.
 
-[![My slide deck, saying "When I was your age..."](https://marcysutton.com/wp-content/uploads/2015/05/when-i-was-your-age.jpg)](http://marcysutton.github.io/how-did-i-get-here/#/ "Slide deck")
+[![My slide deck, saying "When I was your age..."](./when-i-was-your-age.jpg)](http://marcysutton.github.io/how-did-i-get-here/#/ "Slide deck")
 
 When I was your age...I had a newsletter called Marci's Monthly
 

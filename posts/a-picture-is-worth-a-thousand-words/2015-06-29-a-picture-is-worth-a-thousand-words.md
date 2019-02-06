@@ -2,7 +2,7 @@
 title: "On writing better captions for images"
 date: "2015-06-29"
 path: "/a-picture-is-worth-a-thousand-words"
-coverImage: "https://marcysutton.com/wp-content/uploads/2015/06/11154933_716230223118_3831380375912973928_o.jpg"
+coverImage: "./11154933_716230223118_3831380375912973928_o.jpg"
 ---
 
 ## A picture is worth a thousand words
@@ -15,7 +15,7 @@ Some of the most successful captions I’ve read recently were by my fellow grad
 
 When writing a caption, how much detail is enough for an image? Well, it depends on the image. Some images are used only as space filler, contributing nothing to an article or webpage. They could be marked up in HTML with an empty `alt` attribute and no one would miss anything, because for some reason people pay money to put terrible stock photography into prime online real estate.
 
-[![An extremely awkward stock photo of a lion](https://marcysutton.com/wp-content/uploads/2015/06/stock-lion.jpg)](http://awkwardstockphotos.com/post/119460646226)
+[![An extremely awkward stock photo of a lion](./stock-lion.jpg)](http://awkwardstockphotos.com/post/119460646226)
 
 How does one write a caption for a stock photo? Should you comment on why a grown lion is shredding the gnar on a mountain bike or is it irrelevant to the rest of the webpage? How does a cat shift with no thumbs?
 
@@ -25,7 +25,7 @@ I will admit it takes a disciplined person to always provide detailed captions f
 
 Turns out, writing captions when the information is fresh in your mind not only benefits your friends with disabilities, it can also help you in the future by providing a written record in more detail. In your amazing travel photo, was it a good day? At what bridge did you find that important scene, and what was that local food again? Assembling more of a complete story comes easier when you do it right away, and the text can provide additional data later.
 
-![Dogs in a van on their way to the park, including my dog Wally.](https://marcysutton.com/wp-content/uploads/2015/06/11154933_716230223118_3831380375912973928_o.jpg)
+![Dogs in a van on their way to the park, including my dog Wally.](./11154933_716230223118_3831380375912973928_o.jpg)
 
 For a detailed caption, how much information is “enough”? Let’s look at a photograph I received from my dog walker, Ian, of his group on their way to the park, seen above. My dog Wally stands in the left side of the frame, surrounded by six other dogs. When I shared the photo on Facebook, I tried to write a really good caption. The thing is, an image like this one contains infinite detail: each dog is a different breed, in a certain position, making a face with their eyebrows blowing in one direction, and one is plotting to escape. Colored leashes appear in the foreground with windows in the background looking through to other vehicles and trees. Here’s the caption I wrote at the time, requiring a few edits as I noticed details I'd missed (including an entire dog):
 
