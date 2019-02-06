@@ -58,7 +58,7 @@ const AboutPage = () => (
                                 <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                             </ul>
-                            <Img fluid={data.biking.childImageSharp.fluid} alt="Biking in San Diego during CSUN" />
+                            <Img style={{marginBottom: `1em`}} fluid={data.biking.childImageSharp.fluid} alt="Biking in San Diego during CSUN" />
                             <Img fluid={data.snow.childImageSharp.fluid} alt="Splitboarding at Anthony Lakes, OR" />
                         </aside>
                     </div>

@@ -725,6 +725,15 @@ h1.site-logo {
   font-size: 70%;
   margin-left: 0.25em;
 }
+.icon {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 6px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 .generic-wrap {
   background-color: #fff;
   min-height: 300px;
@@ -917,7 +926,7 @@ h1.site-logo {
   padding: 0;
 }
 .page-post-detail {
-  padding: 2em;
+  padding: 2em 2em 4em;
 }
 .contact-detail {
   background-color: #efefef;
@@ -1027,9 +1036,12 @@ h1.site-logo {
   }
 }
 
-
 .breathing-room {
   padding: 2em;
+}
+.generic-wrap .breathing-room,
+.media-photos-home.breathing-room {
+  padding-bottom: 4em;
 }
 @media (max-width: 671px) {
   .breathing-room {

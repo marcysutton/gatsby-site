@@ -20,7 +20,7 @@ const Footer = ({ className }) => (
         <div className="footer-copyright">
             <p className="copyright">
                 Made with ♥ and <a href="https://gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby.js</a>.
-                &copy; 2003-{date.getFullYear()} Marcy Sutton.
+                &copy;&nbsp;2003-{date.getFullYear()} Marcy Sutton.
             </p>
         </div>
     </footer>

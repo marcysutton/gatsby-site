@@ -10,7 +10,8 @@ const SmashingBook6Page = ({ data }) => (
   <BodyClassName className="page">
     <Layout>
         <SEO title="Smashing Book 6" keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
-        <section className="generic-wrap breathing-room">
+        <section className="generic-wrap">
+          <div className="breathing-room">
             <h1>Smashing Book 6: New Frontiers in Web Design</h1>
             <Img
                 className="floating-image"
@@ -22,7 +23,7 @@ const SmashingBook6Page = ({ data }) => (
                 fluid={data.smashingChapterImage.childImageSharp.fluid}
                 alt="My book chapter on Accessibility in the Time of Single Page Apps"
             />
-            <p>I wrote a book chapter on Accessibility in JavaScript Apps in the latest    hardcover book from Smashing Magazine, <a target="_blank" rel="noopener noreferrer" href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/">New Frontiers in Web Design</a>. I'm thrilled to have been included as an author in this beautiful hardcover book! My chapter sits amongst others on modern web development topics, such as using CSS Grid, Service Workers and Progressive Web Apps, Asset Loading, Conversational UIs, and more.</p>
+            <p>I wrote a book chapter on Accessibility in JavaScript Apps in the latest hardcover book from Smashing Magazine, <a target="_blank" rel="noopener noreferrer" href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/">New Frontiers in Web Design</a>. I'm thrilled to have been included as an author in this beautiful hardcover book! My chapter sits amongst others on modern web development topics, such as using CSS Grid, Service Workers and Progressive Web Apps, Asset Loading, Conversational UIs, and more.</p>
 
             <p>In my chapter, I wrote about the specific aspects of accessibility to consider when developing a predominantly <a target="_blank" rel="noopener noreferrer" href="https://www.smashingmagazine.com/2015/05/client-rendered-accessibility/">client-rendered</a> website or application. I covered things like focus management, HTML semantics, announcements, and testing. There are a few different code examples in the chapter written in React.js, Vue, jQuery, vanilla JavaScript, HTML and CSS. But this topic is bigger than any one framework or library, so I intentionally focused on the user impact when the DOM is rendered and manipulated dynamically with JavaScript. It's worth remembering that users don't typically notice or care how a website was built; they only care if they can use it.</p>
             
@@ -36,6 +37,7 @@ const SmashingBook6Page = ({ data }) => (
 
             <p>You can purchase a hardcover copy from Smashing for $39 US, or $19 US for a digital copy. Do yourself a favor and pick up a copy today! <a target="_blank" rel="noopener noreferrer" href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/">https://www.smashingmagazine.com/2018/09/smashing-book-6-release/</a></p>
             <div style={{clear: `both`}}></div>
+        </div>
       </section>
     </Layout>
   </BodyClassName>
