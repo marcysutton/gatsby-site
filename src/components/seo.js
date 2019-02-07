@@ -10,7 +10,6 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
       render={data => {
         const seo = {
           description: description || data.site.siteMetadata.socialDescription,
-          siteUrl: data.site.siteMetadata.siteUrl,
           image: `${data.site.siteMetadata.siteUrl }${image || data.defaultImage.childImageSharp.fixed.src}`,
           fbImage: `${data.site.siteMetadata.siteUrl }${image || data.squareImage.childImageSharp.fixed.src}`
         }
