@@ -29,10 +29,10 @@ So that brings me back to what I feel are the necessary values and actions of a 
     <li>Learning and growing from your mistakes.</li>
     <li>Fostering a culture where members feel empowered and trusted.</li>
     <li>Doing all you can to make people feel safe.</li>
-    <li>Backing up your words with actions in a timely manner.</li>
+    <li>Backing up your words with actions in a timely and meaningful manner.</li>
 </ul>
 
-Even though it’s okay to disagree with people sometimes (we’re human), we still have to be empathetic to the good faith experiences of those around us. Because a lot of it is about power; some people hold theirs over others while simultaneously denying its existence. I’ve seen leaders point blame at anyone and everyone but themselves even when they’re the core of the problem; it makes for the least satisfying game of BINGO ever (“it’s the website’s fault! It’s Salesforce!” “It’s your fault for complaining!”). An inability to recognize others’ pain and the harm you’ve caused to them is gaslighting, and let me tell you that Girl Develop It is the last organization where I expected to see that.
+Even though it’s okay to disagree with people sometimes (we’re human), we still have to be empathetic to the good faith experiences of those around us. Because a lot of it is about power; some people hold theirs over others while simultaneously denying its existence. I’ve seen leaders point blame at anyone and everyone but themselves even when they’re the core of the problem; it makes for the least satisfying game of BINGO ever (“it’s the website’s fault!” “We'll fix it with Salesforce!” “It’s the chapter leaders' fault for complaining!”). An inability to recognize others’ pain and the harm you’ve caused to them is gaslighting, and let me tell you that Girl Develop It is the last organization where I expected to see that.
 
 ## The power we wield
 This reminds me of the <a href="https://www.google.com/search?ei=Q_RVXOGFEtOM0PEPjsq9qAI&amp;q=js-js-js+debate&amp;oq=js-js-js+debate&amp;gs_l=psy-ab.3...9501.10107..10275...0.0..0.78.458.7......0....1..gws-wiz.......0i71j0i8i30j33i22i29i30j33i160.PE8BtGIzlz4" rel="noopener noreferrer" target="_blank">debate over JS-JS-JS</a> vs. the traditional web architecture of HTML, CSS and JavaScript, which in my opinion is really difficult to solve. The web is more capable and complex than it used to be, and there are bajillions of ways to create web experiences–including (and often excluding) accessible ones. 
