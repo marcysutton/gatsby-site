@@ -10,7 +10,9 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
       render={data => {
         const seo = {
           description: description || data.site.siteMetadata.socialDescription,
+          siteUrl: data.site.siteMetadata.siteUrl,
           image: `${data.site.siteMetadata.siteUrl }${image || data.defaultImage.childImageSharp.fixed.src}`,
+          fbImage: `${data.site.siteMetadata.siteUrl }${image || data.squareImage.childImageSharp.fixed.src}`
         }
         const defaultTitle = data.site.siteMetadata.title
         const pageTitle = title ? `${title} | ${defaultTitle}` : defaultTitle
@@ -35,7 +37,11 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
               },
               {
                 property: 'og:image',
-                content: seo.image,
+                content: seo.fbImage,
+              },
+              {
+                property: 'og:url',
+                content: seo.siteUrl,
               },
               {
                 property: 'og:type',
@@ -111,6 +117,13 @@ const detailsQuery = graphql`
       }
     }
     defaultImage: file(relativePath: { eq: "ms-social-image-600.jpg" }) {
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    squareImage: file(relativePath: { eq: "marcy-sutton-com.png" }) {
       childImageSharp {
         fixed {
           ...GatsbyImageSharpFixed
