@@ -10,7 +10,7 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
       render={data => {
         const seo = {
           description: description || data.site.siteMetadata.socialDescription,
-          image: `${image || data.defaultImage.childImageSharp.fixed.src}`,
+          image: `${data.site.siteMetadata.siteUrl }${image || data.defaultImage.childImageSharp.fixed.src}`,
         }
         const defaultTitle = data.site.siteMetadata.title
         const pageTitle = title ? `${title} | ${defaultTitle}` : defaultTitle
