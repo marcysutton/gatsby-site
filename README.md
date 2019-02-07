@@ -23,10 +23,9 @@
 
     The site is now running at `http://localhost:8000`!
     
-    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
-    
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-    
+    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying this website's data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
+
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in this project.
@@ -46,8 +45,7 @@ A quick look at the top-level files and directories you'll see in this project.
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
-    ├── README.md
-    └── yarn.lock
+    └── README.md
 
 
   1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  
@@ -76,6 +74,11 @@ A quick look at the top-level files and directories you'll see in this project.
   
   13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
 
-## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+1.  **Build and serve.**
+
+    To build the site for production and serve it in a browser:
+
+    ```sh
+    gatsby build && gatsby serve
+    ```
