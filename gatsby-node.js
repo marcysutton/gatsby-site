@@ -14,9 +14,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const fileNode = getNode(node.parent)
+    const dateRegex = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])-)/
+
     let nodeSlug
     nodeSlug = ensureSlashes(
-      path.basename(fileNode.relativePath, path.extname(fileNode.relativePath))
+      path.basename(fileNode.relativePath, path.extname(fileNode.relativePath)).replace(dateRegex, '')
     )
     if (nodeSlug) {
       createNodeField({ node, name: `slug`, value: nodeSlug })
