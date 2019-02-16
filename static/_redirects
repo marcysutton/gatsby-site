@@ -1,6 +1,6 @@
-/images/*       http://68.183.137.1/images/:splat
-/slides/*       http://68.183.137.1/slides/:splat
-/wp-content/*   http://68.183.137.1/wp-content/:splat
-/oldsite/       http://68.183.137.1/oldsite/
-/oldsite/*      http://68.183.137.1/oldsite/:splat
-/stuff/*        http://68.183.137.1/stuff/:splat
+/images/*       https://marcy.codes/images/:splat
+/slides/*       https://marcy.codes/slides/:splat
+/wp-content/*   https://marcy.codes/wp-content/:splat
+/oldsite/       https://marcy.codes/oldsite/
+/oldsite/*      https://marcy.codes/oldsite/:splat
+/stuff/*        https://marcy.codes/stuff/:splat
