@@ -65,6 +65,7 @@ module.exports = {
         name: "markdown-talks",
       }
     },
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

@@ -53,6 +53,7 @@
     "@mdx-js/mdx": "^0.16.8",
     "cypress": "^3.1.5",
     "gatsby-mdx": "^0.3.5",
+    "gatsby-plugin-netlify": "^2.0.11",
     "gatsby-source-wordpress": "^3.0.30",
     "html-entities": "^1.2.1",
     "loader-utils": "^1.2.3",
