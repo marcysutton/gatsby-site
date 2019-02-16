@@ -8,6 +8,11 @@ body {
   background-color: #606060;
   margin: 0;
 }
+@media screen and (max-width: 1365px) {
+  body {
+    background-color: #fff;
+  }
+}
 article,
 aside,
 details,
@@ -591,6 +596,8 @@ a, a:link, a:visited {
 #site-wrap {
   margin: 0 auto;
   max-width: 1365px;
+  position: relative;
+  z-index: 1;
 }
 [tabindex="-1"]:focus {
   outline: none;
