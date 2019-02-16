@@ -9,7 +9,7 @@ const Header = ({ pathname }) => (
       query {
         desktop: file(relativePath: { eq: "blurryWall-crop.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160) {
+            fluid(quality: 60, maxWidth: 4160) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
