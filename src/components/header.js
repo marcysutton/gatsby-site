@@ -23,11 +23,11 @@ const Header = ({ pathname }) => (
             className="site-header"
             role="banner"
           >
-            <BackgroundImage className="header-bg" fluid={imageData}>
+            {/* <BackgroundImage className="header-bg" fluid={imageData}> */}
             <ul className="skip-links">
               <li><a href="#main" id="skip-link-main">Skip to main content</a></li>
             </ul>
-            <div>
+            <div class="nav-wrap">
               <h1 className="site-logo" style={{ margin: 0 }}>
                 <Link to="/" id="top" tabIndex="-1"
                 >
@@ -53,7 +53,7 @@ const Header = ({ pathname }) => (
                 </ul>
               </nav>
             </div>
-            </BackgroundImage>
+            {/* </BackgroundImage> */}
           </header>
        )
      }

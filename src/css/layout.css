@@ -620,9 +620,10 @@ a, a:link, a:visited {
 
 .site-header {
   /* background-image: url(../site-images/blurryWall.jpg); */
+  background-color: #172647;
   position: relative;
 }
-.site-header .header-bg > div {
+.site-header .nav-wrap {
   display: grid;
   grid-template-columns: 225px 1fr;
 }
@@ -672,7 +673,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 900px) {
-  .site-header .header-bg > div {
+  .site-header .nav-wrap {
     grid-template-columns: 200px 1fr;
   }
   .site-header a {
@@ -680,7 +681,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 753px) {
-  .site-header .header-bg > div {
+  .site-header .nav-wrap {
     grid-template-columns: 170px 1fr;
   }
   h1.site-logo {
@@ -692,7 +693,7 @@ h1.site-logo {
   }
 }
 @media (max-width: 671px) {
-  .site-header .header-bg > div {
+  .site-header .nav-wrap {
     display: block;
   }
   .site-header nav ul {
