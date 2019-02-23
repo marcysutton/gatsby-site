@@ -8,34 +8,20 @@ const _ = require(`lodash`)
 const Promise = require(`bluebird`)
 const path = require(`path`)
 const slash = require(`slash`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const fileNode = getNode(node.parent)
     const dateRegex = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])-)/
-
-    let nodeSlug
-    nodeSlug = ensureSlashes(
-      path.basename(fileNode.relativePath, path.extname(fileNode.relativePath)).replace(dateRegex, '')
-    )
-    if (nodeSlug) {
-      createNodeField({ node, name: `slug`, value: nodeSlug })
-    }
+    const value = createFilePath({ node, getNode }).replace(dateRegex, '')
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
   }
-}
-
-function ensureSlashes(slug) {
-  if (slug.charAt(0) !== `/`) {
-    slug = `/` + slug
-  }
-
-  if (slug.charAt(slug.length - 1) !== `/`) {
-    slug = slug + `/`
-  }
-
-  return slug
 }
 
 // Will create pages for talks (route : /talk/{slug})
@@ -92,6 +78,9 @@ exports.createPages = ({ graphql, actions }) => {
                 edges {
                   node {
                     id
+                    fields {
+                      slug
+                    }
                     frontmatter {
                       title
                       path
