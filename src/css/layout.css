@@ -753,10 +753,27 @@ h1.site-logo {
 .feature-list-wrap {
   background-color: #fff;
 }
+.feature-list-wrap * {
+  box-sizing: border-box;
+}
+.feature,
+.list-writing-home {
+  display: inline-block;
+  vertical-align: top;
+}
+.feature {
+  width: 64%;
+}
+.list-writing-home {
+  width: 36%;
+}
 @supports (display: grid) {
   .feature-list-wrap {
     display: grid;
     grid-template-columns: 63% 37%;
+  }
+  .feature, .list-writing-home {
+    width: auto;
   }
 }
 .feature a, .list a {
@@ -941,14 +958,35 @@ h1.site-logo {
   top: 0;
   width: 100%;
 }
+@media (min-width: 1365px) {
+  .list-image-wrap {
+    background-color: #efefef;
+  }
+  .list-image-wrap .list-links-home,
+  .list-image-wrap .gatsby-image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .list-image-wrap .list-links-home {
+    width: 56%;
+  }
+  .list-image-wrap .gatsby-image-wrapper {
+    width: 44%;
+  }
+}
 @supports (display: grid) {
   .list-image-wrap {
+    background-color: transparent;
     display: grid;
     grid-template-columns: 61% 39%;
   }
   .page-post-wrap {
     display: grid;
     grid-template-columns: 65% 35%;
+  }
+  .list-image-wrap .list-links-home,
+  .list-image-wrap .gatsby-image-wrapper {
+    width: auto;
   }
 }
 @media screen and (max-width: 680px) {
