@@ -20,10 +20,10 @@ class IndexPage extends Component {
       <Layout pathname={this.props.location.pathname}>
         <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'homepage', 'Developer Advocate', 'web developer', 'accessibility']} />
           <div className="feature-list-wrap">
-            <Feature
+            {/* <Feature 
               subtitle="Latest:Professional"
               image={data.featureImage.childImageSharp.fluid}
-            />
+            />*/}
             <List
               className="list-writing-home breathing-room"
               subtitle="Latest:Writing"
@@ -50,11 +50,11 @@ class IndexPage extends Component {
               listName="links"
               linkNewWindow="true"
             />
-            <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
+            {/* <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" /> */}
           </section>
 
           <section aria-label="Photos">
-            <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={data.gallery.edges} />
+            {/* <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={data.gallery.edges} /> */}
           </section>
       </Layout>
     )
