@@ -622,9 +622,15 @@ a, a:link, a:visited {
   /* background-image: url(../site-images/blurryWall.jpg); */
   position: relative;
 }
-.site-header .nav-wrap {
-  display: grid;
-  grid-template-columns: 225px 1fr;
+.site-header .nav-wrap nav {
+  display: inline-block;
+}
+@supports (display: grid) {
+  .site-header .nav-wrap {
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    width: auto;
+  }
 }
 h1.site-logo {
   box-sizing: border-box;
@@ -668,20 +674,25 @@ h1.site-logo {
 }
 @media (max-width: 1220px) {
   .site-header a {
-    padding: 0.75em 1em;
+    padding: 0.75em;
   }
 }
 @media (max-width: 900px) {
-  .site-header .nav-wrap {
-    grid-template-columns: 200px 1fr;
+  @supports (display: grid) {
+    .site-header .nav-wrap {
+      grid-template-columns: 200px 1fr;
+    }
   }
   .site-header a {
     padding: 0.5em;
   }
 }
 @media (max-width: 753px) {
-  .site-header .nav-wrap {
-    grid-template-columns: 170px 1fr;
+  
+  @supports (display: grid) {
+    .site-header .nav-wrap {
+      grid-template-columns: 170px 1fr;
+    }
   }
   h1.site-logo {
     font-size: 1.8em;
@@ -691,7 +702,7 @@ h1.site-logo {
     padding: 0.4em;
   }
 }
-@media (max-width: 671px) {
+@media (max-width: 685px) {
   .site-header .nav-wrap {
     display: block;
   }
@@ -699,6 +710,12 @@ h1.site-logo {
     background-color: #3e3e3e;
     border: 1px solid #000;
     border-width: 0px 0 4px 0;
+    width: 100%;
+  }
+  @supports (display: grid) {
+    .site-header .nav-wrap nav {
+      display: flex;
+    }
   }
   .site-header nav li a {
     padding: 0.15em 0.5em;
@@ -735,8 +752,12 @@ h1.site-logo {
 }
 .feature-list-wrap {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 63% 37%;
+}
+@supports (display: grid) {
+  .feature-list-wrap {
+    display: grid;
+    grid-template-columns: 63% 37%;
+  }
 }
 .feature a, .list a {
   color: #000;
@@ -820,46 +841,66 @@ h1.site-logo {
   color: #fff;
 }
 .media-grid ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(270px, auto);
-  grid-gap: 1em;
+  columns: 3;
+}
+.image-grid ul {
+  columns: 4;
+}
+.media-grid li {
+  break-inside: avoid;
+}
+@supports (display: grid) {
+  .media-list-wrap {
+    display: block;
+    height: auto;
+    padding: 0;
+  }
+  .media-grid ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(270px, auto);
+    grid-gap: 1em;
+  }
+  .image-grid ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+  }
+  @media screen and (max-width: 800px) {
+    .media-grid ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 619px) {
+    .media-grid ul {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .talks-wrap .talks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 2em;
+  }
+  @media screen and (max-width: 1000px) {
+    .talks-wrap .talks {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .talks-wrap .talks {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+.media-grid ul {
   list-style: none;
   margin: 0;
   text-align: left;
 }
-.image-grid ul {
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(200px, auto);
-}
-@media screen and (max-width: 800px) {
-  .media-grid ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 619px) {
-  .media-grid ul {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .talks-wrap .talks {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(300px, auto);
-  grid-gap: 2em;
   list-style: none;
   margin-top: 2em;
   text-align: center;
-}
-@media screen and (max-width: 1000px) {
-  .talks-wrap .talks {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 700px) {
-  .talks-wrap .talks {
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 .talks .post h2.larger {
   margin-top: 0.75em;
@@ -900,9 +941,15 @@ h1.site-logo {
   top: 0;
   width: 100%;
 }
-.list-image-wrap {
-  display: grid;
-  grid-template-columns: 61% 39%;
+@supports (display: grid) {
+  .list-image-wrap {
+    display: grid;
+    grid-template-columns: 61% 39%;
+  }
+  .page-post-wrap {
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
 }
 @media screen and (max-width: 680px) {
   .list-image-wrap {
@@ -910,8 +957,6 @@ h1.site-logo {
   }
 }
 .page-post-wrap {
-  display: grid;
-  grid-template-columns: 65% 35%;
   padding: 0;
 }
 .page-post-detail {
