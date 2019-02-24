@@ -80,7 +80,9 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <script src="https://cdn.polyfill.io/v2/polyfill.min.js" />
+          </Helmet>
         )
       }}
     />
