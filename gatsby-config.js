@@ -106,7 +106,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-compile-es6-packages`,
       options: {
-        modules: [`query-string`]
+        modules: [`gatsby-background-image`]
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
