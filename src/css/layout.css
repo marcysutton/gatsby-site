@@ -622,6 +622,11 @@ a, a:link, a:visited {
   /* background-image: url(../site-images/blurryWall.jpg); */
   position: relative;
 }
+@media screen and (-ms-high-contrast: active) {
+  .site-header {
+    border-bottom: 1px solid;
+  }
+}
 .site-header .nav-wrap nav {
   display: inline-block;
 }
@@ -847,6 +852,11 @@ h1.site-logo {
   color: #fff;
   padding: 2em;
 }
+@media screen and (-ms-high-contrast: active) {
+  .media-grid {
+    border: 1px solid;
+  }
+}
 .media-grid.no-background {
   background-color: transparent;
   padding: 0;
@@ -958,7 +968,7 @@ h1.site-logo {
   top: 0;
   width: 100%;
 }
-@media (min-width: 1365px) {
+@media (min-width: 1200px) {
   .list-image-wrap {
     background-color: #efefef;
   }
