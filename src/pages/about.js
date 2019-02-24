@@ -51,15 +51,15 @@ const AboutPage = () => (
                             <p>Marcy Sutton is the Head of Learning at Gatsby.js, a startup creating fast, accessible websites and apps while building a strong community. Previously, she was a Developer Advocate and frontend engineer at Deque Systems, a company focused on digital equality. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. Her blog, <em>Accessibility Wins</em>, highlights accessible user interfaces and tools, contributing a positive voice to the web development space. She co-leads the Accessibility Seattle meetup and recently founded a group called NW Tech Women. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.</p>
                         </section>
                         <aside className="page-post-aside breathing-room">
-                            {/* <Img fluid={data.hiking.childImageSharp.fluid} alt="Hiking with my dog Rainier at Winchester Mountain" /> */}
+                            <Img fluid={data.hiking.childImageSharp.fluid} alt="Hiking with my dog Rainier at Winchester Mountain" />
                             <h2 style={{marginTop: `1em`}}>where to find me</h2>
                             <ul style={{marginBottom: `2em`}}>
                                 <li><a title="Link opens in a new window." href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer">twitter<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                             </ul>
-                            {/* <Img fluid={data.biking.childImageSharp.fluid} alt="Biking in San Diego during CSUN" />
-                            <Img fluid={data.snow.childImageSharp.fluid} alt="Splitboarding at Anthony Lakes, OR" /> */}
+                            <Img style={{marginBottom: `1em`}} fluid={data.biking.childImageSharp.fluid} alt="Biking in San Diego during CSUN" />
+                            <Img fluid={data.snow.childImageSharp.fluid} alt="Splitboarding at Anthony Lakes, OR" />
                         </aside>
                     </div>
                 </Layout>
