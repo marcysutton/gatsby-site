@@ -840,6 +840,22 @@ h1.site-logo {
   background-color: #efefef;
   height: 100%;
 }
+.page-post-aside {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+}
+.page-post-detail {
+  display: inline-block;
+  vertical-align: top;
+  width: 65%;
+}
+@supports (display: grid) {
+  .page-post-aside,
+  .page-post-detail {
+    width: auto;
+  }
+}
 .contact-aside {
   height: 100%;
 }

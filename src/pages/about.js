@@ -9,21 +9,21 @@ import SEO from '../components/seo'
 const AboutPage = () => (
     <StaticQuery query={graphql`
         query {
-            hiking: file(relativePath: { eq: "winchester-mtn-crop.jpg" }) {
+            portrait: file(relativePath: { eq: "marcy-rainier.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
                     }
                 }
             }
-            biking: file(relativePath: { eq: "sandiego-bike.jpg" }) {
+            biking: file(relativePath: { eq: "anderson-mtn.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
                     }
                 }
             }
-            snow: file(relativePath: { eq: "anthony-lakes-350.jpg" }) {
+            life: file(relativePath: { eq: "van-love.jpg" }) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
@@ -52,15 +52,15 @@ const AboutPage = () => (
                             <p>Marcy Sutton is the Head of Learning at Gatsby, a startup creating fast, accessible websites and webapps while building a strong community. <span aria-label="heart">💜</span> Previously, she was a Developer Advocate and Senior Frontend Engineer on the axe-core team at Deque Systems, developing tools for web accessibility testing. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. She co-leads the Accessibility Seattle meetup and recently founded a group called NW Tech Women. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.</p>
                         </section>
                         <aside className="page-post-aside breathing-room">
-                            <Img fluid={data.hiking.childImageSharp.fluid} alt="Hiking with my dog Rainier at Winchester Mountain" />
+                            <Img fluid={data.portrait.childImageSharp.fluid} alt="Me and Rainier McCheddarton in the snow" />
                             <h2 style={{marginTop: `1em`}}>where to find me</h2>
                             <ul style={{marginBottom: `2em`}}>
                                 <li><a title="Link opens in a new window." href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer">twitter<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                             </ul>
-                            <Img style={{marginBottom: `1em`}} fluid={data.biking.childImageSharp.fluid} alt="Biking in San Diego during CSUN" />
-                            <Img fluid={data.snow.childImageSharp.fluid} alt="Splitboarding at Anthony Lakes, OR" />
+                            <Img style={{marginBottom: `1em`}} fluid={data.life.childImageSharp.fluid} alt="My shadow in front of a firepit, our van and Mt. Baker in the distance" />
+                            <Img fluid={data.biking.childImageSharp.fluid} alt="My gravel bike with a safety pizza flag hanging from the seat and Bellingham Bay in the background" />
                         </aside>
                     </div>
                 </Layout>
