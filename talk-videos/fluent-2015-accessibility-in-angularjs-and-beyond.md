@@ -8,4 +8,4 @@ videoTitle: "Accessibility in AngularJS and Beyond - Marcy Sutton - Fluent 2015 
 
 My talk from O'Reilly's Fluent conference in April in San Francisco: Accessibility in AngularJS and Beyond. I highlighted common accessibility challenges in single-page apps and discussed how Angular has begun supporting web developers with accessibility features baked right into the framework, proving that it's never too late to start.
 
-Slides: <a href="https://marcysutton.com/slides/fluent2015/#/">https://marcysutton.com/slides/fluent2015/#/</a>
+Slides: <a href="https://marcy.codes/slides/fluent2015/#/">https://marcy.codes/slides/fluent2015/#/</a>

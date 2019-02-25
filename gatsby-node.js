@@ -14,12 +14,10 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const dateRegex = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])-)/
-    const value = createFilePath({ node, getNode }).replace(dateRegex, '')
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: node.frontmatter.path,
     })
   }
 }

@@ -10,4 +10,4 @@ I traveled to Prague, Czech Republic in September 2016 to present on Accessibili
 
 The talk was created with SlidesLive, an interactive experience with slides and video next to each other. It can be viewed here: <a href="http://slideslive.com/38898235">http://slideslive.com/38898235</a>
 
-My slides can also be viewed separately: <a href="https://marcysutton.com/slides/a11y-testing-angular-webexpo">https://marcysutton.com/slides/a11y-testing-angular-webexpo</a>
+My slides can also be viewed separately: <a href="https://marcy.codes/slides/a11y-testing-angular-webexpo">https://marcy.codes/slides/a11y-testing-angular-webexpo</a>

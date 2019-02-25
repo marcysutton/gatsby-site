@@ -1,6 +1,6 @@
 ---
 title: "Accessibility and the Shadow DOM: JSConf Australia 2014"
-path: /jsconf-2014-australia-accessibility-shadow-dom"
+path: "/jsconf-2014-australia-accessibility-shadow-dom"
 date: "2014-04-30"
 coverImage: "./2014-04-09_1397086704.jpg"
 ---

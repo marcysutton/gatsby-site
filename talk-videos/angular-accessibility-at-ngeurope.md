@@ -10,4 +10,4 @@ I recently spoke at ngEurope in Paris on Accessibility of AngularJS and my work 
 
 One really cool thing about my trip to Paris for ngEurope: I had my single-speed cyclocross bike with me and I got to ride all over the city! It was one of the coolest things I've ever gotten to do in my life and I hope to repeat it again in the future.
 
-Slides: <a href="https://marcysutton.com/slides/angular-a11y-ng-europe" title="Link opens in a new window" target="_blank">https://marcysutton.com/slides/angular-a11y-ng-europe</a>
+Slides: <a href="https://marcy.codes/slides/angular-a11y-ng-europe" title="Link opens in a new window" target="_blank">https://marcy.codes/slides/angular-a11y-ng-europe</a>
