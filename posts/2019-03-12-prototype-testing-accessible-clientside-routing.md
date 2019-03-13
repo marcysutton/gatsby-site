@@ -10,11 +10,17 @@ I hope to identify patterns that can influence the JavaScript frameworks and lib
 
 ## Background
 
-When building JavaScript-heavy websites and web applications with popular frameworks and libraries like React, Vue, Ember, Angular and so on, a common requirement is to manage focus as views change to ensure assistive technology and keyboard-only users aren't left behind. JavaScript "client rendering" of this nature means there isn't a traditional browser reload when a page changes, so develoeprs have to do some work to create an accessible user experience.
+When building JavaScript-heavy websites and web applications with popular frameworks and libraries like React, Vue, Ember, Angular and so on, parts of a page can change without a traditional page reload (we call them "views"). This paradigm requires developers to manually manage accessibility to ensure assistive technology and keyboard-only users aren't left behind while sighted mouse users can follow along with the changes. JavaScript "client-rendering" of this nature–as opposed to rendering views on the server–requires developers to do some work to create an accessible user experience.
 
-Except those of us in the community can't quite agree on a best practice: should we send focus to a heading, or a wrapper element? Should we announce a page change with [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)? Even with tools like [Reach Router](https://github.com/reach/router) for React, which was developed with accessibility in mind, there are still questions about which technique works best. At [Gatsby](https://gatsbyjs.org), we're highly interested in creating accessible defaults that work for users.
+Except those of us in the community who work with accessibility regularly still can't quite agree on a best practice: should we send focus to a heading, or a wrapper element? Should we announce a page change with [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)? Even with tools like [Reach Router](https://github.com/reach/router) for React, which was developed with accessibility in mind, there are still questions about which technique works best. At [Gatsby](https://gatsbyjs.org), we're highly interested in creating accessible defaults that work for users.
 
 So I figured, why not take the opportunity to test with users with disabilities at one of the biggest accessibility conferences in the world? As a web accessibility advocate, I see broad and lasting value in conducting these tests to determine best practices moving forward. Simply put: no matter the framework, we all stand to benefit.
+
+## What are Prototypes?
+
+Prototypes in this case are basic interactive code demos that are mostly identical in content, but differ in user interactions, to test rapidly and provide feedback of what works and what doesn't with minimal investment.
+
+Each prototype has a header describing the example, with a navigation panel and main content area below. When a user clicks on a navigation link, it changes the main content area to show a new "view" with a heading and text content. The differences lie in how keyboard focus is handled with JavaScript: where it leaves a keyboard or screen reader user on the page, and what information (if any) is announced in the screen reader.
 
 ## Testing objectives
 
