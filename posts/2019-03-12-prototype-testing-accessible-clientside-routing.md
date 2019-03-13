@@ -20,6 +20,11 @@ So I figured, why not take the opportunity to test with users with disabilities 
 
 Prototype testing of this nature should only take 10-15 minutes of your time. Ideally you can pull up [my prototypes](https://marcy.codes/prototypes/routing/) on your own computer and try to navigate them, while I take notes and/or record your experience (with permission, of course).
 
+What I would like to know:
+
+- Which technique is the most ergonomic and intuitive for you?
+- Do any of the techinques present barriers that detract from your browsing experience?
+
 As a user with a disability, your participation in this study can help to move the web forward. Your insights are truly valuable in the world of fancy JavaScript web applications, as they can influence implementations in reusable frameworks, UI libraries, and potentially even web standards.
 
 ## Let's make it happen
