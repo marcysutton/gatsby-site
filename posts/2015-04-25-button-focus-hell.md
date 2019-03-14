@@ -4,7 +4,7 @@ date: "2015-04-25"
 path: "/button-focus-hell"
 ---
 
-> Note: This post (in part) led to a web standards proposal by Brian Kardell and Alice Boxhall called [CSS Input Modality](https://github.com/alice/modality/blob/master/docs/modality-mq.md). The problem described below can be addressed with their [CSS "prolyfill"](https://github.com/alice/modality/blob/master/src/keyboard-modality.js), or alternatively, the [What Input](https://github.com/ten1seven/what-input) library by Jeremy Fields. They are really helpful tools!
+> Note: This post (in part) led to a web standards proposal by Brian Kardell and Alice Boxhall called [CSS Input Modality](https://github.com/alice/modality/blob/master/docs/modality-mq.md) and later, the proposed CSS pseudo class <a href="https://github.com/WICG/focus-visible">:focus-visible</a>. The problem described below can be addressed with the :focus-visible polyfill, or alternatively, the [What Input](https://github.com/ten1seven/what-input) library by Jeremy Fields. They are really helpful tools!
 
 When I started working on [Angular Material](https://material.angularjs.org/ "Link opens in a new window"), there was a lot of low-hanging fruit with regards to things I could fix for accessibility. One of my [first Github issues](https://github.com/angular/material/issues/197 "Material buttons should be accessible, opens in a new window") captured the state of `mdButton`, a fancy [Material Design button](http://www.google.com/design/spec/components/buttons.html "opens in a new window") component using `<canvas>` to create an interactive [touch ripple](http://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-user-input "Material Design specification, opens in a new window"):
 
