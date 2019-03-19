@@ -39,7 +39,7 @@ Before submitting a proposal you must do some research on your chosen conference
 
 ### Becoming a part of the community
 
-If you're in a position to attend an event before submitting a talk, you can gain insight and experience to use to your advantage; i.e. which talks went well? How would my take on a subject fit in to the talk schedule? By experiencing an event before you submit a talk, you can also potentially network with the very people who will approve your proposal. Admittedly, this is easier and cheaper to do at local conferences, but it's worth a shot.
+If you're in a position to attend an event before submitting a talk, you can gain insight and experience to use to your advantage; i.e. which talks went well? How would your take on a subject fit in to the talk schedule? By experiencing an event before you submit a talk, you can also potentially network with the very people who will approve your proposal. Admittedly, this is easier and cheaper to do at local conferences, but it's worth a shot.
 
 It can improve your speaker mojo to attend happy hours and tech conference after-hours events with established speakers when they're in town–even if you feel like a groupie. These are valuable opportunities to make industry connections that lead to things later on: perhaps the person you met organizes an event in their own city and they have a CFP? Give them your business card and submit a proposal!
 

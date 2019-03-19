@@ -14,6 +14,9 @@ const typography = new Typography({
     '.site-logo, .subhead': {
       fontFamily: ['Roboto Bold', 'sans-serif'].join(','),
     },
+    'h4': {
+      ...adjustFontSizeTo('22px')
+    },
     '.subhead': {
       ...adjustFontSizeTo('18px')
     },
