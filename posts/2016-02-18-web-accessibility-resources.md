@@ -15,6 +15,7 @@ These are my favorite web accessibility resources, books and tools as a web desi
 - [WebAIM](http://webaim.org)
 - [Egghead.io: Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
 - [Accessibility Wins](https://a11ywins.tumblr.com)
+- [A11y Style Guide](https://a11y-style-guide.com/style-guide/section-resources.html)
 - [Web-A11y Slack](/contact/) (contact me for an invite)
 
 ## Books
