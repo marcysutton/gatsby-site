@@ -9,7 +9,7 @@ import TalkEvents from '../components/talk-events'
 
 const WritingPage = ({
         data: {
-            allMarkdownRemark: { edges }
+          allMarkdownRemark: { edges }
         }
 }) => (
     <BodyClassName className="page">
@@ -43,9 +43,10 @@ export const pageQuery = graphql`
             id
             excerpt
             frontmatter {
-                date(formatString: "MMMM DD, YYYY")
-                path
-                title
+              date(formatString: "MMMM DD, YYYY")
+              path
+              title
+              unlisted
             }
           }
         }

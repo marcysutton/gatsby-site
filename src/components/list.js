@@ -8,7 +8,13 @@ import MoreLink from './more-link'
 const List = ({ className, listName, subtitle, items, pathname = '', allItems = false, linkNewWindow = false }) => (
     <div className={`list ${className}`}>
         { subtitle ? <h2 className="subhead">{subtitle}</h2> : null }
-        <ul>{ items.filter((items) => {
+        <ul>{ 
+            items.filter((items) => {
+              if (items.node.frontmatter.unlisted) {
+                return null
+              }
+              return true
+            }).filter((items) => {
                 if (pathname.indexOf(items.node.frontmatter.path) === -1) {
                     return items.node
                 }
