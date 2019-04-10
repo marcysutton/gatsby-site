@@ -19,3 +19,4 @@ Resource links from my keynote at Drupalcon Seattle, [JavaScript and Civil Right
 - [Webkit blog: Prefers Reduced Motion](https://webkit.org/blog/7551/responsive-design-for-motion/)
 - [Codepen: reduced-motion](https://codepen.io/marcysutton/pen/yqVVeY)
 - [Dries: How to Remove YouTube Tracking](https://dri.es/how-to-remove-youtube-tracking)
+- [Make Your Drupal Site GDPR Compliant](https://www.valuebound.com/resources/blog/how-to-make-your-drupal-site-gdpr-compliant)
