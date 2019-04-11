@@ -23,4 +23,5 @@ Resource links from my keynote at Drupalcon Seattle, [JavaScript and Civil Right
 - [Cryptocurrency Mining Hack That Compromised Thousands of Sites ‘Could Have Been a Catastrophe’](https://motherboard.vice.com/en_us/article/bj5m4v/cryptocurrency-mining-coinhive-browsealoud-hack-thousands-of-sites-catastrophe)
 - [Dries: How to Remove YouTube Tracking](https://dri.es/how-to-remove-youtube-tracking)
 - [Make Your Drupal Site GDPR Compliant](https://www.valuebound.com/resources/blog/how-to-make-your-drupal-site-gdpr-compliant)
+- [Accessibility Object Model](https://github.com/WICG/aom)
 - [Apple: About Accessibility Events](https://support.apple.com/en-us/HT209655)
