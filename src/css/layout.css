@@ -622,7 +622,7 @@ a, a:link, a:visited {
 }
 .skip-links li a:focus {
   opacity: 1;
-  z-index: 1;
+  z-index: 2;
 }
 
 .site-header {
