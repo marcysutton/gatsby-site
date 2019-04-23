@@ -9,13 +9,14 @@ These are my favorite web accessibility resources, books and tools as a web desi
 ## Resources
 
 - [A11y Project](http://a11yproject.com/)
-- [Google/Udacity Web Accessibility course](https://www.udacity.com/course/web-accessibility--ud891)
+- [Web Accessibility for Designers](https://webaim.org/resources/designers/)
 - [Web Accessibility Initiative at the W3C](https://www.w3.org/WAI/)
 - [Deque University](https://dequeuniversity.com)
 - [WebAIM](http://webaim.org)
+- [A11y Style Guide](https://a11y-style-guide.com/style-guide/section-resources.html)
+- [Google/Udacity Web Accessibility course](https://www.udacity.com/course/web-accessibility--ud891)
 - [Egghead.io: Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
 - [Accessibility Wins](https://a11ywins.tumblr.com)
-- [A11y Style Guide](https://a11y-style-guide.com/style-guide/section-resources.html)
 - [Web-A11y Slack](/contact/) (contact me for an invite)
 
 ## Books
@@ -35,8 +36,7 @@ These are my favorite web accessibility resources, books and tools as a web desi
 
 - [aXe by Deque](https://deque.com/axe/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-- [Accessibility Insights](https://accessibilityinsights.io)
-- [Tenon](http://www.tenon.io/)
+- [Accessibility Insights for Web](https://accessibilityinsights.io)
 - [Color Contrast Analyzer](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Firefox Web Developer Extension](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
 - [Chrome Accessibility Inspector](https://gist.github.com/marcysutton/0a42f815878c159517a55e6652e3b23a)
