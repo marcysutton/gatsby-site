@@ -9,7 +9,8 @@ Resource links from my talk, [JavaScript and Civil Rights](https://events.drupal
 
 - [Blog post: JavaScript and Civil Rights](https://www.deque.com/blog/javascript-and-civil-rights/)
 - [Accessibility Tips in Single-Page Applications](https://www.deque.com/blog/accessibility-tips-in-single-page-applications/)
-- []
+- [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
+- [Section 508](https://section508.gov)
 - [A11yWin: Vox Media Accessibility Guidelines](https://a11ywins.tumblr.com/post/149389575993/vox-media-accessibility-guidelines)
 - [Dries' Commitment to Accessibility](https://dri.es/drupal-commitment-to-accessibility)
 - [Gatsby Accessibility Statement](https://gatsbyjs.org/accessibility-statement/)
