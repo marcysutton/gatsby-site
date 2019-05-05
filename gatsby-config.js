@@ -8,12 +8,6 @@ module.exports = {
     siteUrl: `https://marcysutton.com`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      }
-    },
     'gatsby-plugin-twitter',
     'gatsby-plugin-react-helmet',
     {
