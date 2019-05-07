@@ -375,6 +375,7 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
+  white-space: pre-wrap;
 }
 table {
   margin-left: 0;
@@ -590,4 +591,71 @@ a, a:link, a:visited {
   html {
     font-size: 100%;
   }
+}
+[tabindex="-1"]:focus {
+  outline: none;
+}
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.skip-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+.skip-links li {
+  margin-top: 0;
+  min-width: 225px;
+  padding: 0;
+}
+.skip-links li a {
+  background-color: #efefef;
+  color: #000;
+  font-weight: bold;
+  opacity: 0;
+  margin: 0;
+  padding: 1.15em;
+  position: absolute;
+  top: 0;
+  text-decoration: underline;
+  text-shadow: none;
+  text-align: center;
+  z-index: -1;
+}
+.skip-links li a:focus {
+  opacity: 1;
+  z-index: 2;
+}
+.more-link  {
+  font-weight: 500;
+  margin: 2em 0 0em;
+}
+.more-link a {
+  text-decoration: none;
+}
+.more-link .more-link-text {
+  text-decoration: underline;
+}
+.more-link span[aria-hidden="true"] {
+  font-size: 70%;
+  margin-left: 0.25em;
+}
+.icon {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 6px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.media-grid ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
 }

@@ -28,7 +28,7 @@ const Header = ({ pathname }) => (
                   <li><a href="#main" id="skip-link-main">Skip to main content</a></li>
                 </ul>
                 <div className="nav-wrap">
-                  <h1 className="site-logo" style={{ margin: 0 }}>
+                  <h1 className="site-logo">
                     <Link to="/" id="top" tabIndex="-1"
                     >
                       <span className="logotype-line1">Marcy</span>

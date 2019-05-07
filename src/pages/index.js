@@ -10,8 +10,6 @@ import MediaGrid from '../components/media-grid'
 import ImageGrid from '../components/image-grid'
 import LinkList from '../components/link-list'
 
-require("typeface-roboto")
-
 class IndexPage extends Component {
   render() {
     const data = this.props.data
@@ -51,6 +49,7 @@ class IndexPage extends Component {
               linkNewWindow="true"
             />
             <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
+            <div className="retro-image"></div>
           </section>
 
           <section aria-label="Photos">
