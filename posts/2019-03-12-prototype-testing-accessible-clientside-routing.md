@@ -29,7 +29,7 @@ Prototype testing of this nature should 15-30 minutes of your time. Ideally you 
 What I would like to know:
 
 - Which technique is the most ergonomic and intuitive for you?
-- Do any of the techinques present barriers that detract from your browsing experience?
+- Do any of the techniques present barriers that detract from your browsing experience?
 
 As a user with a disability, your participation in this study can help to move the web forward. Your insights are truly valuable in the world of shiny JavaScript web applications, as they can influence implementations in reusable frameworks, UI libraries, and potentially even web standards.
 
