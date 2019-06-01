@@ -265,6 +265,9 @@ h1.site-logo {
   color: #fff;
   padding: 2em;
 }
+.media-grid .gatsby-image-wrapper {
+  margin-bottom: 0.5em;
+}
 @media screen and (-ms-high-contrast: active) {
   .media-grid {
     border: 1px solid;
@@ -288,6 +291,11 @@ h1.site-logo {
 }
 .media-grid li {
   break-inside: avoid;
+}
+.two-thirds-col {
+  display: grid;
+  grid-template-columns: auto 320px;
+  grid-gap: 2em;
 }
 @supports (display: grid) {
   .media-list-wrap {
@@ -366,7 +374,7 @@ h1.site-logo {
 .video {
   position: relative;
   padding: 56.25% 0 0 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 .video iframe {
   box-sizing: border-box;
@@ -477,6 +485,10 @@ h1.site-logo {
   top: -40px;
   left: 50%;
   margin-left: -12px;
+}
+.breadcrumb {
+  display: block;
+  margin: 1em 0 1em;
 }
 .breadcrumb,
 .site-footer .back-to-top a {

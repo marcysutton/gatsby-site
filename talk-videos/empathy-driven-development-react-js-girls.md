@@ -4,6 +4,7 @@ date: "2019-05-02"
 title: "Empathy Driven Development: ReactJS Girls Conf"
 videoSrcURL: "https://www.youtube-nocookie.com/embed/xVmUvMkBHas"
 videoTitle: "YouTube: Empathy Driven Development: A Live Accessibility Audit with React JS at ReactJS Girls"
+posterImg: "./images/reactjs-girls.jpg"
 ---
 
 In early May 2019, I traveled to London, UK to speak at a new community conference called [React.js Girls](https://reactjsgirls.com/). As soon as I heard about the event [I knew I wanted to be there](https://twitter.com/marcysutton/status/1076196529877073920), as I work with React every day on the Gatsby team and I LOVE being in spaces created for women (and their allies). At the conference, I did a 20-minute version of my live accessibility debugging adventure, and had a great time.

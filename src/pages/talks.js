@@ -42,6 +42,13 @@ export const query = graphql`
                 path
                 videoSrcURL
                 videoTitle
+                posterImg {
+                    childImageSharp {
+                      fluid {
+                        ...GatsbyImageSharpFluid
+                      }
+                    }
+                }
             }
           }
         }

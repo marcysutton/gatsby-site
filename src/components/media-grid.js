@@ -2,8 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import ReactHtmlParser from 'react-html-parser'
 import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
-import Video from './video'
 import MoreLink from './more-link';
 
 const MediaGrid = ({ className, subtitle, items, allItems, itemLabel, minItems = 8 }) => (
@@ -13,10 +13,12 @@ const MediaGrid = ({ className, subtitle, items, allItems, itemLabel, minItems =
       </h2>
       <ul>{ items.map((items) => {
         return <li key={ items.node.id }>
-          <Video videoSrcURL={ items.node.frontmatter.videoSrcURL || ''} videoTitle={ items.node.frontmatter.videoTitle || ''} />
-          <Link to={ items.node.frontmatter.path }>{
+          <Link to={ items.node.frontmatter.path }>
+            <Img fluid={items.node.frontmatter.posterImg.childImageSharp.fluid} alt="" />
+            {
               ReactHtmlParser(items.node.frontmatter.title)
-            }</Link>
+            }
+          </Link>
         </li>
       }) 
     }</ul>

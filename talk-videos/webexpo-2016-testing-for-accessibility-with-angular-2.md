@@ -4,6 +4,7 @@ date: "2016-10-21"
 title: "WebExpo 2016 - Testing for Accessibility with Angular"
 videoSrcURL: "https://www.youtube-nocookie.com/embed/z0_lFUJYlfA?rel=0&amp;showinfo=0"
 videoTitle: "Accessibility Testing with Angular 1 and 2 - WebExpo 2016 on YouTube"
+posterImg: "./images/web-expo.jpg"
 ---
 
 I traveled to Prague, Czech Republic in September 2016 to present on Accessibility Testing with Angular. I enjoyed speaking on this subject for 40 minutes and exploring the beautiful city. It was a great event!

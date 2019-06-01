@@ -105,6 +105,13 @@ export const pageQuery = graphql`
             path
             videoSrcURL
             videoTitle
+            posterImg {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           id
         }

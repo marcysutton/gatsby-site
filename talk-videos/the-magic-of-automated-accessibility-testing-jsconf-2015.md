@@ -4,6 +4,7 @@ date: "2015-06-29"
 title: "The Magic of Automated Accessibility Testing at JSConf 2015"
 videoSrcURL: "https://www.youtube-nocookie.com/embed/-XUmf_RPF8k?rel=0"
 videoTitle: "30 Minutes or Less: The Magic of Automated Accessibility Testing at JSConf on YouTube"
+posterImg: "./images/magic-of-a11y-testing-jsconf.jpg"
 ---
 
 At JSConf this year, I spoke about automated accessibility testing, something that has become a huge part of my daily work as a JavaScript developer and accessibility advocate. I was pretty excited for the conference so I submitted two proposals, and one was accepted! A little secret: once you get accepted to speak, you can actually decide your topic. I wanted to cheese mine up with something silly, and also give a nod to <a href="/talk/jsconf-2014/">Accessibility of Web Components</a> in 2014 when In-Real-Life tacos appeared, so I called and had a pizza delivered.
