@@ -18,6 +18,7 @@ class TalkPageTemplate extends Component {
         <Layout pathname={this.props.location.pathname}>
           <SEO title={ AllHtmlEntities.decode(talk.frontmatter.title) }
             player={talk.frontmatter.videoSrcURL}
+            image={talk.frontmatter.posterImg.childImageSharp.fluid.src}
             keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
           <section className="generic-wrap page-wrap breathing-room">
             <article>
@@ -53,6 +54,13 @@ export const pageQuery = graphql`
         path
         videoSrcURL
         videoTitle
+        posterImg {
+          childImageSharp {
+            fluid(maxWidth: 480) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+      }
       }
       html
     }

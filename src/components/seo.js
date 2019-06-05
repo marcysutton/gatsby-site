@@ -66,14 +66,14 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
                 name: 'twitter:description',
                 content: seo.description,
               },
-              {
-                property: 'twitter:player',
-                content: player,
-              },
             ]
               .concat(
                 player
                   ? [{
+                      property: 'twitter:player',
+                      content: player,
+                    },
+                    {
                       name: "twitter:player:width",
                       content: "480"
                     },
