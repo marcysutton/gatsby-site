@@ -72,6 +72,18 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
               },
             ]
               .concat(
+                player
+                  ? [{
+                      name: "twitter:player:width",
+                      content: "480"
+                    },
+                    {
+                      name: "twitter:player:height",
+                      content: "480"
+                    }]
+                  : []
+              )
+              .concat(
                 keywords.length > 0
                   ? {
                       name: 'keywords',
