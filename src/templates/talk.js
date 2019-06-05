@@ -17,7 +17,7 @@ class TalkPageTemplate extends Component {
       <BodyClassName className="page">
         <Layout pathname={this.props.location.pathname}>
           <SEO title={ AllHtmlEntities.decode(talk.frontmatter.title) }
-            player={this.props.location.href}
+            player={talk.frontmatter.videoSrcURL}
             keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
           <section className="generic-wrap page-wrap breathing-room">
             <article>
