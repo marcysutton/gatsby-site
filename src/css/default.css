@@ -33,10 +33,11 @@ body {
     width: auto;
   }
 }
-h1.site-logo {
+.site-logo {
   box-sizing: border-box;
   background-color: #026055;
   display: inline-block;
+  font-size: 2rem;
   margin: 0;
 }
 .site-header a {
@@ -108,7 +109,7 @@ h1.site-logo {
       grid-template-columns: 170px 1fr;
     }
   }
-  h1.site-logo {
+  .site-logo {
     font-size: 1.8em;
   }
   .site-header nav li a {
