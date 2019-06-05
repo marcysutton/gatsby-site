@@ -48,7 +48,7 @@ function SEO({ description, lang, meta, keywords, image, title, player }) {
               },
               {
                 name: 'twitter:card',
-                content: 'summary_large_image',
+                content: player ? 'player' : 'summary_large_image',
               },
               {
                 name: 'twitter:creator',

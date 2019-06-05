@@ -5,6 +5,7 @@ import BodyClassName from 'react-body-classname'
 import Layout from '../components/layout'
 import MediaGrid from '../components/media-grid'
 import SEO from '../components/seo'
+// import PastEvents from '../components/past-events'
 
 const TalksPage = ({
     data: {
