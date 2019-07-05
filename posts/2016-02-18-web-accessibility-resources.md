@@ -11,16 +11,18 @@ These are my favorite web accessibility resources, books and tools as a web desi
 - [A11y Project](http://a11yproject.com/)
 - [Deque University](https://dequeuniversity.com)
 - [WebAIM](http://webaim.org)
-- [Web Accessibility for Designers](https://webaim.org/resources/designers/)
 - [Web Accessibility Initiative at the W3C](https://www.w3.org/WAI/)
 - [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
 - [ARIA Authoring Practices Guide](https://www.w3.org/TR/wai-aria-practices-1.1/)
-- [The Rules of ARIA](https://www.w3.org/TR/using-aria/)
+- [The Rules of ARIA](https://www.w3.org/TR/using-aria/) from the W3C
 - [A11y Style Guide](https://a11y-style-guide.com/style-guide/section-resources.html)
 - [Google/Udacity Web Accessibility course](https://www.udacity.com/course/web-accessibility--ud891)
 - [Egghead.io: Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
 - [Accessibility Wins](https://a11ywins.tumblr.com)
+- [Web Accessibility for Designers](https://webaim.org/resources/designers/)
+- [Hacking Digital Styleguides for Accessibility](https://www.skillshare.com/classes/Hacking-Digital-Styleguides-for-Accessibility-Type-Color-Imagery/1920202818) by Tatiana T. Mac
 - [Web-A11y Slack](/contact/) (contact me for an invite)
+- [Who to follow in accessibility](https://a11yproject.com/follow/)
 
 ## Books
 
