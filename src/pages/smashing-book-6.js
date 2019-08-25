@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import BodyClassName from 'react-body-classname'
 
+import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -16,7 +17,9 @@ const SmashingBook6Page = ({ data }) => (
           keywords={['Marcy Sutton', 'Smashing Book 6', 'web developer']} />
         <section className="generic-wrap">
           <div className="breathing-room">
-            <h1>Smashing Book 6: New Frontiers in Web Design</h1>
+            <RouteTargetHeading>
+              Smashing Book 6: New Frontiers in Web Design
+            </RouteTargetHeading>
             <Img
                 className="floating-image"
                 fluid={data.smashingCoverImage.childImageSharp.fluid}

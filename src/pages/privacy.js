@@ -1,6 +1,7 @@
 import React from 'react'
 import BodyClassName from 'react-body-classname'
 
+import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -10,7 +11,9 @@ const PrivacyPage = () => (
             <SEO title="Privacy Policy" keywords={['Marcy Sutton', 'privacy policy', 'web developer']} />
             <section className="generic-wrap">
                 <div className="breathing-room">
-                    <h1>Privacy Policy</h1>
+                    <RouteTargetHeading>
+                        Privacy Policy
+                    </RouteTargetHeading>
                     <p>Like many other website owners, I use Google Analytics on marcysutton.com.</p>
                     <p>Google Analytics is a piece of software that grabs data about my visitors (you). It’s something like an advanced server log.</p>
                     <h2>What does Google Analytics record?</h2>

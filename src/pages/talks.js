@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 
+import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import MediaGrid from '../components/media-grid'
 import SEO from '../components/seo'
@@ -16,7 +17,9 @@ const TalksPage = ({
         <Layout>
             <SEO title="Talks" keywords={['Marcy Sutton', 'talks', 'videos', 'web developer']} />
             <section className="generic-wrap talks-wrap breathing-room">
-                <h1>Talks</h1>
+                <RouteTargetHeading>
+                  Talks
+                </RouteTargetHeading>
                 <p>I love public speaking! Here are the recorded talks I’ve done so far.</p>
                 <MediaGrid 
                     className="media-grid-talks no-background"

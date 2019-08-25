@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 
+import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -11,7 +12,9 @@ const AccessibilityPage = ({ data }) => (
             <SEO title="Accessibility" keywords={['Marcy Sutton', 'Accessibility', 'web developer']} />
             <section className="generic-wrap">
                 <div className="breathing-room">
-                    <h1>Accessibility Statement</h1>
+                    <RouteTargetHeading>
+                        Accessibility Statement
+                    </RouteTargetHeading>
 
                     <p>I want everyone who visits MarcySutton.com to feel welcome and find the experience rewarding. This site recently underwent a major redesign and build, and is a work-in-progress.</p>
 
