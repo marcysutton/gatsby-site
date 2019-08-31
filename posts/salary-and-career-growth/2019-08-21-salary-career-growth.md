@@ -4,27 +4,27 @@ date: "2019-08-31"
 path: "/salary-career-growth"
 ---
 
-This week I hosted a lunch meetup for [NW Tech Women](https://meetup.com/NW-Tech-Women) in downtown Bellingham, where we had a discussion about building a career in tech and negotiating for a higher salary. There were some valuable insights shared related to local and remote working conditions, and how we could make the most out of our careers. To share those insights broader so more people can benefit, I‘ve compiled some notes and published them in this post.
+This week I hosted a lunch meetup for [NW Tech Women](https://meetup.com/NW-Tech-Women) in downtown Bellingham, where we had a discussion about building a career in tech and negotiating for a higher salary. There were some valuable insights shared related to local and remote working conditions, and how we could make the most out of our careers. To share those insights broader so more people can benefit, I’ve compiled some notes and published them in this post.
 
 ## A new partnership: NW Tech Women and TAG NW
 
-NW Tech Women recently became a community group in partnership with [TAG NW](https://www.tagnw.org/what-we-do/), a local nonprofit organization working to strengthen the tech community in NW Washington state. As part of this effort, I‘ve started to reboot their Women in Tech lunch meetings, which had stopped after running for a few years. This week was our first meeting all together, and it felt like a wonderful start with some fresh faces and helpful insights! Thank you to Faithlife for providing a free space for us to meet, and to TAG NW for their ongoing support.
+NW Tech Women recently became a community group in partnership with [TAG NW](https://www.tagnw.org/what-we-do/), a local nonprofit organization working to strengthen the tech community in NW Washington state. As part of this effort, I’ve started to reboot their Women in Tech lunch meetings, which had stopped after running for a few years. This week was our first meeting all together, and it felt like a wonderful start with some fresh faces and helpful insights! Thank you to Faithlife for providing a free space for us to meet, and to TAG NW for their ongoing support.
 
 ## The first NW Tech Women / WIT Luncheon
 
-With 12 women in attendance, we went around the room to introduce ourselves and speak about what we‘re doing in our careers and where we hoped to grow. Most everyone was working in tech in some capacity, either at a local business or in a remote job, and there was one student looking to network (fantastic!).
+With 12 women in attendance, we went around the room to introduce ourselves and speak about what we’re doing in our careers and where we hoped to grow. Most everyone was working in tech in some capacity, either at a local business or in a remote job, and there was one student looking to network (fantastic!).
 
-It was an interesting conversation that began with someone whose career as a software developer was coming up on the 2-year mark. They wanted to increase their salary by 10-15%: they‘d just switched teams, were growing technically, and were beginning to have a broader understanding of employment in tech.
+It was an interesting conversation that began with someone whose career as a software developer was coming up on the 2-year mark. They wanted to increase their salary by 10-15%: they’d just switched teams, were growing technically, and were beginning to have a broader understanding of employment in tech.
 
-For another woman, her experience included moving cities - making adjustments for local regions, looking for remote roles that allowed her to live in Bellingham, etc. There was some talk about where “Hey y‘all” would come from in an introduction if the person grew up on the West Coast (with a parent in Texas), and it turned out to be a conscious move away from the word “guys”–which can feel like you‘re only addressing the men in the room. 
+For another woman, her experience included moving cities - making adjustments for local regions, looking for remote roles that allowed her to live in Bellingham, etc. There was some talk about where “Hey y’all” would come from in an introduction if the person grew up on the West Coast (with a parent in Texas), and it turned out to be a conscious move away from the word “guys”–which can feel like you’re only addressing the men in the room. 
 
-A technical manager at a manufacturing company was working to make their value known on the job at a place where IT wasn‘t their core focus. Perhaps surfacing customer email that communicates the value they‘ve contributed in their experience?
+A technical manager at a manufacturing company was working to make their value known on the job at a place where IT wasn’t their core focus. Perhaps surfacing customer email that communicates the value they’ve contributed in their experience?
 
 For a remote developer working from Bellingham for a Silicon Valley company, they were thinking about upcoming performance reviews. When would be the right time to negotiate a salary? 
 
 For the Senior Director of Customer Success at a local Bellingham software company, they wanted to talk about salary negotiations, including handling it from the employer/hiring perspective too. They mentioned taking a lower salary in exchange for flexibility in working from home.
 
-Some in attendance wanted to discuss solutions for improving your salary when you‘ve been at a company for a while. What are some strategies for doing that?
+Some in attendance wanted to discuss solutions for improving your salary when you’ve been at a company for a while. What are some strategies for doing that?
 
 And for someone who’s looking for work as a developer, data scientist, or project manager after time off to be a mom, what do they need to be thinking about to get the most out of the experience?
 
@@ -70,7 +70,7 @@ It can also help to document and share the things you’ve learned along the way
 
 ## Until next time...
 
-For the first meetup of our combined groups, this was a fantastic outcome. We’ll continue to have luncheons like this in the future, and I’ll be compiling a list of discussion topics and doing more outreach to diverse groups in our small city. A bigger goal I have for NW Tech Women is to connect members as volunteers to organizations needing technology help, and provide support for design/code review at our meetings. But the social aspect has been the biggest driver for [keeping this group going](/great-leadership-gatsby-and-girl-develop-it#Turning-a-disappointing-outcome-into-better-opportunities), and it’s exciting to see it grow in diversity and impact.
+For the first meetup of our combined groups, this was a fantastic outcome. We’ll continue to have luncheons like this in the future, and I’ll be compiling a list of discussion topics and doing more outreach to diverse groups in our small city. A bigger goal I have for NW Tech Women is to connect members as volunteers to organizations needing technology help, and provide support for design/code review at our meetings. But the social aspect has been the biggest driver for [keeping this group going](/great-leadership-gatsby-and-girl-develop-it#Turning-a-disappointing-outcome-into-better-opportunities), and it’s exciting to see it grow.
 
 
 
