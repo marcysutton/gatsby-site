@@ -1,5 +1,9 @@
 [
   {
+    "link": "https://frontendmasters.com/courses/javascript-accessibility/",
+    "name": "Frontend Masters: Accessibility in JavaScript Applications"
+  },
+  {
     "link": "https://www.gatsbyjs.org/blog/2019-07-11-user-testing-accessible-client-routing/",
     "name": "What I learned from user testing of accessible client-side routing techniques"
   },
