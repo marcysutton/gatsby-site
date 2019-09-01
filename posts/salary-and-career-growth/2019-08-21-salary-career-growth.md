@@ -22,7 +22,7 @@ A technical manager at a manufacturing company was working to make their value k
 
 For a remote developer working from Bellingham for a Silicon Valley company, they were thinking about upcoming performance reviews. When would be the right time to negotiate a salary? 
 
-For the Senior Director of Customer Success at a local Bellingham software company, they wanted to talk about salary negotiations, including handling it from the employer/hiring perspective too. They mentioned taking a lower salary in exchange for flexibility in working from home.
+For the Senior Director of Customer Success at a local Bellingham software company, she wanted to talk about salary negotiations, including handling it from the employer/hiring perspective. She had taken a lower salary in exchange for a flexible schedule and working from home, which was also indicative of the choices people make to work at local companies when there is sometimes higher-paying work elsewhere (or remote).
 
 Some in attendance wanted to discuss solutions for improving your salary when you’ve been at a company for a while. What are some strategies for doing that?
 
