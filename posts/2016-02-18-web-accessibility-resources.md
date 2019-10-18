@@ -18,6 +18,7 @@ These are my favorite web accessibility resources, books and tools as a web desi
 - [A11y Style Guide](https://a11y-style-guide.com/style-guide/section-resources.html)
 - [Google/Udacity Web Accessibility course](https://www.udacity.com/course/web-accessibility--ud891)
 - [Egghead.io: Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
+- [Frontend Masters: Accessibility in JavaScript Applications](https://frontendmasters.com/workshops/javascript-accessibility/)
 - [Accessibility Wins](https://a11ywins.tumblr.com)
 - [Web Accessibility for Designers](https://webaim.org/resources/designers/)
 - [Hacking Digital Styleguides for Accessibility](https://www.skillshare.com/classes/Hacking-Digital-Styleguides-for-Accessibility-Type-Color-Imagery/1920202818) by Tatiana T. Mac
