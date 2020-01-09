@@ -56,7 +56,7 @@ const Header = ({ pathname }) => (
                 </ul>
                 <div className="nav-wrap">
                   <LogoType pathname={pathname} />
-                  <nav id="global-nav" aria-label="Global navigation" tabIndex="-1">
+                  <nav id="global-nav" aria-label="Global" tabIndex="-1">
                     <ul>
                       <li><Link to="/" activeClassName="active">Home</Link></li>
                       <li><Link to="/writing/" activeClassName="active" className={pathname && pathname.indexOf('post') > -1 ? 'active' : null}>

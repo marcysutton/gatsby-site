@@ -9,8 +9,7 @@ const RouteHeading = ({level = 1, targetID='global-nav', className='', children}
             <a href={`#${targetID}`}
                id="skip-main"
                className="routeSkipLink"
-               aria-label={`back to ${targetID}`}
-               title={`Skip to ${targetID}`}>
+               aria-label={`Skip to global navigation`}>
             </a>
             {children}
         </Heading>
