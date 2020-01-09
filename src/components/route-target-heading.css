@@ -16,3 +16,8 @@
 .routeSkipLink:hover {
     opacity: 1;
 }
+@media screen and (max-width: 671px) {
+    .routeSkipLink {
+        right: 0;
+    }
+}

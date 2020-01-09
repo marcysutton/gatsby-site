@@ -161,12 +161,14 @@ body {
 .list-writing-home {
   display: inline-block;
   vertical-align: top;
+  overflow: hidden;
 }
 .feature {
   width: 64%;
 }
 .list-writing-home {
-  width: 36%;
+  width: 35%;
+  overflow: scroll;
 }
 @supports (display: grid) {
   .feature-list-wrap {
@@ -211,9 +213,12 @@ body {
     width: auto;
   }
 }
-@media (max-width: 1015px) {
+@media (max-width: 865px) {
   .feature-list-wrap {
     display: block;
+  }
+  .list-writing-home {
+    width: 100%;
   }
 }
 .page-post-aside,
