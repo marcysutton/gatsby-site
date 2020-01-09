@@ -236,6 +236,9 @@ body {
   vertical-align: top;
   width: 65%;
 }
+.twitter-tweet {
+  width: auto !important;
+}
 @supports (display: grid) {
   .page-post-aside,
   .page-post-detail {
