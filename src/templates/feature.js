@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { graphql } from "gatsby"
 import ReactHtmlParser from 'react-html-parser'
 import BodyClassName from 'react-body-classname'
 import PropTypes from "prop-types"
@@ -7,23 +8,20 @@ import RouteTargetHeading from "../components/route-target-heading"
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 
-class PageTemplate extends Component {
+class FeatureTemplate extends Component {
   render() {
-    const page = {
-      title: '',
-      content: ''
-    }
+    const page = this.props.data.markdownRemark
     
     return (
       <BodyClassName className="page">
         <Layout pathname={this.props.location.pathname}>
-          <SEO title={ page.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
+          <SEO title={ page.frontmatter.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
           <section className="generic-wrap page-wrap">
             <article className="breathing-room">
                 <RouteTargetHeading targetID="global-nav">
-                  { ReactHtmlParser(page.title) }
+                  { ReactHtmlParser(page.frontmatter.title) }
                 </RouteTargetHeading>
-                { ReactHtmlParser(page.content) }
+                { ReactHtmlParser(page.html) }
             </article>
           </section>
         </Layout>
@@ -32,9 +30,30 @@ class PageTemplate extends Component {
   }
 }
 
-PageTemplate.propTypes = {
+
+FeatureTemplate.propTypes = {
   data: PropTypes.object.isRequired,
   edges: PropTypes.array,
 }
 
-export default PageTemplate
+export default FeatureTemplate
+
+export const pageQuery = graphql`
+  query($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      frontmatter {
+        title
+        coverImage {
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+      excerpt
+      html
+    }
+  }
+`
