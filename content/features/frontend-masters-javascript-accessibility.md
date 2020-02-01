@@ -8,7 +8,7 @@ coverImage: "./frontend-masters-feature.jpg"
 <div class="floating-image width50">
     <img
         src="./images/marcy4.jpg"
-        alt=""
+        alt="Me teaching the Frontend Masters in-person group"
     />
 </div>
 
