@@ -71,7 +71,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
           {
             posts: allMarkdownRemark (
-              filter: {fileAbsolutePath: {regex: "/posts/"}}
+              filter: {fileAbsolutePath: {regex: "/posts/"}, frontmatter: { draft: { ne: true } }}
             ){
               edges {
                 node {
