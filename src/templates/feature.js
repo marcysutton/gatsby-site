@@ -16,8 +16,8 @@ class FeatureTemplate extends Component {
       <BodyClassName className="page">
         <Layout pathname={this.props.location.pathname}>
           <SEO title={ page.frontmatter.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
-          <section className="generic-wrap page-wrap">
-            <article className="breathing-room">
+          <section className="generic-wrap page-post-detail">
+            <article>
                 <RouteTargetHeading targetID="global-nav">
                   { ReactHtmlParser(page.frontmatter.title) }
                 </RouteTargetHeading>
