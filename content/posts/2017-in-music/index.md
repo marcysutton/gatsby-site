@@ -3,6 +3,7 @@ title: "2017, in Music"
 date: "2017-12-30"
 path: "/2017-in-music"
 coverImage: "./2017-in-music-1.jpg"
+homeList: false
 ---
 
 If there's one thing I partake in every day that brings me so much comfort and joy, it's music. That's probably why I've compiled a mixtape of my favorite tunes every year for the past 9 years. Let's do a 2017 music wrap-up!
