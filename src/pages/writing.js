@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import List from '../components/list'
 import TalkEvents from '../components/talk-events'
+import PastEvents from '../components/past-events'
 
 const WritingPage = ({
         data: {
@@ -29,6 +30,7 @@ const WritingPage = ({
                 </section>
                 <aside className="page-post-aside breathing-room">
                     <TalkEvents />
+                    <PastEvents />
                 </aside>
             </div>
         </Layout>
