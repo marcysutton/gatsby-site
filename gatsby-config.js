@@ -48,14 +48,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/posts`,
+        path: `${__dirname}/content/posts`,
         name: "markdown-posts",
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/talk-videos`,
+        path: `${__dirname}/content/features`,
+        name: "markdown-features",
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/talk-videos`,
         name: "markdown-talks",
       }
     },

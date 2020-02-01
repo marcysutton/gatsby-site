@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import List from '../components/list'
-import Feature from '../components/feature'
+import Feature from '../components/feature-hero'
 import MediaGrid from '../components/media-grid'
 import ImageGrid from '../components/image-grid'
 import LinkList from '../components/link-list'
@@ -21,6 +21,9 @@ class IndexPage extends Component {
             <Feature
               subtitle="Latest:Professional"
               image={data.featureImage.childImageSharp.fluid}
+              title={data.feature.frontmatter.title}
+              description={data.feature.frontmatter.description}
+              path={data.feature.frontmatter.path}
             />
             <List
               className="list-writing-home breathing-room"
@@ -69,7 +72,15 @@ export const pageQuery = graphql`
         }
       }
     }
-    featureImage: file(relativePath: { eq: "smashing-book-6.jpg" }) {
+    feature: markdownRemark(fields: {slug: {regex: "/frontend-masters/"}}) {
+      id
+      frontmatter {
+        title
+        path
+        description
+      }
+    }
+    featureImage: file(relativePath: { eq: "frontend-masters-feature.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

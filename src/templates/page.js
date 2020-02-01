@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { graphql } from "gatsby"
 import ReactHtmlParser from 'react-html-parser'
 import BodyClassName from 'react-body-classname'
 import PropTypes from "prop-types"
@@ -10,7 +9,6 @@ import Layout from '../components/layout'
 
 class PageTemplate extends Component {
   render() {
-    // const page = this.props.data.wordpressPage
     const page = {
       title: '',
       content: ''
@@ -40,12 +38,3 @@ PageTemplate.propTypes = {
 }
 
 export default PageTemplate
-
-// export const pageQuery = graphql`
-//   query($id: String!) {
-//     wordpressPage(id: { eq: $id }) {
-//       title
-//       content
-//     }
-//   }
-// `

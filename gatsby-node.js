@@ -47,65 +47,108 @@ exports.createPages = ({ graphql, actions }) => {
         }
       `
     )
+    .then(result => {
+      if (result.errors) {
+        console.log(result.errors)
+        reject(result.errors)
+      }
+
+      const talkTemplate = path.resolve("./src/templates/talk.js")
+
+      _.each(result.data.talks.edges, edge => {
+        createPage({
+          path: `${edge.node.frontmatter.path}`,
+          component: slash(talkTemplate),
+          context: {
+            pathname: 'talk',
+            id: edge.node.id,
+          },
+        })
+      })
+    })
+    .then(() => {
+      graphql(
+        `
+          {
+            posts: allMarkdownRemark (
+              filter: {fileAbsolutePath: {regex: "/posts/"}}
+            ){
+              edges {
+                node {
+                  id
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    path
+                  }
+                }
+              }
+            }
+          }
+        `
+      )
       .then(result => {
         if (result.errors) {
           console.log(result.errors)
           reject(result.errors)
         }
-
-        const talkTemplate = path.resolve("./src/templates/talk.js")
-
-        _.each(result.data.talks.edges, edge => {
+        const postTemplate = path.resolve("./src/templates/post.js")
+        _.each(result.data.posts.edges, edge => {
           createPage({
             path: `${edge.node.frontmatter.path}`,
-            component: slash(talkTemplate),
+            component: slash(postTemplate),
             context: {
-              pathname: 'talk',
+              pathname: 'post',
               id: edge.node.id,
             },
           })
         })
+        resolve()
       })
-      .then(() => {
-        graphql(
-          `
-            {
-              posts: allMarkdownRemark (
-                filter: {fileAbsolutePath: {regex: "/posts/"}}
-              ){
-                edges {
-                  node {
-                    id
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      title
-                      path
-                    }
+    })
+    .then(() => {
+      graphql(
+        `
+          {
+            features: allMarkdownRemark (
+              filter: {fileAbsolutePath: {regex: "/features/"}}
+            ){
+              edges {
+                node {
+                  id
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    path
                   }
                 }
               }
             }
-          `
-        ).then(result => {
-          if (result.errors) {
-            console.log(result.errors)
-            reject(result.errors)
           }
-          const postTemplate = path.resolve("./src/templates/post.js")
-          _.each(result.data.posts.edges, edge => {
-            createPage({
-              path: `${edge.node.frontmatter.path}`,
-              component: slash(postTemplate),
-              context: {
-                pathname: 'post',
-                id: edge.node.id,
-              },
-            })
+        `
+      )
+      .then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+        const featureTemplate = path.resolve("./src/templates/feature.js")
+        _.each(result.data.features.edges, edge => {
+          createPage({
+            path: `${edge.node.frontmatter.path}`,
+            component: slash(featureTemplate),
+            context: {
+              pathname: 'feature',
+              id: edge.node.id,
+            },
           })
-          resolve()
         })
+        resolve()
       })
+    })
   })
 }
