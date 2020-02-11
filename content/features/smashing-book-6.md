@@ -31,3 +31,7 @@ I also wrote about this subject for Smashing Magazine a few years back, when I w
 Accessibility is an evergreen topic that persists regardless of the JavaScript framework flavor or feature of the month. Accessibility basics matter, as do inclusive JavaScript development skills; we can serve more users by incorporating accessibility into every application and website we put out into the world, and I'm delighted to show you how.
 
 You can purchase a hardcover copy from Smashing for $39 US, or $19 US for a digital copy. Do yourself a favor and pick up a copy today! <a target="_blank" rel="noopener noreferrer" href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/">https://www.smashingmagazine.com/2018/09/smashing-book-6-release/</a>
+
+---
+
+Next feature: [Frontend Masters Workshop: Accessibility in JavaScript Web Applications](/frontend-masters-javascript-accessibility)
