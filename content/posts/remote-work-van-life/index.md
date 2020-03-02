@@ -6,7 +6,7 @@ draft: false
 coverImage: "./images/van-sunset.jpg"
 ---
 
-There are many benefits to working a remote job: you don't have to invest time or money in a commute. There's no requirement to work in a distracting open office floor plan. You can live where you want within your budget, and do more meaningful activities on your breaks. How about starting a load of laundry? Or going outside for fresh air? Doing office yoga with the dog? Microwaving fish for lunch? You can do all of the above.
+There are many benefits to working a remote job: you don't have to invest time or money in a commute. There's no requirement to work in a distracting open office. You can live where you want within your budget, and do more meaningful activities on your breaks. How about starting a load of laundry? Or going outside for fresh air? Doing office yoga with the dog? Microwaving fish for lunch? You can do all of the above.
 
 In my opinion, the most amazing benefit of remote technology work is the freedom to do your job from anywhere with an internet connection. For the past 2 years, I've worked remotely for periods of time ranging from a few days to a few weeks with my husband in our 1998 Ford Econoline van. We lovingly refer to it as Iceberg the Beefy due to its tall, white figure with a high-top and rugged offroad setup.
 
@@ -25,13 +25,13 @@ Ever since a close friend of mine got a 4x4 van (pronounced "four-by-four") and 
 <figcaption>I conducted a technical interview for a marketing manager candidate from the Revelstoke, BC parking lot.</figcaption>
 </figure>
 
-Having a car for most of my adult life brought with it the freedom to explore for those same active reasons as my friend Jay. Snowboarding's been my favorite activity for over 20 years, and having an all-wheel drive vehicle and financial means made that possible. As I got more into cycling in my 20's, I yearned to get out on more trips to places I hadn't been before (Moab, Utah, in particular). I carried a tent in my car and camped for some of those activities, but admittedly not snow camping–I sleep better when I'm not on the edge of freezing all night.
+Snowboarding's been my favorite activity for over 20 years, and having an all-wheel drive vehicle and financial means made that possible. As I got more into cycling in my 20's, I yearned to get out on more trips to places I hadn't been before (Moab, Utah, in particular). I carried a tent in my car and camped for some of those activities, but admittedly not snow camping–I sleep better when I'm not on the edge of freezing all night.
 
-There's endless terrain to ride, hike, and explore around the Pacific Northwest, and I realized that to experience it at the pace I wanted (e.g. arrive in a ski area parking lot the night before a big dump of snow), I'd have to invest in a camping vehicle and be willing to skip a few showers.
+There's endless terrain to ride, hike, and explore around the Pacific Northwest, and I realized that to experience it at the pace I wanted (e.g. arrive in a ski area parking lot the night before a big dump of snow), I'd have to invest in a better camping vehicle and be willing to skip a few showers.
 
 ## Making it work
 
-While an absolute joy and a privilege, remote work and van life isn't easy. First of all, we don't have a toilet inside our current rig. Or a shower, though we have a completely different setup on our wish list. Currently, I'll look like a hot mess if I try to call into a video meeting after a few days fully off the grid. I wear hats and don't wear much makeup, but my skin is happier and it's less wasteful anyway. We use a lot of hand sanitizer and a portable toilet with a dedicated outdoor tent, but it's way more difficult to use in crappy weather. We find places to pay for showers every few days, and bring thong sandals to wear in the shower.
+While an absolute joy and a privilege, remote work and van life isn't easy. First of all, we don't have a toilet inside our current rig. Or a shower, though we have a completely different setup on our wish list. I look like a hot mess if I try to call into a video meeting after a few days fully off the grid. I wear hats and don't wear much makeup, but my skin is happier and it's less wasteful anyway. We use a lot of hand sanitizer and a portable toilet with a dedicated outdoor tent, but it's way more difficult to use in crappy weather. We find places to pay for showers every few days, and bring thong sandals to wear in the shower.
 
 <div style="display: inline-block; width: 49%;">
 
@@ -49,7 +49,7 @@ It's also expensive to fuel and maintain a vehicle, particularly a big custom di
 
 For folks who live in their vans full-time (we don't), there's always a fear that your belongings could be stolen or damaged if you aren't watching them. There are also lots of [people who live in their vehicles](https://www.seattlemet.com/news-and-city-life/2018/11/more-homeless-seattleites-live-in-their-vehicles-than-ever-before) on city streets full-time due to rising housing costs; where I grew up in Seattle comes to mind. Also, if you have to take a vehicle home in for service, you're out of a house until you get it back. If you can work on your own vehicle, you still need shop space to do it, and it can be costly and time-consuming.
 
-Remote work on the road requires a reliable vehicle (and some good luck) to not let you down when you're rushing to find cell reception to meet a virtual commitment or project deadline. I can't take meetings while we're driving because there's a high probability that my signal will drop, and it's important to avoid disruptions. I only get motion sickness occasionally, but some people can't work in a moving vehicle at all. It's also very sedentary some times; that's why bringing bicycles or going on hikes is so nice.
+Remote work on the road requires a reliable vehicle (and some good luck) to not let you down when you're rushing to find cell reception to meet a virtual commitment or project deadline. I can't take meetings while we're driving because there's a high probability that my signal will drop, and it's important to avoid disruptions. I only get motion sickness occasionally, but some people can't work in a moving vehicle at all. It's also very sedentary sometimes; that's why bringing bicycles or going on hikes is so nice.
 
 <figure>
 
