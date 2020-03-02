@@ -1,9 +1,9 @@
 ---
 title: "Remote Work and Van Life"
-date: "2020-02-22"
+date: "2020-03-01"
 path: "/remote-work-van-life"
 draft: false
-coverImage: ""
+coverImage: "./images/van-sunset.jpg"
 ---
 
 There are many benefits to working a remote job: you don't have to invest time or money in a commute. There's no requirement to work in a distracting open office floor plan. You can live where you want within your budget, and do more meaningful activities on your breaks. How about starting a load of laundry? Or going outside for fresh air? Doing office yoga with the dog? Microwaving fish for lunch? You can do all of the above.
