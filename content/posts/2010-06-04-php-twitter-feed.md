@@ -13,7 +13,7 @@ Because I was sourcing a single Twitter page that is updated once or twice a day
 With portability & reusability in mind (the main objectives of object-oriented code), I wrote a custom PHP class that generates a Twitter feed in an unordered list. To use the class, you just have to include the file somewhere in your PHP page and create a new TwitterFeed object, passing in the Twitter username and number of posts you would like to show.
 
 ```
-<?php
+\<?php
 class TwitterFeed {
  
 function __construct($username, $limit){
