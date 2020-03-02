@@ -12,7 +12,7 @@ In my opinion, the most amazing benefit of remote technology work is the freedom
 
 ![Iceberg the Beefy at sunset with the moon rising](./images/van-sunset.jpg)
 
-In this post, I'll share how I make van life work with a full-time job as an engineering manager for a remote website startup. It isn't always easy, and very much **not a vacation** when I'm working. Still, it's a privilege to be able to choose this lifestyle, as not everyone has that luxury. We've gotten to go the back way to places and chase the winter storms and sunny weather I've always dreamed of. With some planning, dedication, and a work/life situation that allows you to get away, it is possible to work remotely on the road and break up your regular routine.
+In this post, I'll share how I make van life work with a full-time job as an engineering manager for a remote website startup. It isn't always easy, and very much **not a vacation** when I'm working. Still, it's a privilege to be able to choose this lifestyle, as not everyone has that luxury. We've gotten to go the back way to places and chase the winter storms and sunny weather I've always dreamed of. With some planning, discipline, and a work/life situation that allows you to get away, it is possible to work remotely on the road and break up your regular routine.
 
 ## What prompted this lifestyle?
 
@@ -45,7 +45,7 @@ While an absolute joy and a privilege, remote work and van life isn't easy. Firs
 
 </div>
 
-It's also expensive to fuel and maintain a vehicle, particularly a big custom diesel van that gets wear and tear from constant use. It also costs a lot to use my mobile phone data plan after a couple of weeks on the road, as an average work day for me includes a lot of browser tabs, video calls, and package manager installs. Even so, we choose to spend time on the road and feel fortunate to have that flexibility.
+It's expensive to fuel and maintain an overland vehicle on top of a house, particularly a big custom diesel van that gets wear and tear from constant use. It also costs a lot to use my mobile phone data plan after a couple of weeks on the road, as an average work day for me includes a lot of browser tabs, video calls, and package manager installs. Even so, we choose to spend time on the road and feel fortunate to have that flexibility.
 
 For folks who live in their vans full-time (we don't), there's always a fear that your belongings could be stolen or damaged if you aren't watching them. There are also lots of [people who live in their vehicles](https://www.seattlemet.com/news-and-city-life/2018/11/more-homeless-seattleites-live-in-their-vehicles-than-ever-before) on city streets full-time due to rising housing costs; where I grew up in Seattle comes to mind. Also, if you have to take a vehicle home in for service, you're out of a house until you get it back. If you can work on your own vehicle, you still need shop space to do it, and it can be costly and time-consuming.
 
