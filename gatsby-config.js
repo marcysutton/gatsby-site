@@ -95,7 +95,9 @@ module.exports = {
             options: {
               linkImagesToOriginal: true,
               maxWidth: 1365,
-
+              wrapperStyle: result => `width: 100%;margin-left: 0;`,
+              showCaptions: false,
+              disableBgImage: true
             }
           }
         ],
@@ -113,6 +115,9 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 1365,
               linkImagesToOriginal: false,
+              wrapperStyle: result => `width: 100%;margin-left: 0;`,
+              showCaptions: false,
+              disableBgImage: true
             },
           },
           {
