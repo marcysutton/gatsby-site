@@ -25,7 +25,7 @@ Ever since a close friend of mine got a 4x4 van (pronounced "four-by-four") and 
 <figcaption>I conducted a technical interview for a marketing manager candidate from the Revelstoke, BC parking lot.</figcaption>
 </figure>
 
-I've had a car for most of my adult life, bringing with it the freedom to explore for those same active reasons as my friend Jay. Snowboarding's been my favorite activity for over 20 years, and having an all-wheel drive vehicle and financial means made that possible. As I got more into cycling in my 20's, and yearned to get out on more trips to places I hadn't been before (Moab, Utah, in particular). I carried a tent in my car and camped for some of those activities, but admittedly not snow camping–I sleep better when I'm not on the edge of freezing all night.
+Having a car for most of my adult life brought with it the freedom to explore for those same active reasons as my friend Jay. Snowboarding's been my favorite activity for over 20 years, and having an all-wheel drive vehicle and financial means made that possible. As I got more into cycling in my 20's, I yearned to get out on more trips to places I hadn't been before (Moab, Utah, in particular). I carried a tent in my car and camped for some of those activities, but admittedly not snow camping–I sleep better when I'm not on the edge of freezing all night.
 
 There's endless terrain to ride, hike, and explore around the Pacific Northwest, and I realized that to experience it at the pace I wanted (e.g. arrive in a ski area parking lot the night before a big dump of snow), I'd have to invest in a camping vehicle and be willing to skip a few showers.
 
