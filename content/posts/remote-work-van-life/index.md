@@ -123,4 +123,5 @@ Looking to get into overlanding? There's a ton of inspiration out there to be fo
 - [Overland Kitted](https://overlandkitted.com)
 - [Four Wheeler Magazine: Overlanding and Off-roading in 4x4 conversion vans](https://www.fourwheeler.com/news/features/2001-overlanding-off-roading-4x4-conversion-vans/)
 - [4X4 7.3 Diesel Campervan Tour](https://www.youtube.com/watch?v=ILy1vpnjkbc&feature=youtu.be&app=desktop)
+- [Interview with Egghead.io](https://egghead.io/podcasts/heading-gatsby-s-learning-experience-and-bridging-gaps-with-marcy-sutton)
 
