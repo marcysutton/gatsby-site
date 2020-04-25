@@ -8,7 +8,6 @@ module.exports = {
     siteUrl: `https://marcysutton.com`,
   },
   plugins: [
-    'gatsby-plugin-twitter',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
