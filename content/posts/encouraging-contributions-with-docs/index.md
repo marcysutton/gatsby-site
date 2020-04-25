@@ -1,11 +1,11 @@
 ---
 title: "Encouraging Open Source Contributions with Docs: a Self-Fulfilling Prophecy"
-date: "2020-02-20"
+date: "2020-04-24"
 path: "encouraging-contributions-with-docs"
 coverImage: './gatsby-repo-feb2020.png'
 ---
 
-![Gatsby GitHub repo](./gatsby-repo-feb2020.png)
+![Gatsby GitHub repository](./gatsby-repo-feb2020.png)
 
 Open source is all about making software available to everyone to use. But there's a bit of a paradox: create something that developers really need and want, and they'll use it so much that the burden to support and maintain it becomes overwhelming. To overcome this and make a popular open source project more sustainable, it's essential to write discoverable documentation for people to contribute so they can help shoulder some of the effort. [Funding](https://www.gatsbyjs.org/blog/2020-02-11-founding-organizations/) is also a factor in open source sustainability, but that's beyond the scope of this post.
 
