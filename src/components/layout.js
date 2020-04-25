@@ -32,7 +32,7 @@ const Layout = ({ children, pathname }) => (
           height: `0`,
           overflow: `hidden`
          }}
-         aria-hidden="true" focusable="false" role="none">
+         aria-hidden="true" focusable="false">
           <defs>
           <symbol id="icon-triangle-right" width="1024" height="1024" viewBox="0 0 1024 1024">
             <path d="M1024 512l-921.6 512v-1024l921.6 512z"></path>
