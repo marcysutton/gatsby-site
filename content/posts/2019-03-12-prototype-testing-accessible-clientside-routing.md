@@ -4,6 +4,12 @@ date: "2019-03-12"
 path: "/prototype-testing-accessible-clientside-routing/"
 ---
 
+**Update:** In July 2019, I worked with [Fable Tech Labs](https://www.makeitfable.com/) to conduct research on client-side routing and accessibility using the prototypes outlined in this post. You can read the results on the Gatsby blog: https://www.gatsbyjs.org/blog/2019-07-11-user-testing-accessible-client-routing/
+
+A talk on this subject was also done as part of the Inclusive Design 24 conference, and can be viewed online: https://www.youtube.com/watch?v=Tr21FqQQv-U
+
+---
+
 Since the 2019 [CSUN Assistive Technology conference](http://www.csun.edu/cod/conference/2019/sessions/index.php/public/website_pages/view/1), I've been conducting prototype testing with users with disabilities to learn how to best support accessible navigation of [client-rendered websites](https://www.smashingmagazine.com/2015/05/client-rendered-accessibility/). My goal is to determine common user preferences amongst the many possible techniques: are there any clear winners?
 
 I hope to identify patterns that can influence the JavaScript frameworks and libraries of today, and potentially the web platform APIs of tomorrow. When we pull this off together, we can help to improve accessibility defaults in client-rendered web applications and make a big impact for users across the globe.
@@ -38,7 +44,6 @@ As a user with a disability, your participation in this study can help to move t
 If you or someone you know is interested in participating in this study, please get in touch with me to set up a time to meet:
 
 - Tweet at me: [@marcysutton](https://twitter.com/marcysutton)
-- Write me an email: [marcy@gatsbyjs.com](mailto:marcy@gatsbyjs.com)
 
 If you're more interested in providing feedback online than meeting in person, you can also review the prototypes for yourself and then contact me: https://marcy.codes/prototypes/routing/
 

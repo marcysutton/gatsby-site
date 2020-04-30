@@ -9,11 +9,19 @@ coverImage: "./corp-site-responsive.jpg"
 
 _The Target Corporate Site on Responsivator_
 
-I wrapped up a notable responsive web project in 2012: the [Target Corporate Website](http://corporate.target.com/ "Link opens in a new window"), a.k.a. the "best project ever". This project was special because I got to lead front-end development on a redesign for an amazing brand and write modern code that's both responsive & accessible. We also truly had the dream team for a while at POP Agency, showing that harmonious teams produce great work together. In the end, we won Target's Best of the Bullseye Award for innovation for delivering a fresh, functional website our clients loved.
+I wrapped up a notable responsive web project in 2012: the [Target Corporate Website](http://web.archive.org/web/20130728214237/https://corporate.target.com/ "Link opens in a new window"), a.k.a. the "best project ever". This project was special because I got to lead front-end development on a redesign for an amazing brand and write modern code that's both responsive & accessible. We also truly had the dream team for a while at POP Agency, showing that harmonious teams produce great work together. In the end, we won Target's Best of the Bullseye Award for innovation for delivering a fresh, functional website our clients loved.
 
 ![Target's Best of the Bullseye Award for Innovation](./2013-05-16_1368722163.jpg)
 
 Target's Best of the Bullseye Award for Innovation
+
+> Note: The site has now been replaced by A Bullseye View, which I worked on for a very short time...but it is still nice to be able to revisit the site on the [Internet Archive](http://web.archive.org/web/20130728214237/https://corporate.target.com/).
+
+## Accessible, Responsive UI Patterns
+
+In 2012, responsive web design was just getting started. On this project, I got to work with brilliant designers and the rich Target brand to bring a gorgeous corporate website to life. To shorten the feedback loops between design and development, I got the opportunity to prototype accessible, responsive UI patterns alongside the design team before implementing on the real site with a CMS.
+
+The most notable patterns that we iterated upon before finally implementing included a mobile-friendly and accessible megamenu, and flipping cards on the Target Corporate homepage. I really loved experimenting with those patterns and making sure they were keyboard and screen reader accessible, as well as responsive to various breakpoints.
 
 ## Media Queries: Breakpoints Based on Content
 
