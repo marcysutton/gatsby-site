@@ -371,14 +371,11 @@ body {
 .image-grid ul {
   align-items: center;
 }
-.inline-image-grid img {
+.inline-image-grid {
   box-sizing: border-box;
-  display: inline-block;
-  margin-right: 0.5em;
-  width: 32%;
-}
-.inline-image-grid img:last-of-type {
-  margin-right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 .video {
   position: relative;
