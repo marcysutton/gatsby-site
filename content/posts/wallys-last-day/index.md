@@ -2,6 +2,7 @@
 title: "Wally's Last Day"
 path: "/wallys-last-day"
 date: "2015-07-17"
+coverImage: "./wally-pct2.jpg"
 ---
 
 <div class="inline-image-grid">
