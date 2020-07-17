@@ -55,7 +55,7 @@ const AboutPage = () => (
                                 <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                             </ul>
-                            <Img fluid={data.biking.childImageSharp.fluid} alt="My gravel bike with a safety pizza flag hanging from the seat and Bellingham Bay in the background" />
+                            <Img fluid={data.biking.childImageSharp.fluid} alt="My gravel bike in front of Mt. Shuksan when riding around Mt. Baker in a day" />
                         </aside>
                     </div>
                 </Layout>
