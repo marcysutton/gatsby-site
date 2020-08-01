@@ -3,7 +3,7 @@ import BodyClassName from 'react-body-classname'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -33,9 +33,9 @@ const AboutPage = () => (
                     <SEO title="About" keywords={['Marcy Sutton', 'bio', 'web developer']} />
                     <div className="generic-wrap page-post-wrap">
                         <section className="page-post-detail">
-                            <RouteTargetHeading>
+                            <h1>
                                 About Marcy Sutton
-                            </RouteTargetHeading>
+                            </h1>
                             <p><em>(See <a href="#bio-short-version">bonus short version, below</a>)</em></p>
                             <p>I'm a Lead Software Engineer on the Developer Relations team at <a href="https://gatsbyjs.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">Gatsby</a>, a remote startup creating fast, accessible websites and webapps while building a strong community (I was their Head of Learning for a year, before requesting a role change). Previously, I was a Developer Advocate on the <a href="https://www.deque.com/products/axe/" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">axe-core</a> team developing web accessibility testing tools. I've also worked as an accessibility engineer at <a href="https://adobe.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">Adobe</a>, and as a web developer at <a href="https://substantial.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">Substantial</a>, <a href="https://wearepop.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">POP</a> and <a href="https://deicreative.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">DEI Creative</a>.</p>
                             <p>I'm passionate about improving the web for people with disabilities and I often speak at conferences about it. My blog, <a href="http://a11ywins.tumblr.com" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">Accessibility Wins</a>, highlights accessible user interfaces and tools. In 2016, O'Reilly presented me with a Web Platform Award for my work in accessibility. I'm a co-leader of the <a href="https://www.meetup.com/a11ysea/" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">Accessibility Seattle Meetup</a>, and I founded a social coding group for women in my city of Bellingham called <a href="https://www.meetup.com/NW-Tech-Women/" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">NW Tech Women</a>.</p>

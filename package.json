@@ -14,6 +14,7 @@
     "gatsby-plugin-feed": "^2.4.4",
     "gatsby-plugin-manifest": "^2.3.7",
     "gatsby-plugin-mdx": "^1.1.11",
+    "gatsby-plugin-no-javascript": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.2.5",
     "gatsby-plugin-sharp": "^2.5.7",

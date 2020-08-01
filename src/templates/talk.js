@@ -5,7 +5,7 @@ import BodyClassName from 'react-body-classname'
 import PropTypes from "prop-types"
 import { AllHtmlEntities } from 'html-entities'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
@@ -23,9 +23,9 @@ class TalkPageTemplate extends Component {
             keywords={['Marcy Sutton', 'MarcySutton.com', 'talks', 'blog']} />
           <section className="generic-wrap page-wrap breathing-room">
             <article>
-              <RouteTargetHeading targetID="global-nav">
+              <h1>
                 { ReactHtmlParser(talk.frontmatter.title) }
-              </RouteTargetHeading>
+              </h1>
               <Video videoSrcURL={talk.frontmatter.videoSrcURL} videoTitle={talk.frontmatter.title} />
 
               { ReactHtmlParser(talk.html) }

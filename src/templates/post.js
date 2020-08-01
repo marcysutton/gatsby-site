@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import BodyClassName from 'react-body-classname'
 import { AllHtmlEntities } from 'html-entities'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import List from '../components/list'
@@ -26,9 +26,9 @@ class PostTemplate extends Component {
             <div className="generic-wrap page-post-wrap">
               <section className="page-post-detail breathing-room">
                   <article>
-                    <RouteTargetHeading targetID="global-nav">
+                    <h1>
                       { ReactHtmlParser(post.frontmatter.title) }
-                    </RouteTargetHeading>
+                    </h1>
                     { post.frontmatter.date ? <h2 className="subhead">{ post.frontmatter.date }</h2> : null }
                     { ReactHtmlParser(post.html) }
                   </article>

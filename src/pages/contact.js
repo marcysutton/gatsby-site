@@ -1,7 +1,7 @@
 import React from 'react'
 import BodyClassName from 'react-body-classname'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Timeline } from 'react-twitter-widgets'
@@ -12,9 +12,9 @@ const ContactPage = ({ data }) => (
             <SEO title="Contact" keywords={['Marcy Sutton', 'contact', 'web developer']} />
             <div className="generic-wrap page-post-wrap">
                 <section className="page-post-detail contact-detail">
-                    <RouteTargetHeading>
+                    <h1>
                         Holla Back
-                    </RouteTargetHeading>
+                    </h1>
                     <div>
                         {/* <p>This form is temporarily disabled while I migrate my website; please contact me <a href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">on Twitter</a> in the meantime. Thank you for your patience!</p> */}
                         <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p>

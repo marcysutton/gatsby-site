@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import BodyClassName from 'react-body-classname'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import LinkList from '../components/link-list'
@@ -14,9 +14,9 @@ const LinksPage = ({ data }) => (
             <SEO title="Links" keywords={['Marcy Sutton', 'links', 'web developer']} />
             <section className="generic-wrap">
                 <div className="breathing-room">
-                    <RouteTargetHeading>
+                    <h1>
                         Links
-                    </RouteTargetHeading>
+                    </h1>
                     <Img
                         className="floating-image width50"
                         fluid={data.linkPageImage.childImageSharp.fluid}

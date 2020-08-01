@@ -4,7 +4,7 @@ import ReactHtmlParser from 'react-html-parser'
 import BodyClassName from 'react-body-classname'
 import PropTypes from "prop-types"
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 
@@ -18,9 +18,9 @@ class FeatureTemplate extends Component {
           <SEO title={ page.frontmatter.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
           <section className="generic-wrap page-post-detail">
             <article>
-                <RouteTargetHeading targetID="global-nav">
+                <h1>
                   { ReactHtmlParser(page.frontmatter.title) }
-                </RouteTargetHeading>
+                </h1>
                 { ReactHtmlParser(page.html) }
             </article>
           </section>

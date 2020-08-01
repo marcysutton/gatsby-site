@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import BodyClassName from 'react-body-classname'
 
-import RouteTargetHeading from "../components/route-target-heading"
+// import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import List from '../components/list'
@@ -19,9 +19,9 @@ const WritingPage = ({
             <SEO title="Writing" keywords={['Marcy Sutton', 'posts', 'writing', 'blog', 'web developer']} />
             <div className="generic-wrap page-post-wrap">
                 <section className="page-post-detail breathing-room">
-                    <RouteTargetHeading>
+                    <h1>
                       Writing
-                    </RouteTargetHeading>
+                    </h1>
                     <List 
                         className="list-writing no-background"
                         items={ edges }
