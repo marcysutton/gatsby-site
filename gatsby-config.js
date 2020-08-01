@@ -199,15 +199,15 @@ module.exports = {
     //     cookieDomain: "marcysutton.com",
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-compile-es6-packages`,
-      options: {
-        modules: [`gatsby-background-image`]
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-compile-es6-packages`,
+    //   options: {
+    //     modules: [`gatsby-background-image`]
+    //   }
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
     'gatsby-plugin-no-javascript'
   ],
 }

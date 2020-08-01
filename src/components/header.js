@@ -44,13 +44,13 @@ const Header = ({ pathname }) => (
       }
     `}
      render={data => {
-       const imageData = data.desktop.childImageSharp.fluid
+       const imageData = data.desktop.childImageSharp.fluid.src
        return (
           <header
             className="site-header"
             role="banner"
           >
-              <BackgroundImage className="header-bg" fluid={imageData}>
+              <div className="header-bg" style={{backgroundImage: `url(${imageData})`}}>
                 <ul className="skip-links">
                   <li><a href="#main" id="skip-link-main">Skip to main content</a></li>
                 </ul>
@@ -73,7 +73,7 @@ const Header = ({ pathname }) => (
                     </ul>
                   </nav>
                 </div>
-              </BackgroundImage>
+              </div>
           </header>
        )
      }

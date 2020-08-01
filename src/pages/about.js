@@ -1,7 +1,7 @@
 import React from 'react'
 import BodyClassName from 'react-body-classname'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 
 // import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
@@ -48,14 +48,14 @@ const AboutPage = () => (
                             <p>Marcy Sutton is a Lead Engineer, Developer Relations at Gatsby, a startup creating fast, accessible websites and web apps while building a strong community. <span role="img" aria-label="heart">💜</span> Previously, she worked on the open source axe-core accessibility testing library. In 2016, O’Reilly gave Marcy a Web Platform Award for her work in accessibility. She co-leads the Accessibility Seattle and NW Tech Women meetups in her local region. When away from the keyboard, Marcy can be found hiking with her dog, riding a bicycle, or snowboarding.</p>
                         </section>
                         <aside className="page-post-aside breathing-room">
-                            <Img fluid={data.portrait.childImageSharp.fluid} alt="Me and Rainier McCheddarton in the snow" />
+                            <img src={data.portrait.childImageSharp.fluid.src} alt="Me and Rainier McCheddarton in the snow" />
                             <h2 style={{marginTop: `1em`}}>where to find me</h2>
                             <ul style={{marginBottom: `2em`}}>
                                 <li><a title="Link opens in a new window." href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer">twitter<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="https://github.com/marcysutton" target="_blank" rel="noopener noreferrer">github<span className="visually-hidden"> Opens in a new window</span></a></li>
                                 <li><a title="Link opens in a new window." href="http://www.linkedin.com/in/marcysutton/" target="_blank" rel="noopener noreferrer">linkedin<span className="visually-hidden"> Opens in a new window</span></a></li>
                             </ul>
-                            <Img fluid={data.biking.childImageSharp.fluid} alt="My gravel bike in front of Mt. Shuksan when riding around Mt. Baker in a day" />
+                            <img src={data.biking.childImageSharp.fluid.src} alt="My gravel bike in front of Mt. Shuksan when riding around Mt. Baker in a day" />
                         </aside>
                     </div>
                 </Layout>

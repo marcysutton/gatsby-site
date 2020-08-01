@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 
 const imageMap = {
   'gallery__0091': 'Presenting at ReactRally',
@@ -21,7 +21,7 @@ const ImageGrid = ({ className, subtitle, images }) => (
       </h2>
       <ul>{ images.map((image, index) => {
         return <li key={`image-${index}`}>
-          <Img fluid={image.node.childImageSharp.fluid} alt={imageMap[image.node.name]} />
+          <img src={image.node.childImageSharp.fluid.src} alt={imageMap[image.node.name]} />
         </li>
       })}</ul>
   </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 import BodyClassName from 'react-body-classname'
 
 // import RouteTargetHeading from "../components/route-target-heading"
@@ -17,9 +17,9 @@ const LinksPage = ({ data }) => (
                     <h1>
                         Links
                     </h1>
-                    <Img
+                    <img
                         className="floating-image width50"
-                        fluid={data.linkPageImage.childImageSharp.fluid}
+                        src={data.linkPageImage.childImageSharp.fluid.src}
                         alt="Netmag layout: Marcy emceeing CascadiaFest in a Canadian Mounty costume with Matthew Claypotch on stage in a horse head"
                     />
                     <p>A list of blog posts and podcasts on other sites, either written by me or referencing me somehow.</p>

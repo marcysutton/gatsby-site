@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -51,7 +51,7 @@ class IndexPage extends Component {
               listName="links"
               linkNewWindow="true"
             />
-            <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
+            <img src={data.homepageImage.childImageSharp.fluid.src} alt="Marcy speaking at React Rally in 2016" />
             <div className="retro-image"></div>
           </section>
 
