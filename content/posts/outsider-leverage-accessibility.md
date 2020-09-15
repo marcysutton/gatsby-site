@@ -21,7 +21,7 @@ There are certainly downsides to being an outsider when working on accessibility
 
 Those egos I mentioned before may also go into toxic workplace territory, which can be extremely stressful to navigate. There may come a point where a project is going poorly enough that you don't want to continue it, in which case you'll need to be careful of contract terms to not make a mess of client relationships (recommended reading: [An Introductory Guide To Business Insurance For Designers And Developers](https://www.smashingmagazine.com/2018/03/guide-business-insurance-designers-developers/) from Smashing Magazine).
 
-Aside from personalities and working styles, another thing to keep in mind is that you might not have the same level of ownership over your work as you would in a full-time role. As a consultant, being brought in to work on something for a limited period of time means you won't always have access to it for reference, inspiration, or necessary updates ("the thing I worked on regressed significantly?? I wish I could fix it 😩")
+<p>Aside from personalities and working styles, another thing to keep in mind is that you might not have the same level of ownership over your work as you would in a full-time role. As a consultant, being brought in to work on something for a limited period of time means you won't always have access to it for reference, inspiration, or necessary updates ("the thing I worked on regressed significantly?? I wish I could fix it <span aria-label="Weary face" role="img">😩</span>")</p>
 
 You might not even be able to talk about your work to the public if you've signed an NDA. If the project is something you're looking to document in a case study for marketing purposes, be sure to talk about it with the client up front.
 
