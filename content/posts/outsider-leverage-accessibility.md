@@ -17,7 +17,7 @@ Sometimes you'll work with people with sizable egos who pay attention to outside
 
 ## What are the downsides?
 
-There are certainly downsides to being an outsider when working on accessibility. You may not have the same level of trust or camaraderie as teams and colleagues do (and you probably won't have as much access), so you'll have to spend time up front gathering information and building relationships. You'll need to keep a high level of professionalism in the face of friction or adversity, and adjust your approach if things aren't going as intended.
+There are certainly downsides to being an outsider when working on accessibility. You may not have the same level of trust or camaraderie as teams and colleagues do (and you probably won't have as much access), so you'll have to spend time up front gathering information and building relationships. You'll need to keep a high level of professionalism in the face of [friction](https://youtu.be/8bxZuzDKoI0) or adversity, and adjust your approach if things aren't going as intended.
 
 Those egos I mentioned before may also go into toxic workplace territory, which can be extremely stressful to navigate. There may come a point where a project is going poorly enough that you don't want to continue it, in which case you'll need to be careful of contract terms to not make a mess of client relationships (recommended reading: [An Introductory Guide To Business Insurance For Designers And Developers](https://www.smashingmagazine.com/2018/03/guide-business-insurance-designers-developers/) from Smashing Magazine).
 
