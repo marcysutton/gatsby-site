@@ -14,6 +14,7 @@ const Footer = ({ className }) => (
         <ul>
             <li><Link to='/about' activeClassName="active">About</Link></li>
             <li><Link to='/contact' activeClassName="active">Contact</Link></li>
+            <li><Link to='/privacy'>Privacy Policy</Link></li>
             <li><Link to='/accessibility'>Accessibility</Link></li>
         </ul>
         <div className="footer-copyright">

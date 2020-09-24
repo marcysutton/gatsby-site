@@ -21,7 +21,7 @@ For your benefit as much as my own, I collected some thoughts and takeaways of t
 
 ## Don't forget the narrative
 
-I presented hybrid live-coding/with slides talks at [dotJS](https://www.youtube.com/watch?v=LdKjS94ugYI "dotJS Youtube: opens in new window"), [Beyond Tellerrand](https://www.youtube.com/watch?v=WTQAI9TzBx0 "BT Conf Youtube: opens in new window") and ScriptConf, before settling on a single no slides/live coding talk for [Uphill Conf](https://www.youtube.com/watch?v=wvGvJemoDHI "Uphill Conf Youtube: opens in new window"), [JSConf EU](https://www.youtube.com/watch?v=l95VFLj3e2w "JS Conf Youtube: opens in new window"), and Smashing Toronto. I learned more each time, but one of the biggest takeaways from all of them was that anything under 40 minutes is extremely difficult for this format.
+I presented hybrid live-coding/with slides talks at [dotJS](https://www.youtube-nocookie.com/embed/LdKjS94ugYI "dotJS Youtube: opens in new window"), [Beyond Tellerrand](https://www.youtube-nocookie.com/embed/WTQAI9TzBx0 "BT Conf Youtube: opens in new window") and ScriptConf, before settling on a single no slides/live coding talk for [Uphill Conf](https://www.youtube-nocookie.com/embed/wvGvJemoDHI "Uphill Conf Youtube: opens in new window"), [JSConf EU](https://www.youtube-nocookie.com/embed/l95VFLj3e2w "JS Conf Youtube: opens in new window"), and Smashing Toronto. I learned more each time, but one of the biggest takeaways from all of them was that anything under 40 minutes is extremely difficult for this format.
 
 In general, I like creating talk narratives with three major areas of focus, and that strategy simply falls apart at 18 or even 25 minutes due to the increased cognitive load of live coding. Time seems to get away from you much faster when you're tinkering and explaining things, and it's easy to forget important parts of the narrative.
 
@@ -64,7 +64,7 @@ I ran into limitations with JavaScript tools for automated accessibility testing
     - Promise-based everything is hard to implement when things don't logistically chain (i.e. comparing the activeElement to some other element)
     - This became somewhat easier using async/await in my tests, but that made debugging test failures much more difficult
 
-One other thing I wish I had more time for: multiple versions of my demos in other JS frameworks, or without a JS framework. [Ryan Florence's JSConf talk](https://www.youtube.com/watch?v=CBhDdWY1uv8 "Opens in a new window") comes to mind. I was balancing my job and life with these talks and couldn't even think of doing that…but with more time and a [shift in focus](https://marcysutton.com/chapter-two-at-deque/), perhaps I can recreate them in Angular or Vue.
+One other thing I wish I had more time for: multiple versions of my demos in other JS frameworks, or without a JS framework. [Ryan Florence's JSConf talk](https://www.youtube-nocookie.com/embed/CBhDdWY1uv8 "Opens in a new window") comes to mind. I was balancing my job and life with these talks and couldn't even think of doing that…but with more time and a [shift in focus](https://marcysutton.com/chapter-two-at-deque/), perhaps I can recreate them in Angular or Vue.
 
 ### Do better
 

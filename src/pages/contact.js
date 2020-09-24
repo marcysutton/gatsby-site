@@ -58,7 +58,8 @@ const ContactPage = ({ data }) => (
                         }}
                         options={{
                             username: 'marcysutton',
-                            height: '800'
+                            height: '800',
+                            dnt: true
                         }}
                     />
                 </aside>

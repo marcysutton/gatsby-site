@@ -168,6 +168,7 @@ body {
 .newsletter-wrap h3 {
   font-style: italic;
   font-weight: normal;
+  margin-bottom: 0.25em;
 }
 .newsletter-wrap.home h3 {
   font-size: 1.75rem;
@@ -203,8 +204,22 @@ button[type="submit"], input[type="submit"] {
 .newsletter-wrap form button {
   margin: 0.25em 1em 0.25em 0;
 }
-.newsletter-wrap p {
+.newsletter-wrap form + p {
+  margin-bottom: 0;
   padding: 1rem 0 0;
+}
+.newsletter-wrap .privacy-note {
+  color: #cecece;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 1rem;
+}
+.newsletter-wrap.home .privacy-note {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.newsletter-wrap p a {
+  color: #fff;
 }
 .feature,
 .list-writing-home {

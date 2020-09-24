@@ -9,7 +9,7 @@ _This post represents a final distillation of my talks given on Accessibility an
 
 <iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/EnmWUj4XKGg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen title="Accessibility and performance: CNN"></iframe>
 
-When pages heavy with content and ads load in web browsers, such as CNN.com ([Youtube video](https://www.youtube.com/watch?v=EnmWUj4XKGg)), the experience can be very clunky and unpleasant for all users; not to mention how much of their monthly allotted data is used up loading all those resources. For screen reader users, it's exacerbated: visual content streams in while an auditory progress counter struggles to reach 100% so the page can be consumed.
+When pages heavy with content and ads load in web browsers, such as CNN.com ([Youtube video](https://www.youtube-nocookie.com/embed/EnmWUj4XKGg)), the experience can be very clunky and unpleasant for all users; not to mention how much of their monthly allotted data is used up loading all those resources. For screen reader users, it's exacerbated: visual content streams in while an auditory progress counter struggles to reach 100% so the page can be consumed.
 
 As someone who likes fixing user experience problems, I wondered: for all the time and energy spent improving web performance, could we do more to improve the experience for users of assistive technologies (AT) as well?
 
@@ -66,7 +66,7 @@ Now, I never thought I'd be in the [Sigh, JavaScript](http://sighjavascript.tumb
 
 _A modal-related tangent: I want to see more default elements such as the native `<dialog>`, a customizable `<select>` or even a tablist in all the major browsers. This would put less of a burden on developers to always reinvent–for example using JavaScript to create custom elements–and help us execute fast, accessible and beautiful web designs using powerful default elements._
 
-As pioneers of isomorphic JavaScript (for which I will always remember hacking on slides during lunch alongside Spike Brehm at [JSConf 2014](https://www.youtube.com/watch?v=CH6icJbLhlI)), [Airbnb](http://airbnb.com) does good by enabling search as a core function without JavaScript. If JS fails to load, as a user you can still do the most important thing on their site: search for places to rest your weary head. With JS, the full experience is enhanced and you can use the full site. We could argue Airbnb should still do more for non-JS users, but it's better than nothing at all. Every feature has tradeoffs.
+As pioneers of isomorphic JavaScript (for which I will always remember hacking on slides during lunch alongside Spike Brehm at [JSConf 2014](https://www.youtube-nocookie.com/embed/CH6icJbLhlI)), [Airbnb](http://airbnb.com) does good by enabling search as a core function without JavaScript. If JS fails to load, as a user you can still do the most important thing on their site: search for places to rest your weary head. With JS, the full experience is enhanced and you can use the full site. We could argue Airbnb should still do more for non-JS users, but it's better than nothing at all. Every feature has tradeoffs.
 
 ![Airbnb search without JavaScript](./airbnb-search-nojs.jpg)
 

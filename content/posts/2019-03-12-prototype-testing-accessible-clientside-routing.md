@@ -6,7 +6,7 @@ path: "/prototype-testing-accessible-clientside-routing/"
 
 **Update:** In July 2019, I worked with [Fable Tech Labs](https://www.makeitfable.com/) to conduct research on client-side routing and accessibility using the prototypes outlined in this post. You can read the results on the Gatsby blog: https://www.gatsbyjs.org/blog/2019-07-11-user-testing-accessible-client-routing/
 
-A talk on this subject was also done as part of the Inclusive Design 24 conference, and can be viewed online: https://www.youtube.com/watch?v=Tr21FqQQv-U
+A talk on this subject was also done as part of the Inclusive Design 24 conference, and can be viewed online: https://www.youtube-nocookie.com/embed/Tr21FqQQv-U
 
 ---
 
