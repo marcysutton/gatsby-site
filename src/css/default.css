@@ -177,12 +177,15 @@ body {
   margin: 0 auto;
   padding: 1em 0;
   max-width: 640px;
+  width: 100%;
 }
 .newsletter-wrap form input {
+  border: none;
   font-family: inherit;
-  margin-right: 1em;
+  margin: 0.25em 1em 0.25em 0;
   padding: 0.25rem 0.5rem;
   text-align: center;
+  -webkit-appearance: none;
 }
 .newsletter-wrap.home form input {
   min-width: 260px;
@@ -196,6 +199,9 @@ button[type="submit"], input[type="submit"] {
   color: #fff;
   font-size: inherit;
   padding: 0.25rem 0.5rem;
+}
+.newsletter-wrap form button {
+  margin: 0.25em 1em 0.25em 0;
 }
 .newsletter-wrap p {
   padding: 1rem 0 0;
