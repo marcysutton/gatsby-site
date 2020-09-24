@@ -1,14 +1,9 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
   MarcySutton.com v5
 </h1>
 <p>Redesign is live!</p>
 
-<p>This website was built with Gatsby.js, where I am the Head of Learning. This site has a baseline of accessibility, works without JavaScript and is offline-capable.</p>
+<p>This website was built with Gatsby.js. It has a baseline of accessibility, works without JavaScript and is offline-capable.</p>
 
 ## 🚀 Quick start
 
