@@ -5,6 +5,7 @@ import RouteTargetHeading from "../components/route-target-heading"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Timeline } from 'react-twitter-widgets'
+import NewsletterForm from '../components/newsletter-form'
 
 const ContactPage = ({ data }) => (
     <BodyClassName className="page">
@@ -16,10 +17,9 @@ const ContactPage = ({ data }) => (
                         Holla Back
                     </RouteTargetHeading>
                     <div>
-                        {/* <p>This form is temporarily disabled while I migrate my website; please contact me <a href="https://twitter.com/marcysutton" target="_blank" rel="noopener noreferrer" title="Link opens in a new window">on Twitter</a> in the meantime. Thank you for your patience!</p> */}
                         <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p>
                         <p><strong>All fields are required.</strong></p>
-                        <div role="form" lang="en-US" dir="ltr">
+                        <div>
                             <div className="screen-reader-response"></div>
                             <form disabled key="contact-form" action="/thanks/" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="pooh-field">
                                 <p style={{ display: `none` }}>
@@ -47,6 +47,7 @@ const ContactPage = ({ data }) => (
                             </form>
                         </div>
                     </div>
+                <NewsletterForm className="contact" />
                 </section>
                 <aside className="contact-aside breathing-room">
                     <h2>The latest</h2>

@@ -157,6 +157,49 @@ body {
 .feature-list-wrap * {
   box-sizing: border-box;
 }
+.newsletter-wrap {
+  background-color: #026055;
+  color: #fff;
+  text-align: center;
+}
+.newsletter-wrap.contact {
+  padding-top: 1em;
+}
+.newsletter-wrap h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+.newsletter-wrap.home h3 {
+  font-size: 1.75rem;
+}
+.newsletter-wrap form {
+  font-size: 1.25rem;
+  margin: 0 auto;
+  padding: 1em 0;
+  max-width: 640px;
+}
+.newsletter-wrap form input {
+  font-family: inherit;
+  margin-right: 1em;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+}
+.newsletter-wrap.home form input {
+  min-width: 260px;
+}
+.newsletter-wrap.contact form input {
+  width: auto;
+}
+button[type="submit"], input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  padding: 0.25rem 0.5rem;
+}
+.newsletter-wrap p {
+  padding: 1rem 0 0;
+}
 .feature,
 .list-writing-home {
   display: inline-block;

@@ -9,6 +9,7 @@ import Feature from '../components/feature-hero'
 import MediaGrid from '../components/media-grid'
 import ImageGrid from '../components/image-grid'
 import LinkList from '../components/link-list'
+import NewsletterForm from '../components/newsletter-form'
 
 class IndexPage extends Component {
   render() {
@@ -32,6 +33,8 @@ class IndexPage extends Component {
               listName="writing"
             />
           </div>
+
+          <NewsletterForm className="home breathing-room" />
 
           <section aria-label="talks">
             <MediaGrid
