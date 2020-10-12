@@ -2,12 +2,16 @@
 title: "Finding accessibility jobs in specialized companies and the mainstream"
 date: "2020-10-12"
 path: "/accessibility-jobs-specialized-mainstream/"
-coverImage: "./images/laptop.jpg"
+coverImage: "./csun.jpg"
 ---
+
+![Me presenting on the Deque Systems stage at the CSUN Assistive Technology Conference](./csun.jpg)
 
 In the field of web development, having accessibility expertise can set you apart from other candidates. I see a lot of questions about jobs from people with a passion for accessibility and inclusive design, so I wrote this blog post to share insights I've formed over 9 years of working in the digital accessibility community (11 years as a full-time web developer in total).
 
 In contrast to my last post on making an impact as an independent ["accessibility outsider"](/outsider-leverage-accessibility/), this one is about working full-time in a job with digital accessibility tasks in some fashion. You have some decisions to make about the type of company you work for and the type of role. My aim is to help you ask the right questions and set up your career for success.
+
+_Note: a recent talk of mine for A11yNYC covered some of these career development aspects, you can catch the replay including Q&A on YouTube: https://www.youtube.com/watch?v=ExNPlxmuwBE_
 
 ## Deciding on a company
 
