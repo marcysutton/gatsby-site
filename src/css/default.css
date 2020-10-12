@@ -177,7 +177,7 @@ body {
   font-size: 1.25rem;
   margin: 0 auto;
   padding: 1em 0;
-  max-width: 640px;
+  max-width: 800px;
   width: 100%;
 }
 .newsletter-wrap form input {
@@ -201,7 +201,8 @@ button[type="submit"], input[type="submit"] {
   font-size: inherit;
   padding: 0.25rem 0.5rem;
 }
-.newsletter-wrap form button {
+.newsletter-wrap form button,
+.newsletter-wrap form label span.labelText {
   margin: 0.25em 1em 0.25em 0;
 }
 .newsletter-wrap form + p {

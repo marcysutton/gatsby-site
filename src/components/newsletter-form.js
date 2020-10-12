@@ -46,18 +46,19 @@ const NewsletterForm = ({className}) => {
                 method="post"
                 onSubmit={handleSubmit}
                 >
-                <input
-                    className="newsletter__field"
-                    type="email"
-                    aria-label="Your email"
-                    id="email_address"
-                    name="email_address"
-                    placeholder="Email address"
-                    onChange={handleInputChange}
-                    value={email}
-                    required
-                />
-
+                <label>
+                    <span className="labelText">Enter your email:</span>
+                    <input
+                        className="newsletter__field"
+                        type="email"
+                        id="email_address"
+                        name="email_address"
+                        placeholder="you@email.com"
+                        onChange={handleInputChange}
+                        value={email}
+                        required
+                    />
+                </label>
                 <button type="submit">Subscribe</button>
             </form>
 
