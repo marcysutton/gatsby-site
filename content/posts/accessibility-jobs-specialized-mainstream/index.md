@@ -29,7 +29,7 @@ Accessibility companies are a small world, and many of us have worked with each 
 
 Despite the upside of an accessibility-aligned workplace, these companies can also have downsides causing employees to compromise other values (diversity, psychological safety, the ability to make contributions without hearing the phrase “stay in your lane”). Toxic leadership can drive good people out of any type of company, sure, but it’s better to know the full picture when forming your impression of a “do good” working environment. Some advice is to interview people who work there currently and have worked there in the past to know what you‘re getting yourself into. See some bonus questions at the end of this post for techniques on sniffing out problems in the interview stage.
 
-### Making an impact on accessibility at "mainstream" companies
+### Making an impact on accessibility at “mainstream” companies
 
 My working definition of a mainstream company is one whose mission does not specifically include accessibility. It could land anywhere on the spectrum of “we don‘t do anything for accessibility” to “we’re pretty proactive about it” as a whole or in small pockets. 
 
