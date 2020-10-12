@@ -65,7 +65,7 @@ Whether you’re at a mainstream company or an accessibility company with mainst
 
 Some techniques I’ve found that can work for being persuasive are highlighting quick wins, coming to the table with suggestions and estimates for how to fix within a reasonable scope, and adjusting your approach for specific personalities and roles (are they more inclined to care about risk/legal management or technical debt and cost?). You can experiment with “the carrot vs. the stick”: using kindness when it works and making friends with the legal/compliance team for when that isn’t cutting it.
 
-Use feedback to your advantage: surface accessibility issues to PMs and leadership as leverage to get time to work on it. Celebrate wins by collecting positive feedback as confirmation that accessibility is worth it, especially from users with disabilities. Find ways to get this feedback if it doesn’t already exist. Add an [accessibility statement](https://www.w3.org/WAI/planning/statements/) to request feedback, get leadership invested and involved.
+Use feedback to your advantage: surface accessibility issues to PMs and leadership as leverage to get time to work on it. Celebrate wins by collecting positive feedback as confirmation that accessibility is worth it, especially from users with disabilities. Find ways to get user feedback if it doesn’t already exist. Add an [accessibility statement](https://www.w3.org/WAI/planning/statements/) to request feedback, get leadership invested and involved.
 
 ## Setting yourself up for success
 
@@ -75,7 +75,7 @@ If you’re considering a new role in accessibility–no matter the type of comp
 *   What’s the best part about working there?
 *   What’s the worst part about working there?
 *   What does a day in the life of someone in this role look like?
-*   How is disability representation and diversity at the company?
+*   How is disability representation, diversity, and inclusion at the company?
 *   How competitive are the pay and benefits?
 *   For product development, what’s the tech stack like?
 *   How are product decisions made; who has the final say?
