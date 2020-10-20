@@ -59,6 +59,7 @@ const Header = ({ pathname }) => (
                   <nav id="global-nav" aria-label="Global" tabIndex="-1">
                     <ul>
                       <li><Link to="/" activeClassName="active">Home</Link></li>
+                      <li><Link to="/services/" activeClassName="active">Services</Link></li>
                       <li><Link to="/writing/" activeClassName="active" className={pathname && pathname.indexOf('post') > -1 ? 'active' : null}>
                         Writing</Link>
                       </li>

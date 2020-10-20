@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -26,12 +26,18 @@ class IndexPage extends Component {
               description={data.feature.frontmatter.description}
               path={data.feature.frontmatter.path}
             />
-            <List
-              className="list-writing-home breathing-room"
-              subtitle="Latest:Writing"
-              items={data.posts.edges}
-              listName="writing"
-            />
+            <div className="home-aside">
+              <div class="service-tagline">
+                <h2>I’m an independent user interface developer and teacher specializing in web accessibility.</h2>
+                <p>Find about <Link to="/services">my services</Link>.</p>
+              </div>
+              <List
+                className="list-writing-home breathing-room"
+                subtitle="Latest:Writing"
+                items={data.posts.edges}
+                listName="writing"
+              />
+            </div>
           </div>
 
           <NewsletterForm className="home breathing-room" />
