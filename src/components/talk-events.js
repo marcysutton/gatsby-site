@@ -4,7 +4,7 @@ const UpcomingTalks = () => (
     <>
         <h2>Upcoming Talks</h2>
         <p id="upcoming-talks">
-        <em>My speaking availability is limited in 2020 but I can also recommend under-represented speakers. Looking for someone to speak at your event? You can <a href="/contact/">get in touch</a> (note: bandwidth is limited).</em></p>
+        <em>I’m currently taking on paid remote accessibility workshops and talks. Feel free to read about <a href="/services/">my services</a> and <a href="/contact/">get in touch</a>!</em></p>
     </>
 )
 
