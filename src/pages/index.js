@@ -17,7 +17,7 @@ class IndexPage extends Component {
 
     return (
       <Layout pathname={this.props.location.pathname}>
-        <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'homepage', 'Developer Advocate', 'web developer', 'accessibility']} />
+        <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'accessibility developer advocate', 'independent UI development consultant', 'freelance web developer', 'accessibility specialist']} />
           <div className="feature-list-wrap">
             <Feature
               subtitle="Latest:Professional"

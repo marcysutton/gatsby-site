@@ -30,7 +30,7 @@ const AboutPage = () => (
         return (
             <BodyClassName className="page">
                 <Layout>
-                    <SEO title="About" keywords={['Marcy Sutton', 'bio', 'web developer']} />
+                    <SEO title="About" keywords={['Marcy Sutton', 'bio', 'web developer', 'accessibility consultant', 'freelance accessibility specialist']} />
                     <div className="generic-wrap page-post-wrap">
                         <section className="page-post-detail">
                             <RouteTargetHeading>

@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'MarcySutton.com',
-    description: 'Web Developer and Accessibility Advocate',
+    description: 'Independent Web Development Consultant and Accessibility Advocate',
     author: '@marcysutton',
     twitterUsername: "@marcysutton",
-    socialDescription: "Musings about code, accessibility, music, cycling and life.",
+    socialDescription: "Musings about frontend code, accessibility, web development consulting, and life.",
     siteUrl: `https://marcysutton.com`,
   },
   plugins: [
