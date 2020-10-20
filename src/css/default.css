@@ -161,10 +161,13 @@ body {
   box-sizing: border-box;
 }
 .home-aside .service-tagline {
-  background-color: #99c32b;
-  color: #000;
+  background-color: #6c417b;
   margin: 0;
   padding: 2rem;
+}
+.home-aside .service-tagline,
+.home-aside .service-tagline a {
+  color: #fff;
 }
 .home-aside .service-tagline h2 {
   font-size: 1.5rem;
@@ -173,9 +176,6 @@ body {
 .home-aside .service-tagline p {
   font-size: 1rem;
   margin: 0;
-}
-.home-aside .service-tagline a {
-  color: #000;
 }
 .newsletter-wrap {
   background-color: #026055;
