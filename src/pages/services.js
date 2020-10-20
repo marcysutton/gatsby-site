@@ -30,7 +30,7 @@ const ServicesPage = () => (
                                 Accessible Web Development Services
                             </RouteTargetHeading>
                             
-                            <p>I engage with development teams to grow web accessibility at organizations with some or all of these services, as needed. You can hire me through my consulting company, Modern Sole Design LLC.</p>
+                            <p>I engage with development teams to foster web accessibility at organizations. You can hire me through my consulting company, Modern Sole Design LLC.</p>
                             <p>I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at early stages. I can engineer more robust solutions using manual and automated testing along the way. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
                             <h2>My specialties are:</h2>
                             <ul>
