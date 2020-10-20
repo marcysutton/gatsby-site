@@ -35,10 +35,9 @@ const ServicesPage = () => (
                             <h2>My specialties are:</h2>
                             <ul>
                                 <li>Web accessibility office hours</li>
-                                <li>Accessibility product strategy</li>
                                 <li>Video tutorials</li>
                                 <li>Talks and workshops</li>
-                                <li>Design reviews </li>
+                                <li>Design reviews</li>
                                 <li>Prototyping with code</li>
                                 <li>Web user interface engineering</li>
                                 <li>Manual and automated testing</li>
