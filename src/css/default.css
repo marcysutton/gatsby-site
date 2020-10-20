@@ -311,6 +311,9 @@ button[type="submit"], input[type="submit"] {
   background-color: #efefef;
   height: 100%;
 }
+.home .list {
+  height: auto;
+}
 .page-post-aside {
   display: inline-block;
   width: 35%;

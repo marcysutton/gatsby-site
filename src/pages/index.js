@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import BodyClassName from 'react-body-classname'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
@@ -16,58 +17,60 @@ class IndexPage extends Component {
     const data = this.props.data
 
     return (
-      <Layout pathname={this.props.location.pathname}>
-        <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'accessibility developer advocate', 'independent UI development consultant', 'freelance web developer', 'accessibility specialist']} />
-          <div className="feature-list-wrap">
-            <Feature
-              subtitle="Latest:Professional"
-              image={data.featureImage.childImageSharp.fluid}
-              title={data.feature.frontmatter.title}
-              description={data.feature.frontmatter.description}
-              path={data.feature.frontmatter.path}
-            />
-            <div className="home-aside">
-              <div class="service-tagline">
-                <h2>I’m an independent user interface developer and teacher specializing in web accessibility.</h2>
-                <p>Find about <Link to="/services">my services</Link>.</p>
-              </div>
-              <List
-                className="list-writing-home breathing-room"
-                subtitle="Latest:Writing"
-                items={data.posts.edges}
-                listName="writing"
+      <BodyClassName className="home">
+        <Layout pathname={this.props.location.pathname}>
+          <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'accessibility developer advocate', 'independent UI development consultant', 'freelance web developer', 'accessibility specialist']} />
+            <div className="feature-list-wrap">
+              <Feature
+                subtitle="Latest:Professional"
+                image={data.featureImage.childImageSharp.fluid}
+                title={data.feature.frontmatter.title}
+                description={data.feature.frontmatter.description}
+                path={data.feature.frontmatter.path}
               />
+              <div className="home-aside">
+                <div class="service-tagline">
+                  <h2>I’m an independent user interface developer and teacher specializing in web accessibility.</h2>
+                  <p>Find about <Link to="/services">my services</Link>.</p>
+                </div>
+                <List
+                  className="list-writing-home breathing-room"
+                  subtitle="Latest:Writing"
+                  items={data.posts.edges}
+                  listName="writing"
+                />
+              </div>
             </div>
-          </div>
 
-          <NewsletterForm className="home breathing-room" />
+            <NewsletterForm className="home breathing-room" />
 
-          <section aria-label="talks">
-            <MediaGrid
-              className="media-talks-home"
-              subtitle="I've spoken at some conferences:"
-              items={data.talks.edges}
-              itemLabel="talks"
-            />
-          </section>
+            <section aria-label="talks">
+              <MediaGrid
+                className="media-talks-home"
+                subtitle="I've spoken at some conferences:"
+                items={data.talks.edges}
+                itemLabel="talks"
+              />
+            </section>
 
-          <section className="list-image-wrap" aria-label="links">
-            <LinkList
-              className="list-links-home breathing-room"
-              subtitle="Latest:Professional"
-              subhead="Latest:Professional"
-              items={data.allLinksJson.edges}
-              listName="links"
-              linkNewWindow="true"
-            />
-            <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
-            <div className="retro-image"></div>
-          </section>
+            <section className="list-image-wrap" aria-label="links">
+              <LinkList
+                className="list-links-home breathing-room"
+                subtitle="Latest:Professional"
+                subhead="Latest:Professional"
+                items={data.allLinksJson.edges}
+                listName="links"
+                linkNewWindow="true"
+              />
+              <Img fluid={data.homepageImage.childImageSharp.fluid} alt="Marcy speaking at React Rally in 2016" />
+              <div className="retro-image"></div>
+            </section>
 
-          <section aria-label="Photos">
-            <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={data.gallery.edges} />
-          </section>
-      </Layout>
+            <section aria-label="Photos">
+              <ImageGrid subtitle="Photo gallery" className="media-photos-home" images={data.gallery.edges} />
+            </section>
+        </Layout>
+      </BodyClassName>
     )
   }
 }
@@ -97,7 +100,7 @@ export const pageQuery = graphql`
       }
     }
     posts: allMarkdownRemark(
-      limit: 10,
+      limit: 8,
       sort: { order: DESC, fields: [frontmatter___date] },
       filter: {fileAbsolutePath: {regex: "/posts/"}, frontmatter: { homeList: { ne: false } }}
     ) {
