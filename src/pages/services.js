@@ -31,8 +31,7 @@ const ServicesPage = () => (
                             </RouteTargetHeading>
                             
                             <p>I engage with development teams to grow web accessibility at organizations with some or all of these services, as needed. You can hire me through my consulting company, Modern Sole LLC.</p>
-                            <p>I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at early stages.</p>
-                            <p>If needed, I can engineer more robust solutions using manual and automated testing along the way, finding accessibility issues and fixing them. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
+                            <p>I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at early stages. I can engineer more robust solutions using manual and automated testing along the way. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
                             <h2>My specialties are:</h2>
                             <ul>
                                 <li>Web accessibility office hours</li>
@@ -45,8 +44,8 @@ const ServicesPage = () => (
                                 <li>Manual and automated testing</li>
                                 <li>Documentation</li>
                             </ul>
-                            <p>Note: I’m not currently taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam! If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>.</p>
-                            <p>If you’re a disabled accessibility testing / auditing consultant who’d like to be recommended on this page, <Link to="/contact">let me know</Link>!</p>
+                            <p>I’m not currently taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam. If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>.</p>
+                            <p>Note: if you’re a disabled accessibility testing / auditing consultant who’d like to be recommended on this page, <Link to="/contact">let me know</Link>!</p>
 
                             <h2>How to get in touch</h2>
                             <p>Looking to hire me for one of the above specialties? Wonderful! Shoot me an email through my contact page, and I’ll do my best to get back to you as soon as I can: <Link to="/contact">https://marcysutton.com/contact</Link></p>
