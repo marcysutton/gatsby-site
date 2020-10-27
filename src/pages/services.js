@@ -54,7 +54,7 @@ const ServicesPage = () => (
                             <h2>In the meantime&hellip;</h2>
                             <p>I have some accessibility training available online. Check out these resources:</p>
                             <ul>
-                                <li>Smashing Magazine workshop: <a href="https://smashingconf.com/online-workshops/workshops/marcy-sutton-nov" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Frontend Accessibility Masterclass</a>.<br /><strong>Starts Nov. 6-7, 2020! (Sold Out)</strong></li>
+                                <li>Smashing Magazine workshop: <a href="https://smashingconf.com/online-workshops/workshops/marcy-sutton-nov" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Frontend Accessibility Masterclass</a>.<br /><strong>Starts Nov. 6-7, 2020!</strong></li>
                                 <li>Frontend Masters video course: <a href="https://frontendmasters.com/courses/javascript-accessibility/" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Accessibility in JavaScript Applications</a></li>
                                 <li>Egghead video course: <a href="https://egghead.io/courses/start-building-accessible-web-applications-today" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Start Building Accessible Web Applications Today</a></li>
                                 <li>Accessibility chapter in <a href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Smashing Book 6: New Frontiers in Web Design</a></li>
