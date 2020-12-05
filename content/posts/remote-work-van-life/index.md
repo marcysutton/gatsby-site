@@ -66,7 +66,7 @@ When I met my then-partner Marcus in 2015, we talked about the places we wanted 
 
 About a year into our relationship he bought a 2-wheel-drive van and converted it to 4x4 himself, making it beefier and more capable with 37" tires and custom front and rear bumpers housing recovery equipment, hitch mounts, furnace and cooking fuel, a full-size spare, generator box, and bike rack. I also put in a queen-size memory foam mattress and a Webasto diesel furnace that made it comfortable.
 
-I came to see a van as a superior overland vehicle compared to motorcycles. I could bring the dog, sleep in comfort all year long, and stow plenty of gear and tools (including a kitchen kit to cook food: I eat pretty well in the middle of nowhere!). I've been able to carry a tripod and camera gear, and rekindle my love for night photography. A van also unlocks the real possibility of remote work for me once I've invested in a good "house" electrical setup in the van. I can work on a laptop in the van even when it's raining or snowing outside.
+I came to see a van as a superior overland vehicle compared to motorcycles. I could bring the dog, sleep in comfort all year long, and stow plenty of gear and tools (including a kitchen kit to cook food: I eat pretty well in the middle of nowhere!). I've been able to carry a tripod and camera gear, and rekindle my love for night photography. A van also unlocked the real possibility of remote work for me once I experienced a good "house" electrical setup. I can work on a laptop in the van even when it's raining or snowing outside.
 
 <figure>
 
@@ -81,7 +81,7 @@ Iceberg the Beefy's electrical setup included an inverter charger and 3 house ba
 
 ![Our two vans in the snowy Heather Meadows parking lot](./images/heather-meadows-jay.jpg)
 
-Gatsby, my employer at the time, provided a $500 home office credit which I invested into a [WeBoost RV cell booster](https://www.amazon.com/gp/product/B01N705CF3/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1) that ran off the inverter and helps with connectivity in the van (but it can't invent a network when there is none or when it's overloaded, like a busy day at Mt. Baker Ski Area). I use my iPhone as a mobile hotspot and it's enough hardware for me to hold remote meetings from anywhere with a good signal. It can definitely create an expensive AT&T phone bill at the end of the month, especially in Canada or other countries with a $10 a day charge to use a regular plan internationally. So I do that sparingly and work offline, or find WIFI.
+Gatsby, my employer at the time, provided a $500 home office credit which I invested into a [WeBoost RV cell booster](https://www.amazon.com/gp/product/B01N705CF3/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1) that ran off the inverter and helped with connectivity in the van (but it can't invent a network when there is none or when it's overloaded, like a busy day at Mt. Baker Ski Area). I still use my iPhone as a mobile hotspot and it's enough hardware for me to hold remote meetings from anywhere with a good signal. It can definitely create an expensive AT&T phone bill at the end of the month, especially in Canada or other countries with a $10 a day charge to use a regular plan internationally. So I do that sparingly and work offline, or find WIFI.
 
 I'll probably get a dedicated mobile hotspot like I've heard other full-time van lifers do, so I'm not hammering my phone bill with data usage. I deduct 100% of my phone and internet cost from taxes, and I've had past employers subsidize $100 a month for each of those. Still, when I'm aren't at home, I'm not using the high-performance internet I'm paying for...and it's not good or wise to waste money in the pursuit of freedom. This is where long-term choices are important to sustain my desired lifestyle.
 
@@ -90,8 +90,6 @@ I'll probably get a dedicated mobile hotspot like I've heard other full-time van
 An [ARB fridge](https://arbusa.com/portable-fridge-freezers/) kept food and drinks cold when out in the middle of nowhere, which is great as I love to cook up hot meals. We'd talked about getting a microwave like a friend and his van, but we got by with a Coleman 2-burner propane stove outside and a Jetboil. There was also a stove and sink in that van that weren't fully set up. I couldn't really tell you why other than it wasn't a priority and we didn't want our clothes to smell like onions. I will likely get a microwave or oven in my next rig build, since it can be useful for reheating food. (I still wouldn't force microwaved fish on anyone in a tight space.)
 
 ## Dreams
-
-_Fun fact: the "first dance" song at our wedding was Dreams by Fleetwood Mac._
 
 Van life is something I cherish after wanting to go on adventures so badly in years past. Looking to the next 5-10 years of life, I feel committed to building #vanlife even more into my lifestyle because I'm so dang happy when I'm out on the road. Since I have a remote job, I intend to enjoy the opportunity as much as possible.
 
