@@ -163,7 +163,8 @@ body {
 .home-aside .service-tagline {
   background-color: #6c417b;
   margin: 0;
-  padding: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .home-aside .service-tagline,
 .home-aside .service-tagline a {
@@ -267,6 +268,9 @@ button[type="submit"], input[type="submit"] {
 .feature a, .list a {
   color: #000;
 }
+.feature h3 {
+  font-size: 2rem;
+}
 .feature h3 a {
   font-weight: bold;
 }
@@ -276,8 +280,11 @@ button[type="submit"], input[type="submit"] {
   margin-top: 0;
 }
 .feature p {
+  font-size: 1.25rem;
   font-style: italic;
   font-weight: 500;
+}
+.feature p:last-of-type {
   margin-bottom: 0;
 }
 .floating-image {

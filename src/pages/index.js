@@ -22,14 +22,16 @@ class IndexPage extends Component {
           <SEO title="Home" keywords={['Marcy Sutton', 'MarcySutton.com', 'accessibility developer advocate', 'independent UI development consultant', 'freelance web developer', 'accessibility specialist']} />
             <div className="feature-list-wrap">
               <Feature
-                subtitle="Latest:Professional"
+                subhead="Latest:Feature"
                 image={data.featureImage.childImageSharp.fluid}
+                imageAlt={data.feature.frontmatter.imageAlt}
                 title={data.feature.frontmatter.title}
                 description={data.feature.frontmatter.description}
+                extendedDescription={data.feature.frontmatter.extendedDescription}
                 path={data.feature.frontmatter.path}
               />
               <div className="home-aside">
-                <div class="service-tagline">
+                <div className="service-tagline breathing-room">
                   <h2>I’m an independent user interface developer and teacher specializing in web accessibility.</h2>
                   <p>Find about <Link to="/services">my services</Link>.</p>
                 </div>
@@ -84,15 +86,17 @@ export const pageQuery = graphql`
         }
       }
     }
-    feature: markdownRemark(fields: {slug: {regex: "/frontend-masters/"}}) {
+    feature: markdownRemark(fields: {slug: {regex: "/testing-accessibility/"}}) {
       id
       frontmatter {
         title
         path
         description
+        extendedDescription
+        imageAlt
       }
     }
-    featureImage: file(relativePath: { eq: "frontend-masters-feature.jpg" }) {
+    featureImage: file(relativePath: { eq: "testing-accessibility.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
