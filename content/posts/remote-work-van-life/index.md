@@ -3,6 +3,7 @@ title: "Remote Work and Van Life"
 date: "2020-03-01"
 path: "/remote-work-van-life"
 draft: false
+homeList: false
 coverImage: "./images/van-sunset.jpg"
 ---
 
