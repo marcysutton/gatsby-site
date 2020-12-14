@@ -3,7 +3,7 @@ title: "Testing Accessibility"
 description: "Learn how to build accessible web applications from my latest initiative, launching in Early 2021. My goal is to teach you how to use HTML, CSS, and JavaScript for good."
 extendedDescription: "<p>Get a heads-up when the Testing Accessibility Workshop launches by <a href='/#newsletter-signup'>subscribing for email updates</a>.</p>"
 path: "/testing-accessibility"
-coverImage: "./testing-accessibility.png"
+coverImage: "./images/testing-accessibility.png"
 imageAlt: "Learn How to Build Accessible Web Apps with Marcy Sutton"
 ---
 

@@ -15,7 +15,8 @@ class FeatureTemplate extends Component {
     return (
       <BodyClassName className="page">
         <Layout pathname={this.props.location.pathname}>
-          <SEO title={ page.frontmatter.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']} />
+          <SEO title={ page.frontmatter.title } keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'pages', 'blog']}
+            image={ (page.frontmatter.coverImage && page.frontmatter.coverImage.childImageSharp.fixed.src) } />
           <section className="generic-wrap page-post-detail">
             <article>
                 <RouteTargetHeading targetID="global-nav">
