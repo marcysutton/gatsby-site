@@ -534,6 +534,12 @@ button[type="submit"], input[type="submit"] {
 .post-detail h1 {
   margin-bottom: 0.25em;
 }
+.page-post-detail h1 code,
+.page-post-detail h2 code,
+.page-post-detail h3 code,
+.page-post-detail h4 code {
+  font-size: inherit;
+}
 .page-post-detail h2 {
   margin-top: 1.5em;
 }
@@ -562,6 +568,12 @@ button[type="submit"], input[type="submit"] {
 }
 .page-post-detail figure figcaption {
   font-style: italic;
+}
+.page-post-detail figure.border img {
+  border: 1px solid #ccc;
+}
+.page-post-detail figure span + figcaption {
+  margin-top: 0.5em;
 }
 
 @media screen and (max-width: 900px) {
