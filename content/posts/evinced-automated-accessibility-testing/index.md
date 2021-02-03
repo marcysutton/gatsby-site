@@ -1,7 +1,9 @@
 ---
-title: Evinced is Pushing the Limits of Automated Accessibility Testing
+title: "Evinced is Pushing the Limits of Automated Accessibility Testing"
 date: "2021-02-01"
 path: "/evinced-automated-accessibility-testing"
+coverImage: "./evinced-marcysuttoncom.jpg"
+excerpt: "Evinced has launched a suite of new testing tools that are pushing the limits of what's possible to test accessibility automatically. Read to learn about their approach and my consulting work with them."
 ---
 
 _Disclaimer: I am writing as a paid consultant and advisor for [Evinced](https://evinced.com), a startup building new accessibility testing tools. Read on to find out why I said yes to this engagement and what you should know about their product launch!_

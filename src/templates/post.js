@@ -20,7 +20,7 @@ class PostTemplate extends Component {
         <Layout pathname={this.props.pageContext.pathname}>
           <SEO
             title={ AllHtmlEntities.decode(post.frontmatter.title) }
-            description={ AllHtmlEntities.decode(post.excerpt) }
+            description={ AllHtmlEntities.decode(post.frontmatter.excerpt) }
             keywords={['Marcy Sutton', 'MarcySutton.com', 'writing', 'posts', 'blog']}
             image={ (post.frontmatter.coverImage && post.frontmatter.coverImage.childImageSharp.fixed.src) } />
             <div className="generic-wrap page-post-wrap">
@@ -69,8 +69,8 @@ export const pageQuery = graphql`
             }
           }
         }
+        excerpt
       }
-      excerpt
       html
     }
     allMarkdownRemark(
