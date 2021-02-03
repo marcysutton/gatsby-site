@@ -30,7 +30,7 @@ I'll be interested to see how Evinced uses their computer vision and AI algorith
 
 I also now have better answers to a couple of questions I've seen floating around the community for the past few years, including:
 
-- **What should I use to crawl or scan a list of webpages for accessibility?** Try the Evinced Site Scanner, with a community free service.
+- **What should I use to crawl or scan a list of webpages for accessibility?** Try the Evinced Site Scanner, with a community free service. There's an enterprise free trial as well where you don't need to speak to a sales person.
 - **How can I test a native mobile app for accessibility?** Try the free iOS Debugger, with other native platforms coming soon. 
 
 The need for manual accessibility testing will never fully go away. There is simply too much nuance for computers to make websites and apps intuitive and accessible without human review. But pushing the limits of what's possible could bring us closer to an accessible web by making development easier, and this launch feels like a step in the right direction.
