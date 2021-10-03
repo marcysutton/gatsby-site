@@ -9,7 +9,7 @@ const Feature = ({ subhead, title, description, extendedDescription = '', path, 
         <div className="breathing-room">
             <h2 className="subhead">{ subhead }</h2>
             <h3><Link to={ path }>{ title }</Link></h3>
-            <p>{ description }</p>
+            <p>{ ReactHtmlParser(description) }</p>
             {extendedDescription.length > 0 && 
                 ReactHtmlParser(extendedDescription)
             }
