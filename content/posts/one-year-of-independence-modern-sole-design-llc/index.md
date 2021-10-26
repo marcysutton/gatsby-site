@@ -9,6 +9,11 @@ excerpt: "One year ago I started an independent accessible web development busin
 
 I started a company, Modern Sole Design LLC, [one year ago](https://twitter.com/marcysutton/status/1313576837323186176) to work independently as a web developer and accessibility specialist. I worked with a local attorney to develop my company’s operating agreement and initial annual report in the State of Washington (which I just renewed, one year later). It was a bit scary and took a leap of faith but I’m happy to report that after a year in business, _Marcy Sutton the freelancer_ is really thriving.
 
+<figure>
+    <img src="./backpacking.jpg" alt="Sitting at a remote lake with yellow larches at sunrise and my camping cup in my hand." />
+    <figcaption>Taking time away from the computer in month 1 for a solo backpacking trip.</figcaption>
+</figure>
+
 Since September 2020, I’ve worked with numerous clients on projects specific to their needs. I worked on automated accessibility testing for Tenon, accessibility engineering for the open source platform Forem, product consulting and developer relations for Evinced, accessibility office hours for Substantial, accessibility training for Microsoft and Google, as well as accessibility engineering for a meat delivery service.
 
 I love having a focus on accessibility as an independent lead-level web developer with knowledge to share. Over time I’ve fine-tuned my engagements to do more of the work I want to do and less of the stuff I don’t, which is also in my clients’ best interest. Increasingly, by taking an active role in guiding my deliverables toward accessibility engineering, I’ve gotten work on things I really enjoy. As a result, my career feels healthy and sustainable for the first time in years.
