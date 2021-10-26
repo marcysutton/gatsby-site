@@ -1,8 +1,9 @@
 ---
-title: "Celebrating One Year of Independence as Modern Sole Design LLC"
+title: "Celebrating One Year as Modern Sole Design LLC"
 date: "2021-10-25"
 path: "/one-year-of-independence-modern-sole-design-llc"
 coverImage: "./backpacking.jpg"
+excerpt: "One year ago I started an independent accessible web development business. Here’s how I’m thriving."
 ---
 
 I started a company, Modern Sole Design LLC, [one year ago](https://twitter.com/marcysutton/status/1313576837323186176) to work independently as a web developer and accessibility specialist! I worked with a local attorney to develop my company’s operating agreement and initial annual report in the State of Washington (which I just renewed, one year later).
