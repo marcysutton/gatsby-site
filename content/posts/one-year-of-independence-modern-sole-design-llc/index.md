@@ -1,5 +1,5 @@
 ---
-title: "Celebrating One Year as Modern Sole Design LLC"
+title: "Celebrating One Year as Modern Sole Design"
 date: "2021-10-25"
 path: "/one-year-of-independence-modern-sole-design-llc"
 coverImage: "./backpacking.jpg"
