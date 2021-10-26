@@ -7,7 +7,7 @@ coverImage: "./backpacking.jpg"
 excerpt: "One year ago I started an independent accessible web development business. Here’s how I’m thriving."
 ---
 
-I started a company, Modern Sole Design LLC, [one year ago](https://twitter.com/marcysutton/status/1313576837323186176) to work independently as a web developer and accessibility specialist. I worked with a local attorney to develop my company’s operating agreement and initial annual report in the State of Washington (which I just renewed, one year later). It was a bit scary and took a leap of faith but I’m happy to report that after a year in business, _Marcy Sutton the freelancer_ is really thriving.
+I started a company, Modern Sole Design LLC, [one year ago](https://twitter.com/marcysutton/status/1313576837323186176) to work independently as a web developer and accessibility specialist. I worked with a local attorney to develop my company’s operating agreement and initial annual report in the State of Washington (which I just renewed, one year later). It was a bit scary and took a leap of faith to leave full-time employment behind but I’m happy to report that after a year in business, _Marcy Sutton the freelancer_ is really thriving.
 
 <figure>
     <img src="./backpacking.jpg" alt="Sitting at a remote lake with yellow larches at sunrise and my camping cup in my hand." />
