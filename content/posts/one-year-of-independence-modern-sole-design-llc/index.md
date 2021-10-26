@@ -1,6 +1,6 @@
 ---
 title: "Celebrating One Year of Independence as Modern Sole Design LLC"
-date: "2021-10-26"
+date: "2021-10-25"
 path: "/one-year-of-independence-modern-sole-design-llc"
 coverImage: "./backpacking.jpg"
 ---
@@ -12,6 +12,8 @@ Since September 2020, I’ve worked with numerous clients on projects specific t
 I love having a focus on accessibility as an independent, lead-level web developer with knowledge to share. Over time I’ve fine-tuned my engagements to do more of the work I want to do and less of the stuff I don’t, which is also in my clients’ best interest. Increasingly, by taking an active role in guiding my deliverables toward accessibility engineering I’ve gotten to do work I really enjoy. As a result, my career feels healthy and sustainable for the first time in years.
 
 Independence is not without its stresses. It was a lot of work to get a business up and running while contributing new work at the same time. To be honest, I ran on adrenaline for most of the first year to make sure I could survive. I pondered whether I would ever go back to full-time work on a team as compelling roles came up and contacts reached out. And yet, I kept moving forward. I was challenged, invigorated and empowered to fulfill my own career destiny. My only wish is that I would have done it sooner.
+
+## Pros and cons
 
 The biggest advantage: I am my own boss and I am responsible for my own output and customer satisfaction. I don’t worry about mismanagement, big egos, organizational friction, or any of the expectations or misalignments that contributed to feeling burned out as an idealistic woman in the tech industry.
 
@@ -27,8 +29,10 @@ Here’s something I wasn’t expecting: banks require 2 years of tax returns fo
 
 There has been another great part of starting a consulting business during COVID: I haven’t needed to travel for client work or public speaking at all. It’s had a positive effect on my finances and my mental and physical health as I’m at home every day or traveling for fun instead. I was able to take ample time away from conferences and public speaking to make sure my business was viable. As I ramp back up with public speaking with upcoming events (CascadiaJS and SmashingConf SF), I’m so thankful for the past (nearly) 2 years of rest.
 
-Moving forward, I’m gearing my billable projects toward the work I’m best at: accessibility engineering, including tinkering with user interfaces and improving accessibility. I want to provide code as deliverables rather than spreadsheets (e.g. doing accessibility audits). Even though I have zero fear in front of an audience and enjoy presenting, I don’t want to be a "TV-personality" that simply hosts events. Instead, I want to use my talents to solve user interface problems and inspire developers and designers to do the same.
+## Moving forward
 
-For the rest of 2021 and into part of 2022, my focus will be entirely on accessibility workshops including my independent series, Testing Accessibility. You can sign up for workshops and join my mailing list over on the website: [testingaccessibility.com](https://testingaccessibility.com).
+Looking to the future, I plan to gear my billable projects toward the work I’m best at: accessibility engineering, including tinkering with user interfaces and improving digital access. I want to provide code as deliverables rather than spreadsheets (e.g. doing accessibility audits). Even though I have zero fear in front of an audience and enjoy presenting, I don’t want to be a "TV-personality" that simply hosts events. Instead, I want to use my talents to solve user interface problems and inspire developers and designers to do the same.
 
-I will be looking for my next billable client by Q2 of 2022. If you have a need for a passionate expert on coding accessible user interfaces, [check out my services page](/services) and [get in touch](/contact)!
+For the rest of 2021 and into part of 2022, my focus will be entirely on accessibility workshops including my independent series, Testing Accessibility. You can sign up for the workshops and join my mailing list over on the website: [testingaccessibility.com](https://testingaccessibility.com).
+
+I will be looking for my next billable client by Q2 of 2022. If you have a need for a passionate code expert to work part time on accessible user interfaces, [check out my services page](/services) and [get in touch](/contact)!
