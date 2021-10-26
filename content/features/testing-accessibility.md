@@ -1,6 +1,6 @@
 ---
 title: "Testing Accessibility"
-description: "Learn how to build accessible web applications from my latest initiative. Take my free 6-part email course and sign up for the upcoming <a href='https://testingaccessibility.com/workshops'>workshop series</a>, with dates starting in October 2021. My goal is to teach you how to use HTML, CSS, and JavaScript for good."
+description: "Learn how to build accessible web applications from my latest initiative. Take my free 6-part email course and sign up for the upcoming <a href='https://testingaccessibility.com/workshops'>workshop series</a>, with dates through 2022. My goal is to teach you how to use HTML, CSS, and JavaScript for good."
 extendedDescription: "<p><a href='/#newsletter-signup'>Subscribe to my mailing list</a> and stay up to date!</p>"
 path: "/testing-accessibility"
 coverImage: "./images/testing-accessibility.png"
