@@ -35,7 +35,7 @@ A keyboard and a screen reader are very closely linked: generally you can't oper
 
 I talked with [Marco Zehe](https://www.marcozehe.de) from Mozilla about this subject, and he told me some very interesting things about accessibility in browsers. The tree created from the DOM (and sometimes CSS) changes a lot. When the tree changes, the browser sends events to assistive technology saying a portion of the tree has changed or updated. Making a change to the DOM with JavaScript that causes a [reflow or layout](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/ "How Browsers Work") (Gecko and Blink terms for the same thing, respectively) will most likely create or recreate an accessible object for it. ARIA state changes don't recreate objects, but they do send events. Many events are combined together to reduce performance impact: see [Event Coalescing](https://wiki.mozilla.org/Accessibility/EventCoalescing).
 
-![Gecko Rendering process with Accessibility Tree circled](https://marcysutton.com./geckoflow-ax-tree.png)
+![Gecko Rendering process with Accessibility Tree circled](./geckoflow-ax-tree.png)
 
 The takeaway is to avoid expensive operations where the browser has to recalculate how to position and display objects in a webpage, such as `display: none;`, `window.getComputedStyle()` and `elem.scrollTop`, to name a few. (A longer list can be found in this [handy gist from Paul Irish](https://gist.github.com/paulirish/5d52fb081b3570c81e3a).) For accessibility as well as performance, you should limit costly lookups and operations all the time, but especially when a page is loading.
 
