@@ -36,7 +36,7 @@ const ServicesPage = () => {
                         <p>A note about availability: I’m typically booked a few months in advance. If you need help right away, you can hire me for hourly consulting through Superpeer, a video call service: <a href="https://superpeer.com/marcysutton">https://superpeer.com/marcysutton</a></p>
                         
                         <h2>A note about audits</h2>
-                        <p>I’m not currently taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam. If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>.</p>
+                        <p>I’m not currently taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam. If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>. If you’d prefer to work with an individual over an organization, contact <a href="https://www.tolu.xyz/">Tolu Abegbite</a>.</p>
                         <p>Note: if you’re a disabled accessibility testing / auditing consultant who’d like to be recommended on this page, <Link to="/contact">let me know</Link>!</p>
                     </section>
                     <aside className="page-post-aside breathing-room">
