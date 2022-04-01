@@ -6,7 +6,7 @@ const NewsletterForm = ({className}) => {
     const [status, setStatus] = useState(null);
 
     // your generated URL here //
-    const baseURL = `https://app.convertkit.com/forms/1688519/subscriptions`;
+    const baseURL = `https://app.convertkit.com/forms/1863867/subscriptions`;
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -66,7 +66,7 @@ const NewsletterForm = ({className}) => {
                 {status === 'SUCCESS' && <p><span aria-hidden="true">✨</span> Please check your inbox to confirm your subscription. <span aria-hidden="true">✨</span></p>}
                 {status === 'ERROR' && <p><span aria-hidden="true">❌ </span>Oops, Something went wrong! please try again.<span aria-hidden="true"> ❌</span></p>}
             </div>
-            <p className="privacy-note">I will not sell or share your information, period. Read my <Link to="/privacy">Privacy Policy</Link></p>
+            <p className="privacy-note">This adds you to my TestingAccessibility.com subscriber list.<br />I will not sell or share your information, period. Read my <Link to="/privacy">Privacy Policy</Link></p>
         </div>
     );
 }
