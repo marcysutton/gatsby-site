@@ -313,6 +313,17 @@ button[type="submit"], input[type="submit"] {
     width: 100%;
   }
 }
+.callout {
+  background-color: #efefef;
+  padding: 1em;
+}
+.callout.inverted {
+  background-color: #fff;
+  box-shadow: 0px 0px 1px #ccc;
+}
+.callout p {
+  margin-bottom: 0;
+}
 .page-post-aside,
 .list {
   background-color: #efefef;

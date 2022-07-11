@@ -2,20 +2,32 @@ import React from 'react'
 
 const PastTalks = () => (
     <div>
-        <h2>2019 Talks</h2>
+        <h2>Past Talks/Workshops</h2>
         <ul id="past-talks">
+            <li className="offsite-link">
+                <a title="Link opens in a new window" href="https://smashingconf.com/online-workshops/workshops/marcy-sutton-march" target="_blank" rel="noopener noreferrer">
+                    <span className="inline-link">Smashing Workshop: Accessibility in Modern Applications</span>
+                </a><br />
+                Remote<br />
+                March 2022</li>
+            <li className="offsite-link">
+                <a title="Link opens in a new window" href="https://smashingconf.com/online-workshops/workshops/marcy-sutton" target="_blank" rel="noopener noreferrer">
+                    <span className="inline-link">Smashing Workshop: Front-End Accessibility Masterclass</span>
+                </a><br />
+                Remote<br />
+                June 2020</li>
             <li className="offsite-link">
                 <a title="Link opens in a new window" href="https://conf.a11yto.com/" target="_blank" rel="noopener noreferrer">
                     <span className="inline-link">A11yTO Conf</span>
                 </a><br />
                 Toronto, Canada<br />
-                October, 2019</li>
+                October 2019</li>
             <li className="offsite-link">
                 <a title="Link opens in a new window" href="https://smashingconf.com/ny-2019/" target="_blank" rel="noopener noreferrer">
                     <span className="inline-link">SmashingConf</span>
                 </a><br />
                 New York, NY<br />
-                October, 2019</li>
+                October 2019</li>
             <li className="offsite-link">
                 <a href="https://www.meetup.com/a11ychi/" target="_blank" rel="noopener noreferrer">
                     <span className="inline-link">Accessibility Chicago Meetup</span>

@@ -17,6 +17,9 @@ const ContactPage = ({ data }) => (
                         Holla Back
                     </RouteTargetHeading>
                     <div>
+                        <figure className="callout inverted">
+                            <p><em><strong>Current status: on maternity leave!</strong> If you’d like to hire me for training or limited <a href="/services">consulting engagements</a> focused on accessible user interfaces after November 2022, get in touch.</em></p>
+                        </figure>
                         <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p>
                         <p><strong>All fields are required.</strong></p>
                         <div>

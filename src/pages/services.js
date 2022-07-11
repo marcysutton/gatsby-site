@@ -16,9 +16,13 @@ const ServicesPage = () => {
                         <RouteTargetHeading>
                             Accessible Web Development Services
                         </RouteTargetHeading>
+
+                        <figure className="callout">
+                            <p><em><strong>Current status: on maternity leave!</strong> If you’d like to hire me for training or limited consulting engagements focused on accessible user interfaces after November 2022, get in touch.</em></p>
+                        </figure>
                         
-                        <p>I engage with development teams and companies to foster web accessibility at tech organizations.</p>
-                        <p>I can consult on accessibility of websites and web applications. I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at early stages. I can engineer more robust solutions using manual and automated testing along the way. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
+                        <p>I engage with development teams and companies to foster web accessibility at tech organizations. I’ve had the pleasure of working with some great companies, including Spotify, Microsoft, Google, Pinterest, T-Mobile, Change.org, Evinced, and more.</p>
+                        <p>I can consult on accessibility of websites and web applications. I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at any stage. I can engineer more robust solutions using manual and automated testing along the way. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
                         <h2>My specialties are:</h2>
                         <ul>
                             <li>Web user interface engineering</li>
@@ -44,8 +48,7 @@ const ServicesPage = () => {
                         <h2>In the meantime&hellip;</h2>
                         <p>I have some accessibility training available online. Check out these resources:</p>
                         <ul>
-                            <li>Live and forthcoming on-demand workshops, as well as a free email course: <a href="https://testingaccessibility.com">TestingAccessibility.com</a></li>
-                            <li>Smashing Conference SF workshop: <a href="https://smashingconf.com/sf-2022/workshops/marcy-sutton/" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Accessibility in Modern Applications</a>.<br /><strong>March 31, 2022</strong></li>
+                            <li>Self-paced accessibility workshops, as well as a free email course: <a href="https://testingaccessibility.com">TestingAccessibility.com</a></li>
                             <li>Frontend Masters video course: <a href="https://frontendmasters.com/courses/javascript-accessibility/" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Accessibility in JavaScript Applications</a></li>
                             <li>Egghead video course: <a href="https://egghead.io/courses/start-building-accessible-web-applications-today" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Start Building Accessible Web Applications Today</a></li>
                             <li>Accessibility chapter in <a href="https://www.smashingmagazine.com/2018/09/smashing-book-6-release/" target="_blank" rel="noopener noreferrer" title="Opens in a new window">Smashing Book 6: New Frontiers in Web Design</a></li>
