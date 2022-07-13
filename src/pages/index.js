@@ -96,7 +96,7 @@ export const pageQuery = graphql`
         imageAlt
       }
     }
-    featureImage: file(relativePath: { eq: "testing-accessibility.png" }) {
+    featureImage: file(relativePath: { eq: "testing-accessibility-banner-2@2x.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

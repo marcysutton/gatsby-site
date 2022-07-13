@@ -3,13 +3,13 @@ title: "Testing Accessibility"
 description: "Learn how to build accessible web applications from my latest initiative. Self-paced workshop series available now at <a href='https://testingaccessibility.com'>testingaccessibility.com</a>! You can also take my free 6-part email course. My goal is to teach you how to use HTML, CSS, and JavaScript for good."
 extendedDescription: "<p><a href='/#newsletter-signup'>Subscribe to my mailing list</a> and stay up to date!</p>"
 path: "/testing-accessibility"
-coverImage: "./images/testing-accessibility.png"
-imageAlt: "Learn How to Build Accessible Web Apps with Marcy Sutton"
+coverImage: "./images/testing-accessibility-banner-3@2x.png"
+imageAlt: "TestingAccessibility.com by Marcy Sutton. Comprehensive accessibility training for shipping high-quality web applications. A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment. Also featuring an illustration of a colorful notebook with stickers and the P.O.U.R. philosophy from WCAG"
 ---
 
 <div class="floating-image width50">
     <img
-        src="./images/testing-accessibility.png"
+        src="./images/testing-accessibility-banner-2@2x.png"
         alt="Learn How to Build Accessible Web Apps with Marcy Sutton"
     />
 </div>
