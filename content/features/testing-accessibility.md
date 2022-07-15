@@ -26,6 +26,8 @@ My goal is to teach you how to use HTML, CSS, and JavaScript for good. You’ll 
 
 Subscribe for email updates from this site's homepage or on the Testing Accessibility landing page to be notified when things drop: [https://testingaccessibility.com/](https://testingaccessibility.com/)
 
+<em>For questions or support related to Testing Accessibility, contact the team at <a href="mailto:team@testingaccessibility.com">team@testingaccessibility.com</a>.</em>
+
 ---
 
 Previous feature: [Frontend Masters Workshop: Accessibility in JavaScript Web Applications](/frontend-masters-javascript-accessibility)

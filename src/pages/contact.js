@@ -18,7 +18,8 @@ const ContactPage = ({ data }) => (
                     </RouteTargetHeading>
                     <div>
                         <figure className="callout inverted">
-                            <p><em><strong>Current status: on maternity leave!</strong> If you’d like to hire me for training or limited <a href="/services">consulting engagements</a> focused on accessible user interfaces after November 2022, get in touch.</em></p>
+                            <p><strong>Current status: on maternity leave!</strong> If you’d like to hire me for training or limited <a href="/services">consulting engagements</a> focused on accessible user interfaces after November 2022, get in touch.</p>
+                            <p>For questions or support related to Testing Accessibility, contact <a href="mailto:team@testingaccessibility.com">team@testingaccessibility.com</a>.</p>
                         </figure>
                         <p><em>Want to get in touch? Fill out this form, and I’ll do my best to get back to you.</em></p>
                         <p><strong>All fields are required.</strong></p>

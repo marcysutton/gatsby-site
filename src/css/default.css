@@ -322,7 +322,11 @@ button[type="submit"], input[type="submit"] {
   box-shadow: 0px 0px 1px #ccc;
 }
 .callout p {
+  font-style: italic;
   margin-bottom: 0;
+}
+.callout p + p {
+  margin-top: 1em;
 }
 .page-post-aside,
 .list {
