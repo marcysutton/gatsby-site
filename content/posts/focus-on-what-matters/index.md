@@ -36,7 +36,7 @@ I’ll keep repeating this mantra: what’s the most important thing right now? 
 
 _Focusing on what matters_ has been the most magical, transformative approach to develop in my life in years. I don’t have regrets for how things have gone since it took all of those experiences to get me to this place in life. But I know now that I have a lot of power to keep my life on track in the pursuit of happiness. I also appreciate the privileges involved with being able to nudge my life in the right direction, since there isn’t much interference.
 
-Gratitude is at the core of this practice, both for the important things kept in your queue and the unimportant things that you cut loose. It’s like Marie Kondo’s practice of thanking the material possessions she gives away. When you focus on what matters, you spark joy from positive movements and benefit from a release of tension when letting go.
+Gratitude is at the core of my practice, both for the important things kept in the queue and the unimportant things I cut loose. It’s like Marie Kondo’s practice of thanking the material possessions she gives away. When you focus on what matters, you spark joy from positive movements and also benefit from the release of tension when letting go.
 
 Thank you, life, for all you have to offer.
 
