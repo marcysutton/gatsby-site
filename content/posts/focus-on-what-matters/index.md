@@ -29,10 +29,10 @@ I still get anxious and distracted like I used to but now I give myself some gra
 
 I say all of this for two reasons:
 
-- To give you a little update for how things have gone this year, since I haven’t prioritized writing on this site (one of the things I let drop, on purpose).
-- To encourage you to do regular gut checks in your life to see if any course corrections are needed. Are you working on the right thing right now? Spending time with the right people? Getting enough rest?
+1. To give you a little update for how things have gone this year, since I haven’t prioritized writing on this site (one of the things I let drop, on purpose).
+2. To encourage you to do regular gut checks in your life to see if any course corrections are needed. Are you working on the right thing right now? Spending time with the right people? Getting enough rest?
 
-I’ll keep repeating this mantra: what’s the most important thing right now? What’s the most important next thing?
+I’ll keep repeating this mantra: what’s the most important thing right now? What’s the next most important thing?
 
 _Focusing on what matters_ has been the most magical, transformative approach to develop in my life in years. I don’t have regrets for how things have gone since it took all of those experiences to get me to this place in life. But I know now that I have a lot of power to keep my life on track in the pursuit of happiness. I also appreciate the privileges involved with being able to nudge my life in the right direction, since there isn’t much interference.
 
