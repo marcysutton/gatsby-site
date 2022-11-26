@@ -5,7 +5,7 @@ path: "/accessibility-jobs-specialized-mainstream/"
 coverImage: "./csun.jpg"
 ---
 
-_Updated November 19, 2022_
+_Updated November 25, 2022_
 
 ![Me presenting on the Deque Systems stage at the CSUN Assistive Technology Conference](./csun.jpg)
 
@@ -21,7 +21,9 @@ To work on digital accessibility full-time, you have quite a few options when it
 
 You could work on accessibility at a startup, a small, medium, or large-sized company. Enterprises tend to have enterprise-level concerns, where you’d work to move a big ship through lots of potential red tape but also have a gigantic accessibility impact. At a startup it might be easier to move fast and (hopefully not) break things, but you’ll have less of the necessary checks and balances for long term quality. Your experience and ability to make a lasting impact will vary.
 
-Picking which type of company is right for you will be a deeply personal decision based on the opportunity, your experience, career direction, personality, and network connections. It could also really depend on who’s hiring when you're looking for a job. Do you want to work with a range of clients as a subject matter expert, or on a product full time? Do you want to work on the front-end for a product that the general public will use, or accessibility tools for industry professionals? What is the team, organization, and work culture like?
+Picking which type of company is right for you will be a deeply personal decision based on the opportunity, your experience, career direction, personality, and network connections. It could also really depend on who’s hiring when you're looking for a job. Do you want to work with a range of clients as a subject matter expert, or on a product full time? Do you want to work on the front-end for a product that the general public will use, or accessibility tools for industry professionals?
+
+What is the team, organization, and work culture like? Are there power dynamics at play which can impact your ability to advocate for access and product quality?
 
 ### Upsides and downsides of accessibility companies
 
@@ -29,7 +31,9 @@ Accessibility-specific companies like Deque Systems, TPGi, and Level Access are 
 
 Accessibility companies are a small world. Many of us have worked with each other and seen folks switch from one company to another for various reasons. There are  success stories and a wide range of opportunities from UX/Design to Software Engineering, Management, and QA. Some folks work on web, mobile, and accessibility standards. However, there are also less glowing company reviews.
 
-Despite the upside of an accessibility-aligned workplace, these companies can also have downsides causing employees to compromise other values: diversity, psychological safety, the ability to make contributions without hearing “stay in your lane”. Toxic leadership can drive good people out of any type of company, sure. But it’s better to know the full picture when forming your impression of a “do good” working environment. My advice is to interview people who work there currently and have worked there in the past to know what the culture is like. See some bonus questions at the end of this post for techniques on sniffing out problems in the interview stage.
+Despite the upside of an accessibility-aligned workplace, these companies can have potential downsides causing employees to compromise other values: diversity, psychological safety, the ability to make contributions without hearing “stay in your lane”. Toxic leadership can drive good people out of any type of company, sure. But it’s better to know the full picture when forming your impression of a “do good” working environment.
+
+My advice is to interview people who work there currently and have worked there in the past to know what the culture is like. See some bonus questions at the end of this post for techniques on sniffing out problems in the interview stage.
 
 ### Making an impact on accessibility at “mainstream” companies
 
