@@ -10,33 +10,36 @@ const ServicesPage = () => {
     return (
         <BodyClassName className="page">
             <Layout>
-                <SEO title="Accessible Web Development Services" keywords={['Marcy Sutton', 'web accessibility expert', 'single page app accessibility', 'JavaScript accessibility', 'accessibility consultant', 'independent UI developer', 'freelance web developer']} />
+                <SEO title="Marcy Sutton Todd, Accessible Web Developer" keywords={['Marcy Sutton', 'web accessibility expert', 'single page app accessibility', 'JavaScript accessibility', 'accessibility consultant', 'independent UI developer', 'freelance web developer']} />
                 <div className="generic-wrap page-post-wrap">
                     <section className="page-post-detail">
                         <RouteTargetHeading>
-                            Accessible Web Development Services
+                            Marcy Sutton Todd, Accessible Web Developer
                         </RouteTargetHeading>
                         
-                        <p>I engage with development teams and companies to foster web accessibility at tech organizations. I’ve had the pleasure of working with some great companies, including Spotify, Microsoft, Google, Pinterest, T-Mobile, Change.org, Evinced, and more.</p>
-                        <p>I can consult on accessibility of websites and web applications. I can deliver specialized talks and workshops to educate team members and make accessibility learning stick. I can review and prototype designs for accessibility to provide feedback at any stage. I can engineer more robust solutions using manual and automated testing along the way. I can also create documentation to make these processes repeatable and communicate with internal teams or the public.</p>
+                        <p><strong>At this time (Spring 2023), I’m looking for full-time roles in frontend engineering. Let’s work together!</strong></p>
+
+                        <p>Since 2020, I've worked as an independent web developer engaging with development teams and companies to foster web accessibility at tech organizations. I’ve had the pleasure of working with some great companies, including Spotify, Microsoft, Google, Pinterest, T-Mobile, Change.org, Evinced, and more.</p>
+                        <p>I've consulted on accessibility of websites and web applications. I've delivered specialized talks and workshops to educate team members and make accessibility learning stick. I've reviewed and prototyped designs for accessibility to provide feedback at any stage. I've engineered more robust solutions using manual and automated testing along the way. I've also created documentation to make these processes repeatable and communicate with internal teams or the public.</p>
+                        <p>This comes after 10 years of experience working full-time with companies as a frontend developer. View my full work history on LinkedIn: <a href="https://www.linkedin.com/in/marcysutton/">https://www.linkedin.com/in/marcysutton/</a></p>
                         <h2>My specialties are:</h2>
                         <ul>
-                            <li>Web user interface engineering</li>
-                            <li>Web accessibility office hours</li>
-                            <li>Design reviews</li>
-                            <li>Documentation and PR reviews</li>
-                            <li>Talks and workshops</li>
-                            <li>Manual and automated testing</li>
+                            <li>Web User Interface engineering</li>
+                            <li>Accessible data visualizations</li>
+                            <li>Design systems</li>
+                            <li>Engineering of frontend tools with Node.js</li>
+                            <li>Manual and automated accessibility testing</li>
                             <li>Prototyping with code</li>
-                            <li>Engineering of automated accessibility testing tools</li>
-                            <li>Video tutorials</li>
+                            <li>Design reviews</li>
+                            <li>Accessibility refactoring and guidance</li>
+                            <li>Documentation and PR reviews</li>
                         </ul>
                         <h2>How to get in touch</h2>
-                        <p>Looking to hire me through my LLC for one of the above specialties? Wonderful! Send me an email through my contact page, and I’ll do my best to get back to you as soon as I can: <Link to="/contact">https://marcysutton.com/contact</Link></p>
-                        <p>If you need help right away, you can hire me for hourly consulting through Superpeer, a video call service: <a href="https://superpeer.com/marcysutton">https://superpeer.com/marcysutton</a></p>
+                        <p>Looking to hire me full-time or for independent consulting? Wonderful! Send me an email through my contact page and I’ll do my best to get back to you as soon as I can: <Link to="/contact">https://marcysutton.com/contact</Link></p>
+                        <p>If you need help right away, you can also hire me for hourly consulting through Superpeer, a video call service: <a href="https://superpeer.com/marcysutton">https://superpeer.com/marcysutton</a></p>
                         
                         <h2>A note about audits</h2>
-                        <p>I’m not currently taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam. If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>. If you’d prefer to work with an individual over an organization, contact <a href="https://www.tolu.xyz/">Tolu Abegbite</a>.</p>
+                        <p>I’m not taking on any <a href="https://en.wikipedia.org/wiki/Web_accessibility#Website_accessibility_audits">accessibility site or app audits</a>, as they’re not my jam. If you’re looking to have this sort of work done, I’d recommend contacting <a href="https://knowbility.org/">Knowbility</a>, <a href="https://www.levelaccess.com/">Level Access</a>, or <a href="https://deque.com">Deque Systems</a>. If you’d prefer to work with an individual over an organization, contact <a href="https://www.tolu.xyz/">Tolu Abegbite</a>.</p>
                         <p>Note: if you’re a disabled accessibility testing / auditing consultant who’d like to be recommended on this page, <Link to="/contact">let me know</Link>!</p>
                     </section>
                     <aside className="page-post-aside breathing-room">

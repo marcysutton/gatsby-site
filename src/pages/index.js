@@ -32,8 +32,8 @@ class IndexPage extends Component {
               />
               <div className="home-aside">
                 <div className="service-tagline breathing-room">
-                  <h2>I’m an independent user interface developer and teacher specializing in web accessibility.</h2>
-                  <p>Find about <Link to="/services">my services</Link>.</p>
+                  <h2>I’m a web developer and trainer specializing in frontend accessibility.</h2>
+                  <p>Find about <Link to="/services">my work</Link>.</p>
                 </div>
                 <List
                   className="list-writing-home breathing-room"
