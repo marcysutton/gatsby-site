@@ -17,9 +17,9 @@ const ServicesPage = () => {
                             Marcy Sutton Todd, Accessible Web Developer
                         </RouteTargetHeading>
                         
-                        <p><strong>At this moment (Q1 2024), I’m working full-time as a frontend software engineer and not taking on consulting projects. You can still hire me for 1:1 calls through <a href="https://superpeer.com/marcysutton">Superpeer</a>!</strong></p>
+                        <p><strong>At this time, I’m working full-time as a frontend software engineer and not taking on consulting projects. You can still hire me for 1:1 calls through <a href="https://superpeer.com/marcysutton">Superpeer</a>!</strong></p>
 
-                        <p>Since 2020, I’ve worked as an independent web developer engaging with development teams and companies to foster web accessibility at tech organizations. I’ve had the pleasure of working with some great companies, including Spotify, Microsoft, Google, Pinterest, T-Mobile, Change.org, Evinced, and more.</p>
+                        <p>Starting in 2020, I worked as an independent web developer engaging with development teams and companies to foster web accessibility at tech organizations. I’ve had the pleasure of working with some great companies, including Spotify, Microsoft, Google, Pinterest, T-Mobile, Change.org, Evinced, and more.</p>
                         <p>I’ve consulted on accessibility of websites and web applications. I’ve delivered specialized talks and workshops to educate team members and make accessibility learning stick. I’ve reviewed and prototyped designs for accessibility to provide feedback at any stage. I’ve engineered more robust solutions using manual and automated testing along the way. I’ve also created documentation to make these processes repeatable and communicate with internal teams or the public.</p>
                         <p>This comes after 10 years of experience working full-time with companies as a frontend developer. View my full work history on LinkedIn: <a href="https://www.linkedin.com/in/marcysutton/">https://www.linkedin.com/in/marcysutton/</a></p>
                         <h2>My specialties are:</h2>
