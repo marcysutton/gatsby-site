@@ -2,15 +2,17 @@
 title: "Developing anti-SLAPP policies for A11y Slack with Harvard Cyberlaw Clinic"
 date: "2024-09-26"
 path: "/developing-anti-slapp-policies-a11y-slack-harvard-cyberlaw"
+coverImage: "./hero-lawsuit-crowd.jpg"
+excerpt: "I developed policy recommendations for the A11y Slack workspace with the Harvard Cyberlaw Clinic to protect members against SLAPP lawsuits. I summarize the takeaways and legal advice from Harvard Cyberlaw's Web A11y Memorandum on defamation lawsuits."
 ---
+
+### By Marcy Sutton Todd, Workspace Owner and lead Slack group admin
 
 ![Two women in front of a crowd of professionals: a Black woman with a microphone, and a white woman covering her mouth out of fear of a lawsuit.](./hero-lawsuit-crowd.jpg)
 
 ## Supporting the Accessibility Slack community with legal guidance on avoiding potential SLAPP suits (Strategic Lawsuit Against Public Participation)
 
 _**Summary:** I developed policy recommendations for the A11y Slack workspace with the Harvard Cyberlaw Clinic in 2024 to protect our accessibility practitioner members against the type of SLAPP lawsuits brought by accessibility overlay companies. In this post, I summarize the takeaways and legal advice from Harvard Cyberlaw's Web A11y Memorandum on defamation lawsuits._
-
-### By Marcy Sutton Todd, Workspace Owner and lead admin of the A11y Slack group
 
 Since March 2015, the A11y Slack community has been a rich space for accessibility practitioners, designers, developers, managers, analysts, and more to share insights and learn from each other. The invite-only group has grown to over 14,000 members and includes people who build web browsers, screen readers, develop technical standards including WCAG, ARIA, and HTML, alongside people just getting into the industry.
 

@@ -375,7 +375,8 @@ button[type="submit"], input[type="submit"] {
 .list ul li p a {
   font-weight: 500;
 }
-.list li a.item {
+.list li a.item,
+.feature .item {
   display: block;
   margin-bottom: 0.5em;
 }
@@ -564,6 +565,12 @@ button[type="submit"], input[type="submit"] {
 .page-post-detail ul,
 .page-post-detail ol {
   margin-left: 1em;
+}
+@media screen and (max-width: 680px) {
+  .page-post-detail article > ul {
+    max-width: 100%;
+    width: calc(90vw - 1em);
+  }
 }
 .page-post-detail .list ul {
   margin-left: 0;
