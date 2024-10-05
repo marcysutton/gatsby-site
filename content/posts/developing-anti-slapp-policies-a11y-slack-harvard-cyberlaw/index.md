@@ -6,7 +6,7 @@ coverImage: "./hero-lawsuit-crowd.jpg"
 excerpt: "I developed policy recommendations for the A11y Slack workspace with the Harvard Cyberlaw Clinic to protect members against SLAPP lawsuits. I summarize the takeaways and legal advice from Harvard Cyberlaw's Web A11y Memorandum on defamation lawsuits."
 ---
 
-### By Marcy Sutton Todd, Workspace Owner and lead Slack group admin
+## By Marcy Sutton Todd, Workspace Owner and lead Slack group admin
 
 ![Two women in front of a crowd of professionals: a Black woman with a microphone, and a white woman covering her mouth out of fear of a lawsuit.](./hero-lawsuit-crowd.jpg)
 
@@ -28,11 +28,13 @@ One controversial aspect of digital accessibility has been the rise of Overlay t
 
 Unfortunately, overlay companies have brought at least two lawsuits against members of the accessibility community for criticizing their products on Twitter (X) and elsewhere. These were definitely noticed:
 
-- Adrian Roselli v. AudioEye, Inc., known as "the SLAPP lawsuit heard around the world." May 2023 - Dropped in January 2024
+- AudioEye, Inc. v. Adrian Roselli, known as "the SLAPP lawsuit heard around the world." May 2023 - Dropped in January 2024
   - https://adrianroselli.com/2023/05/audioeye-is-suing-me.html
   - https://www.lflegal.com/2023/07/adrian-roselli-slapp-lawsuit/
-- French accessibility advocates at Koena sued by FACIl’iti, a French overlay company in November 2023
+- French accessibility advocates sued by FACIl’iti, a French overlay company in November 2023
   - https://www.lflegal.com/2021/11/overlay-legal-update/#French-Overlay-Company-Sues-Advocates-for-Their-Role-in-the-Global-Overlay-Conversation
+
+_Note: a previous version of this article mistakenly wrote the French suit was towards a company, while it is actually towards individuals._
 
 These lawsuits are considered SLAPP suits, intending to stifle criticism and debate by dissuading the accessibility community from producing negative publicity on overlay technology. They create a "chilling effect," where people hesitate to exercise a right, such as freedom of speech, due to the fear of legal repercussions.
 
@@ -47,6 +49,8 @@ From Google AI:
 > - **Obscured intent**: Plaintiffs often try to obfuscate their intent to censor or silence critics.
 >
 > SLAPPs can have a damaging effect on those who have not yet been targeted, as people may be reluctant to participate in public debate out of fear of being sued.
+
+This article focuses on SLAPP suits in the United States, where each state has different laws. Obviously, suits can also be brought in other countries where the legal situation will vary widely. If you are in a jurisdiction with weak or no SLAPP laws, you might change your defense strategy.
 
 ## Our community and SLAPP suits
 
